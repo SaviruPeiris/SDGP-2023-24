@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  height: fit-content;
+}
+
+.leftContent {
+  background-color: rgba(255, 0, 0, 0.067);
+  width: 50%;
+}
+
+.rightContent {
+  background-color: rgba(0, 0, 255, 0.947);
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  margin: 0%;
+  padding: 0px;
+}
+
+.image {
+  margin: 0px;
+  padding: 0px;
+}
+
+.textBlock {
+  text-align: center;
+  margin-top: 180px;
+  font-size: 32px;
+  margin-left: 15%;
+  margin-right: 15%;
+}

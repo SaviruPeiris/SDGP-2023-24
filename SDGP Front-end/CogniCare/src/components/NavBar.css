@@ -41,7 +41,7 @@ a:hover {
 }
 
 .nav-link:hover {
-  transform: scale(1.09);
+  transform: scale(1.05);
   color: rgb(16, 94, 19);
   transition-duration: 300ms;
 }
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 
