@@ -1,6 +1,6 @@
 .content {
   display: flex;
-  height: fit-content;
+  /* height: 512px; */
 }
 
 .leftContent {
@@ -9,7 +9,7 @@
 }
 
 .rightContent {
-  background-color: rgba(0, 0, 255, 0.947);
+  /* background-color: rgba(0, 0, 255, 0.947); */
   width: 50%;
 }
 
@@ -17,6 +17,7 @@ img {
   width: 100%;
   margin: 0%;
   padding: 0px;
+  opacity: 60%;
 }
 
 .image {
