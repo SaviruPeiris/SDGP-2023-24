@@ -1,0 +1,174 @@
+{
+	"data": [
+		{
+			"id": "prop1",
+			"type": "House",
+			"bedrooms": 3,
+			"price": 750000,
+			"tenure": "Freehold",
+			"description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location": "Petts Wood Road, Petts Wood, Orpington",
+			"picture": [
+				"assets/propertyImages/property1/property1.jpg",
+				"assets/propertyImages/property1/property2.jpg",
+				"assets/propertyImages/property1/property3.jpg",
+				"assets/propertyImages/property1/property4.jpg",
+				"assets/propertyImages/property1/property5.jpg",
+				"assets/propertyImages/property1/property6.jpg",
+				"assets/propertyImages/property1/property7.jpg",
+				"assets/propertyImages/property1/property8.jpg"
+			],
+			"url": "assets/propertyImages/property1/plan1.jpg",
+			"added": {
+				"month": "October",
+				"day": 12,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop2",
+			"type": "Flat",
+			"bedrooms": 2,
+			"price": 399995,
+			"tenure": "Freehold",
+			"description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location": "Crofton Road Orpington BR6",
+			"picture": [
+				"assets/propertyImages/property2/property1.jpg",
+				"assets/propertyImages/property2/property2.jpg",
+				"assets/propertyImages/property2/property3.jpg",
+				"assets/propertyImages/property2/property4.jpg",
+				"assets/propertyImages/property2/property5.jpg",
+				"assets/propertyImages/property2/property6.jpg",
+				"assets/propertyImages/property2/property7.jpg"
+			],
+			"url": "assets/propertyImages/property2/plan2.jpg",
+			"added": {
+				"month": "September",
+				"day": 14,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop3",
+			"type": "House",
+			"bedrooms": 4,
+			"price": 980000,
+			"tenure": "Freehold",
+			"description": "This spacious four-bedroom detached house with a large garden offers an ideal family living space. Situated in a peaceful residential area on Green Lane, Bromley, the property features a modern kitchen, two generously sized living rooms, and a master bedroom with an ensuite bathroom. The location is convenient, with close proximity to schools, parks, and public transportation, making it a perfect blend of tranquility and accessibility.",
+			"location": "Green Lane, Bromley, Greater London, BR1",
+			"picture": [
+				"assets/propertyImages/property3/property1.jpg",
+				"assets/propertyImages/property3/property2.jpg",
+				"assets/propertyImages/property3/property3.jpg",
+				"assets/propertyImages/property3/property4.jpg",
+				"assets/propertyImages/property3/property5.jpg",
+				"assets/propertyImages/property3/property6.jpg",
+				"assets/propertyImages/property3/property7.jpg"
+			],
+			"url": "assets/propertyImages/property3/plan3.jpg",
+			"added": {
+				"month": "November",
+				"day": 5,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop4",
+			"type": "Flat",
+			"bedrooms": 1,
+			"price": 300000,
+			"tenure": "Leasehold",
+			"description": "Step into modern urban living with this stylish one-bedroom flat located on High Street, London. The property boasts a chic design with an open-plan living space, including a fully equipped kitchen. The bedroom comes with built-in wardrobes, offering smart storage solutions. Positioned in a vibrant area, this flat provides easy access to public transport and local amenities, making it an ideal choice for a contemporary lifestyle.",
+			"location": "High Street, London, E15",
+			"picture": [
+				"assets/propertyImages/property4/property1.jpg",
+				"assets/propertyImages/property4/property2.jpg",
+				"assets/propertyImages/property4/property3.jpg",
+				"assets/propertyImages/property4/property4.jpg",
+				"assets/propertyImages/property4/property5.jpg",
+				"assets/propertyImages/property4/property6.jpg",
+				"assets/propertyImages/property4/property7.jpg"
+			],
+			"url": "assets/propertyImages/property4/plan4.jpg",
+			"added": {
+				"month": "December",
+				"day": 8,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop5",
+			"type": "House",
+			"bedrooms": 3,
+			"price": 620000,
+			"tenure": "Freehold",
+			"description": "Discover the charm of this three-bedroom house with a spacious garden on Maple Avenue, Orpington. The property features a bright and airy living room, a modern kitchen, and a master bedroom with an ensuite bathroom. Its family-friendly neighborhood is close to schools, parks, and shopping centers, making it a delightful and convenient home for those seeking a comfortable and connected lifestyle.",
+			"location": "Maple Avenue, Orpington, Greater London, BR6",
+			"picture": [
+				"assets/propertyImages/property5/property1.jpg",
+				"assets/propertyImages/property5/property2.jpg",
+				"assets/propertyImages/property5/property3.jpg",
+				"assets/propertyImages/property5/property4.jpg",
+				"assets/propertyImages/property5/property5.jpg",
+				"assets/propertyImages/property5/property6.jpg",
+				"assets/propertyImages/property5/property7.jpg"
+			],
+			"url": "assets/propertyImages/property5/plan5.jpg",
+			"added": {
+				"month": "January",
+				"day": 20,
+				"year": 2023
+			}
+		},
+		{
+			"id": "prop6",
+			"type": "Flat",
+			"bedrooms": 2,
+			"price": 450000,
+			"tenure": "Leasehold",
+			"description": "Immerse yourself in the contemporary living experience with this modern two-bedroom flat featuring stunning city views. Located in the City View Apartments, London, the property offers an open-plan living space, a fully equipped kitchen, and a private balcony. Both bedrooms are spacious, providing ample storage. Conveniently situated near public transport and entertainment venues, this flat is an ideal choice for those seeking a dynamic and well-connected urban lifestyle.",
+			"location": "City View Apartments, London, E1",
+			"picture": [
+				"assets/propertyImages/property6/property1.jpg",
+				"assets/propertyImages/property6/property2.jpg",
+				"assets/propertyImages/property6/property3.jpg",
+				"assets/propertyImages/property6/property4.jpg",
+				"assets/propertyImages/property6/property5.jpg",
+				"assets/propertyImages/property6/property6.jpg",
+				"assets/propertyImages/property6/property7.jpg"
+			],
+			"url": "assets/propertyImages/property6/plan6.jpg",
+			"added": {
+				"month": "February",
+				"day": 15,
+				"year": 2023
+			}
+		},
+		{
+			"id": "prop7",
+			"type": "House",
+			"bedrooms": 4,
+			"price": 850000,
+			"tenure": "Freehold",
+			"description": "Indulge in the sophistication of this contemporary four-bedroom house with a stylish interior. The property boasts a spacious living room, a modern kitchen with high-end appliances, and a private garden. All bedrooms are generously sized, and multiple bathrooms add to the convenience. Located on Oak Lane, Bromley, the house is in close proximity to schools, parks, and transport links, making it an exquisite choice for those who appreciate luxury and accessibility.",
+			"location": "Oak Lane, Bromley, Greater London, BR1",
+			"picture": [
+				"assets/propertyImages/property7/property1.jpg",
+				"assets/propertyImages/property7/property2.jpg",
+				"assets/propertyImages/property7/property3.jpg",
+				"assets/propertyImages/property7/property4.jpg",
+				"assets/propertyImages/property7/property5.jpg",
+				"assets/propertyImages/property7/property6.jpg",
+				"assets/propertyImages/property7/property7.jpg",
+				"assets/propertyImages/property7/property8.jpg"
+			],
+			"url": "assets/propertyImages/property7/plan7.jpg",
+			"added": {
+				"month": "August",
+				"day": 10,
+				"year": 2022
+			}
+		}
+	]
+}
