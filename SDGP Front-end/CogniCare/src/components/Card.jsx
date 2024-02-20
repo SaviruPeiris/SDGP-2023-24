@@ -9,7 +9,7 @@ const Card = () => {
       <div className="container-fluid">
         {/* <h2>Card Classes</h2>
         <p>The card class is suitable for both images and notes:</p> */}
-        <div className="card" style={{ width: "300px" }}>
+        <div className="card">
           <img src={Card1Img} alt="Image" style={{ width: "100%" }} />
           <div className="card-body">
             <h4 className="card-title">10 Tips for prevent dementia</h4>

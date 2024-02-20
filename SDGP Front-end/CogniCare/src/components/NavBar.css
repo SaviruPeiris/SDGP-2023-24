@@ -17,7 +17,7 @@ li {
   margin-right: 15px;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -35,16 +35,17 @@ a:hover {
 
 
 
-.nav-link {
+.navLink {
   margin-left: 60px;
   transition: transform 0.3s;
+  text-decoration: none;
+  color: black;
 }
 
-.nav-link:hover {
+.navLink:hover {
   transform: scale(1.05);
-  color: rgb(16, 94, 19);
   transition-duration: 300ms;
-}
+} */
 
 .logo {
   transition: transform 0.3s;
@@ -55,5 +56,6 @@ a:hover {
   transform: scale(1.06);
 }
 
-
-
+.navBarLinks {
+  border: 5px solid red;
+}

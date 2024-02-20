@@ -1,0 +1,17 @@
+.visionCard {
+  /* border: 10px solid red; */
+  width: 1800px;
+}
+
+.visionContainer {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 10px solid red; */
+}
+
+.visionImage {
+  border: red solid;
+  height: 100%;
+}

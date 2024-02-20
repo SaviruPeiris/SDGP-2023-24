@@ -5,15 +5,25 @@ import Navbar from "./components/NavBar";
 import LeftContent from "./components/LeftContent";
 import CardContainer from "./components/CardContainer";
 import Card from "./components/Card";
+import NavBarTest from "./components/NavBar/NavBarTest";
+
+import Home from "./pages/Home";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <LeftContent></LeftContent>
-      {/* <Card></Card> */}
-      <CardContainer></CardContainer>
-    </>
+    // <>
+    //   <NavBarTest></NavBarTest>
+    //   <LeftContent></LeftContent>
+    //   <CardContainer></CardContainer>
+    // </>
+
+    <BrowserRouter>
+      <Routes>
+        <Route index element = {<Home></Home>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
