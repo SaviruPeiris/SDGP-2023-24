@@ -1,4 +1,4 @@
-from Cognicareplus import get_Cognicareplus
+from Cognicareplus import get_chain
 import streamlit as st
 # import speech_recognition as sr
 
@@ -18,7 +18,7 @@ bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_40
 
 
 
-chain = get_Cognicareplus()
+chain = get_chain()
 
 
 
@@ -61,10 +61,7 @@ for message in st.session_state['messages']:
 input_type = st.radio("Select input type:", ("Text", "Speech"))
 if input_type == "Text":
     query_input = st.text_input("Please ask your question here:")
-elif input_type == "Speech":
-    query_input = st.button("Speak")
-    if query_input:
-        query_input = speech_to_text()
+
 
 if query_input:
     st.session_state.messages.append({"role": "user", "content": query_input})
@@ -83,3 +80,4 @@ if query_input:
             message_placeholder.markdown(result['answer'])
         else:
             st.warning("The answer may not be directly related to tea cultivation, diseases, or treatment plans.")
+

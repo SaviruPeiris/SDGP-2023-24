@@ -7,7 +7,7 @@ from langchain.memory import ConversationBufferMemory
 import os
 
 
-def get_Cognicareplus():
+def get_chain():
   os.environ["OPENAI_API_KEY"]='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';
 
 
@@ -25,4 +25,4 @@ def get_Cognicareplus():
   chain = ConversationalRetrievalChain.from_llm(llm=ChatOpenAI(), 
                                                 retriever=vectorstore.as_retriever(),
                                               memory=memory) 
-  return Cognicareplus
+  return chain
