@@ -1,5 +1,5 @@
 import React from 'react';
-import LOGIN_IMAGE from '../Assets/dementia3.png';
+import LOGIN_IMAGE from '../Assets/dementia5.jpeg';
 import GOOGLE_ICON from "../Assets/google.svg";
 
 const colors = {
@@ -16,17 +16,17 @@ const Login = () => {
                     {/* <h1 className='text-4x1 text-black font-bold my-4'>Unlocking Tomorrow's Health Today</h1> */}
                     {/* <p className='text-x1 text-black front-normal'>Empower yourself with knowledge today to shape a healthier tomorrow</p> */}
                 </div>
-                <img src={LOGIN_IMAGE} style={{width: '50px', height: '50px'}}className=' object-cover' />
+                <img src={LOGIN_IMAGE} style={{width: '100%', height: '100%'}}className=' object-cover' />
             </div>
 
             <div className='w-1/2 h-full bg-[#f5f5f5] flex flex-col p-20 justify-between items-center'>
-                <h1 className='w-full max-w-[500px] mx-auto text-x1 text-[#060606] font-semibold'>CogniCare Plus</h1>
+                <h1 style={{fontWeight:"bolder", fontSize:"22px" , color:"DarkBlue"}}className='w-full max-w-[500px] mx-auto text-x1 text-[#060606] font-semibold'>CogniCare Plus</h1>
 
                 
                 <div className='w-full flex flex-col max-w-[500px]'>
                     <div className='w-full flex flex-col mt-2'>
                         <h3 className='text-3xl font-semibold mt-2'>Login</h3>
-                        <p className='text-base mt-2'>Welcome Back! Please enter your datails.</p>
+                        <p className='text-base mt-2'>Welcome Back! Please enter your Details.</p>
                     </div>
                     
                     <div className='w-full flex flex-col'>
