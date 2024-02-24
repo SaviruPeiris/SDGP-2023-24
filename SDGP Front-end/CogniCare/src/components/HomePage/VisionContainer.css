@@ -1,6 +1,6 @@
 .visionCard {
   /* border: 10px solid red; */
-  width: 1800px;
+  width: 640px;
 }
 
 .visionContainer {
@@ -12,6 +12,6 @@
 }
 
 .visionImage {
-  border: red solid;
+  /* border: rgb(161, 159, 159) solid; */
   height: 100%;
 }

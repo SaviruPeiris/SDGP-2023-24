@@ -3,13 +3,12 @@ import "./VisionContainer.css";
 import VisionImage from "../../assets/images/VisionIMG.png";
 
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 
 const VisionContainer = () => {
-    
   return (
     <>
-      <div className="visionContainer" data-aos="zoom-in">
+      <div className="visionContainer" data-aos="zoom-in" >
         <div className="visionCard card mb-3" style={{ maxWidth: "640px" }}>
           <div className="row g-0">
             <div className="col-md-4">

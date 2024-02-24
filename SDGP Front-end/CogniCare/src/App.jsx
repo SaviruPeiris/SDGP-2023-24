@@ -10,6 +10,7 @@ import NavBarTest from "./components/NavBar/NavBarTest";
 import Home from "./pages/Home";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MemoryGame from "./pages/MemoryGame";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route index element = {<Home></Home>}/>
+        <Route index element={<Home></Home>} />
+        {/* <Route index element={<MemoryGame></MemoryGame>} /> */}
       </Routes>
     </BrowserRouter>
   );
