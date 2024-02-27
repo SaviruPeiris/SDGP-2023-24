@@ -1,0 +1,9 @@
+.MemoryGameCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memoryGameCard {
+  border: solid red;
+}

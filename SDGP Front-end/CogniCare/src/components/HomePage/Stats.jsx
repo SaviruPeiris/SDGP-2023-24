@@ -13,7 +13,7 @@ const Stats = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className="statRow" data-aos-delay="10" data-aos="zoom-in-up">
+    <div className="statRow" data-aos-delay="0" data-aos="zoom-in-up">
       <div className="stat col" data-aos="zoom-in-up">
         <h1>
           <CountUp
