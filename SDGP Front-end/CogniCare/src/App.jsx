@@ -23,6 +23,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home></Home>} />
+        <Route path="/memorygame" element={<MemoryGame></MemoryGame>} />
         {/* <Route index element={<MemoryGame></MemoryGame>} /> */}
       </Routes>
     </BrowserRouter>

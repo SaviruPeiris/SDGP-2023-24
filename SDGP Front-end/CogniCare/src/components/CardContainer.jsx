@@ -19,7 +19,7 @@ function CardContainer() {
   return (
     <div className="container-fluid CardContainer">
       <div className="row">
-        <div className="col" data-aos="zoom-in">
+        <div className="col" data-aos="zoom-in-right">
           <Card
             image={Card3Img}
             title="What is dementia?"
@@ -35,7 +35,7 @@ function CardContainer() {
              and engaging in activities that support brain health."
           />
         </div>
-        <div className="col" data-aos="zoom-in">
+        <div className="col" data-aos="zoom-in-left">
           <Card
             image={Card2Img}
             title="Main causes for dementia"

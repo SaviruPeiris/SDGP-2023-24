@@ -14,7 +14,7 @@ const Stats = () => {
   }, []);
   return (
     <div className="statRow" data-aos-delay="0" data-aos="zoom-in-up">
-      <div className="stat col" data-aos="zoom-in-up">
+      <div className="stat col" data-aos="">
         <h1>
           <CountUp
             start={0}
@@ -26,7 +26,7 @@ const Stats = () => {
         </h1>
         <p>cases per year</p>
       </div>
-      <div className="stat col" data-aos="zoom-in-up">
+      <div className="stat col" data-aos="">
         <h1>
           <CountUp
             start={0}
