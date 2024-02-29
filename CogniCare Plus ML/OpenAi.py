@@ -91,7 +91,7 @@ chain = get_chain()
 # It's empty in the beginning, so we add the first message from the bot
 if 'messages' not in st.session_state:
     st.session_state['messages'] = [{"role": "bot",
-                                     "content": "Hello, how can I help?"}]
+                                     "content": "Hello I'm Zap, how can I help?"}]
     
 # Then we show all the chat messages in Markdown format
 for message in st.session_state['messages']:
