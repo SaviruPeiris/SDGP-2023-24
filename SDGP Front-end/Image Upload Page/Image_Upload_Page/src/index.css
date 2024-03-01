@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  font-size: larger;
+}
+.bg-color {
+  background-color: #daaaf4;
+}
+
+.btn-primary {
+  background-color: #a600ff;
+  border-color: #daaaf4;
+}
+
+.btn-primary:hover {
+  background-color: #640199;
+  border-color: #daaaf4;
+}
