@@ -9,6 +9,7 @@ import Stats from "../components/HomePage/Stats";
 import Footer from "../components/Footer";
 import MemoryGameCard from "../components/HomePage/MemoryGameCard";
 import Swiper from "../components/HomePage/Swiper";
+import PredictionCard from "../components/HomePage/PredictionCard";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       {/* <CardContainer></CardContainer> */}
       <Stats></Stats>
       <MemoryGameCard></MemoryGameCard>
+      <PredictionCard></PredictionCard>
       {/* <VisionContainer></VisionContainer> */}
     </>
   );

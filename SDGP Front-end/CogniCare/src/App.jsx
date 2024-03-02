@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MemoryGame from "./pages/MemoryGame";
+import PredictionPage from "./pages/prediction/PredictionPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route index element={<Home></Home>} />
         <Route path="/memorygame" element={<MemoryGame></MemoryGame>} />
+        <Route path="/predictionPage" element={<PredictionPage></PredictionPage>} />
         {/* <Route index element={<MemoryGame></MemoryGame>} /> */}
       </Routes>
     </BrowserRouter>

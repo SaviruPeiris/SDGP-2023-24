@@ -7,9 +7,9 @@ import UploadImage from "./components/UploadImage/UploadImage";
 function App() {
   return (
     <BrowserRouter>
-      <NavBarTest />
+      {/* <NavBarTest /> */}
       <UploadImage />
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
