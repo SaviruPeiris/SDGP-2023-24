@@ -8,11 +8,13 @@ import Navbar from "../components/NavBar";
 import Stats from "../components/HomePage/Stats";
 import Footer from "../components/Footer";
 import MemoryGameCard from "../components/HomePage/MemoryGameCard";
+import Swiper from "../components/HomePage/Swiper";
 
 const Home = () => {
   return (
     <>
       <NavBarTest></NavBarTest>
+      {/* <Swiper></Swiper> */}
       <LeftContent></LeftContent>
       {/* <Stats></Stats> */}
       <VisionContainer></VisionContainer>
@@ -20,7 +22,7 @@ const Home = () => {
       {/* <CardContainer></CardContainer> */}
       <Stats></Stats>
       <MemoryGameCard></MemoryGameCard>
-      <VisionContainer></VisionContainer>
+      {/* <VisionContainer></VisionContainer> */}
     </>
   );
 };

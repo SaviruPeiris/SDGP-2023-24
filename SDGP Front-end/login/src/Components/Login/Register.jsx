@@ -31,9 +31,9 @@ const Login = () => {
 
         <div className="w-full flex flex-col max-w-[500px]">
           <div className="w-full flex flex-col mt-2">
-            <h3 className="text-3xl font-semibold mt-2">Login</h3>
+            <h3 className="text-3xl font-semibold mt-2">Register</h3>
             <p className="text-base mt-2">
-              Welcome Back! Please enter your Details.
+              Please enter your Details to Register
             </p>
           </div>
 
@@ -63,14 +63,14 @@ const Login = () => {
           </div>
 
           <div className="w-full flex flex-col my-4">
-            <button className="w-full text-white my-2 fomt-semibold bg-[#060606] round-md p-4 text-center flex items-center justify-center cursor-pointer">
-              Log in
-            </button>
-            <Link to="/register" className="btn btn-primary">
-              <button className="w-full text-[#060606] my-2 font-semibold bg-white border border-black rounded-md p-4 text-center flex items-center justify-center cursor-pointer">
-                Register
+            <Link to="/login" className="btn btn-primary">
+              <button className="w-full text-white my-2 fomt-semibold bg-[#060606] round-md p-4 text-center flex items-center justify-center cursor-pointer">
+                Log in
               </button>
             </Link>
+            <button className="w-full text-[#060606] my-2 font-semibold bg-white border border-black rounded-md p-4 text-center flex items-center justify-center cursor-pointer">
+              Register
+            </button>
           </div>
 
           <div className="w-full flex items-center justify-center relative py-2">
