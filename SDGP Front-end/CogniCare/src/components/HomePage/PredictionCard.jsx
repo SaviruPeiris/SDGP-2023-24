@@ -12,7 +12,7 @@ const PredictionCard = () => {
         <div className="card-body">
           <h5 className="card-title">Predict your dementia risk level</h5>
           <p className="card-text" style={{ textAlign: "justify" }}>
-            O
+            (A small description about the prediction component goes here)
           </p>
           <Link to="/predictionPage" className="btn btn-primary">
             Test it
