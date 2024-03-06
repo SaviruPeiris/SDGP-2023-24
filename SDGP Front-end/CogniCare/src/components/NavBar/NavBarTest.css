@@ -25,8 +25,10 @@ a {
 
 .logo {
   margin: 0;
-  margin-left: 30px;
+  margin-left: 15px;
   font-size: 25px;
+  text-decoration: none;
+  color: black;
 }
 
 .main-nav {

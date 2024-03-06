@@ -7,10 +7,17 @@ const NavBarTest = () => {
   return (
     <>
       <header class="header">
-        <h1 class="logo">CogniCare+</h1>
+        <div className="logo">
+          <Link to="/home" className="">
+            <h1 class="logo">CogniCare+</h1>
+          </Link>
+        </div>
         <ul class="main-nav">
           <li>
-            <a href="#">Home</a>
+            {/* <a href="#">Home</a> */}
+            <Link to="/home" className="">
+              Home
+            </Link>
           </li>
           <li>
             {/* <a href="#">About</a> */}
@@ -19,7 +26,10 @@ const NavBarTest = () => {
             </Link>
           </li>
           <li>
-            <a href="#">Awareness Page</a>
+            {/* <a href="#">Awareness Page</a> */}
+            <Link to="/awarenessPage" className="">
+              Awareness Page
+            </Link>
           </li>
           <li>
             <a href="#">Contact</a>

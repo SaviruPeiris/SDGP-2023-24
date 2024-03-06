@@ -13,6 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MemoryGame from "./pages/MemoryGame";
 import PredictionPage from "./pages/prediction/PredictionPage";
 import AboutPage from "./pages/aboutpage/aboutPage";
+import AwarenessPage from "./pages/awareness/DetailsPage.jsx";
 
 function App() {
   return (
@@ -25,9 +26,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home></Home>} />
+        <Route path="/home" element={<Home></Home>} />
         <Route path="/memorygame" element={<MemoryGame></MemoryGame>} />
         <Route path="/predictionPage" element={<PredictionPage></PredictionPage>} />
         <Route path="/about" element={<AboutPage></AboutPage>} />
+        <Route path="/awarenessPage" element={<AwarenessPage></AwarenessPage>} />
         {/* <Route index element={<MemoryGame></MemoryGame>} /> */}
       </Routes>
     </BrowserRouter>
