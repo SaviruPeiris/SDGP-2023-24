@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBarTest.css";
 
+import { Link } from "react-router-dom";
+
 const NavBarTest = () => {
   return (
     <>
@@ -11,7 +13,10 @@ const NavBarTest = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            {/* <a href="#">About</a> */}
+            <Link to="/about" className="">
+              About
+            </Link>
           </li>
           <li>
             <a href="#">Awareness Page</a>
