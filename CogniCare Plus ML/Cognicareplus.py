@@ -10,7 +10,6 @@ import os
 def get_chain():
   os.environ["OPENAI_API_KEY"]='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';
 
-
   loader=CSVLoader(file_path="Dementia.csv")
   documents=loader.load()
 
