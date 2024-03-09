@@ -1,6 +1,11 @@
-import React from "react";
+// import React from "react";
 import LOGIN_IMAGE from "../Assets/dementia5.jpeg";
 import GOOGLE_ICON from "../Assets/google.svg";
+// aos
+import React, { useEffect } from "react";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { Link } from "react-router-dom";
 const colors = {
@@ -10,6 +15,10 @@ const colors = {
 };
 
 const Login = () => {
+  useEffect(() => {
+    AOS.init();
+    // AOS.refresh();
+  }, []);
   return (
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
@@ -31,8 +40,10 @@ const Login = () => {
 
         <div className="w-full flex flex-col max-w-[500px]">
           <div className="w-full flex flex-col mt-2">
-            <h3 className="text-3xl font-semibold mt-2">Login</h3>
-            <p className="text-base mt-2">
+            <h3 className="text-3xl font-semibold mt-2" data-aos="fade-left">
+              Login
+            </h3>
+            <p className="text-base mt-2" data-aos="fade-left">
               Welcome Back! Please enter your Details.
             </p>
           </div>

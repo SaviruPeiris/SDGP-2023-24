@@ -29,6 +29,17 @@ const Card = (props) => {
             <a href="#" className="btn btn-primary">
               See More..
             </a>
+
+{/* testing the popup */}
+            {/* <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              See more
+            </button> */}
+
           </div>
         </div>
       </div>
