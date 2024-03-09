@@ -2,35 +2,30 @@ import React from "react";
 import "bootstrap";
 import "./Card.css";
 
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+
 const Card = (props) => {
+  // const [show, setShow1] = useState(false);
+
+  // const handleClose1 = () => setShow1(false);
+  // const handleShow1 = () => setShow1(true);
+
   return (
     <div>
       <div className="container-fluid cardHeight">
-        {/* <h2>Card Classes</h2>
-        <p>The card class is suitable for both images and notes:</p> */}
-
-        {/* <div className="card">
-          <img src={Card1Img} alt="Image" style={{ width: "100%" }} />
-          <div className="card-body">
-            <h4 className="card-title">10 Tips for prevent dementia</h4>
-            <p className="card-text">details goes here, blah blah blah</p>
-            <a href="#" className="btn btn-primary">
-              See More..
-            </a>
-          </div>
-        </div>
-      </div> */}
-
         <div className="card">
           <img src={props.image} alt="Image" style={{ width: "100%" }} />
           <div className="card-body ">
             <h4 className="card-title">{props.title}</h4>
             <p className="card-text detailCardBody">{props.text}</p>
-            <a href="#" className="btn btn-primary">
-              See More..
-            </a>
 
-{/* testing the popup */}
+            {/* <a href="#" className="btn btn-primary">
+              See More..
+            </a> */}
+
+            {/* testing the popup */}
             {/* <button
               type="button"
               class="btn btn-primary"
@@ -40,22 +35,25 @@ const Card = (props) => {
               See more
             </button> */}
 
+            <Button variant="primary" onClick={props.handleShow}>
+              See More
+            </Button>
+
+            <Modal show={props.show} onHide={props.handleClose}>
+              <Modal.Header closeButton>
+                <Modal.Title>{props.title}</Modal.Title>
+              </Modal.Header>
+
+              <Modal.Body>{props.description}</Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={props.handleClose}>
+                  Close
+                </Button>
+              </Modal.Footer>
+            </Modal>
           </div>
         </div>
       </div>
-
-      {/* <div className="container-fluid">
-        <div className="card" style={{ width: "300px" }}>
-          <img src="car.jpg" alt="Image" style={{ width: "100%" }} />
-          <div className="card-body">
-            <h4 className="card-title">10 Tips for prevent dementia</h4>
-            <p className="card-text">details goes here, blah blah blah</p>
-            <a href="#" className="btn btn-primary">
-              See More..
-            </a>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
