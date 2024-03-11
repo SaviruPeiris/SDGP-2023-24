@@ -24,7 +24,7 @@ export const Card = () => {
            <></>
 
 
-  
+
              <Link to={`/details/${item.id}`} className='link'>
              <Button variant="ViewMore">View more</Button>{''}
           

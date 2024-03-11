@@ -7,49 +7,131 @@ import { ListGroupItem } from "react-bootstrap"
 
 
   export const awareness = [
+
+    
     {
       id: 1,
       cover: pic1,
       title: "What is dementia?",
-      desc:"Dementia  is a progressive neurological disorder that affects cognitive function, memory, and behavior. It is not a specific disease but rather a group of symptoms associated with a decline in cognitive abilities severe enough to interfere with daily life. Dementia is mo Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. Where can I get someThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      detailing: "Consider different activities the person can do to stay active, \n\n such as household chores, cooking and baking, exercise,  and gardening. Match the activity to what the person can Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities.  But  if others do the planning Help get an activity started or join in to make the activity more fun.  People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning, they may join in.Add music to exercises or activities if it helps motivate the person. Dance to the music if possible.Be realistic about how much activity can be done at one time. Several short “mini-workouts” may be best",
-      subheading: "Eat a balanced diet",
-      image:pic2,
-      subheading1: "Eat a balanced diet",
-      detailing1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      subheading2: "Eat a balanced meal",
-      detailing2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+
+      subheading1:"sub1",
+      desc:"It is a long established fact tLorem Ipsum is that it has a m",
+      image1:pic2,
+      image11:pic2,
+      detail1:"It is a long established fact that a reader will be distracted by the readable content of a page wem Ipsum is that it has a m",
+      pointA1:"pontn",
+      pointA2:"ponit",
+      pointA3:"ponit",
+      pointA4:"ponitn",
+      pointA5:"ponit",
+      
+      subheading2:"sub1",
+      desc:"It is a long established factracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image2:pic3,
+      image22:pic3,
+      detail2:"It is a long estabd by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointB2:"pont",
+      pointB3:"pont",
+      pointB3:"pont",
+      pointB4:"pont",
+      pointB5:"pont",
+      
+      subheading3:"sub1",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image3:pic4,
+      image33:pic5,
+      detail3:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointC1:"pont",
+      pointC2:"pont",
+      pointC3:"pont",
+      pointC4:"pont",
+      pointC5:"pont"
+      
+
+
     },
   
     {
       id: 2,
-      title: "Resources for patientce" ,
-      desc: "Alzheimer’s disease and related dementias get worse over time. Even simple everyday activities can become difficult to complete. To help cope with changes in memory and thinking, consider strategies that can make daily tasks easier. Try to adopt them early on so you will have more time to adjust. .",
       cover: pic2,
-      detailing: "Consider different activities the person can do to stay active, such as household chores, cooking and baking, exercise, and gardening. Match the activity to what the person can Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning, they may join in.Add music to exercises or activities if it helps motivate the person. Dance to the music if possible.Be realistic about how much activity can be done at one time. Several short “mini-workouts” may be best",
-      subheading: "Eat a balanced diet",
+      title: "Resources for patientce" ,
+      subheading1:"sub1",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image1:pic4,
+      image11:pic5,
+      detail1:"It is a long  page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointA1:"pontd",
+      pointA2:"ponst",
+      pointA3:"ponta",
+      pointA4:"pontdc",
+      pointA5:"ponts",
+
       
-      subheading1: "Eat a balanced diet",
-      detailing1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      subheading2: "Eat a balanced meal",
-      detailing2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+      subheading2:"sub1",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image2:pic2,
+      image22:pic2,
+      detail2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointB2:"pont",
+      pointB3:"pont",
+      pointB3:"pont",
+      pointB4:"pont",
+      pointB5:"pont",
+      
+      subheading3:"sub1",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image3:pic2,
+      image3:pic2,
+      detail3:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointC1:"pont",
+      pointC2:"pont",
+      pointC3:"pont",
+      pointC4:"pont",
+      pointC5:"pont"
+      
+
+      
     },
-
-
-  
+ 
     {
       id: 3,
       title: "Resources for caregivers and families ",
-      desc: " For many families, caring for a person with dementia isn’t just one person’s job, but the role of many people who share tasks and responsibilities. No matter what kind of caregiver you are, taking care of another person can be overwhelming at times. These tips and suggestions may help with everyday care and tasks.",
-
       cover: pic3,
-      detailing: "Consider different activities the person can do to stay active, such as household chores, cooking and baking, exercise, and gardening. Match the activity to what the person can Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning, they may join in.Add music to exercises or activities if it helps motivate the person. Dance to the music if possible.Be realistic about how much activity can be done at one time. Several short “mini-workouts” may be best",
-      subheading: "Eat a balanced diet",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page wha m",
+      image1:pic2,
+      image11:pic2,
+      detail1:"It is a long established fact that a reader will be distracted by the readable content of a page when loas a m",
+      pointA1:"pont",
+      pointA2:"pont",
+      pointA3:"pont",
+      pointA4:"pont",
+      pointA5:"pont",
+
       
-      subheading1: "Eat a balanced diet",
-      detailing1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      subheading2: "Eat a balanced meal",
-      detailing2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+      subheading2:"sub2",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image2:pic2,
+      image22:pic2,
+      detail2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointB2:"pont",
+      pointB3:"pont",
+      pointB3:"pont",
+      pointB4:"pont",
+      pointB5:"pont",
+      
+      subheading3:"sub3",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image3:pic2,
+      image3:pic2,
+      detail3:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointC1:"pont",
+      pointC2:"pont",
+      pointC3:"pont",
+      pointC4:"pont",
+      pointC5:"pont"
+      
+
+  
     },
 
     
@@ -57,36 +139,94 @@ import { ListGroupItem } from "react-bootstrap"
     {
       id: 5,
       title: "Laws and Regulations",
-      desc: "Preventing dementia involves a healthy lifestyle that promotes brain health and reduces risk factors. Regular physical activity, a balanced diet, mental activity, managing cardiovascular risk factors, quality sleep, and stress management are essential. Engaging in puzzles, games, and socializing can build cognitive reserve and reduce dementia risk. Managing stress through relaxation techniques and maintaining a healthy lifestyle can help individuals maintain cognitive function as they age.",
-     
       cover: pic4,
-      detailing: "Consider different activities the person can do to stay active, such as household chores, cooking and baking, exercise, and gardening. Match the activity to what the person can Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning, they may join in.Add music to exercises or activities if it helps motivate the person. Dance to the music if possible.Be realistic about how much activity can be done at one time. Several short “mini-workouts” may be best",
-      subheading: "Eat a balanced diet",
+
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      subheading1:"sub1",
+      image1:pic2,
+      image11:pic2,
+      detail1:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointA1:"pont",
+      pointA2:"pont",
+      pointA3:"pont",
+      pointA4:"pont",
+      pointA5:"pont",
+
       
-      subheading1: "Eat a balanced diet",
-      detailing1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      subheading2: "Eat a balanced meal",
-      detailing2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+      subheading2:"sub1",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image2:pic2,
+      image22:pic2,
+      detail2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointB2:"pont",
+      pointB3:"pont",
+      pointB3:"pont",
+      pointB4:"pont",
+      pointB5:"pont",
+      
+      subheading3:"sub1",
+      desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image3:pic2,
+      image33:pic2,
+      detail3:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointC1:"pont",
+      pointC2:"pont",
+      pointC3:"pont",
+      pointC4:"pont",
+      pointC5:"pont"
+      
+
+      
+     
     },
     
     
     {
       id: 5,
       title: "Laws and Regulations",
-      desc: "Preventing dementia involves a healthy lifestyle that promotes brain health and reduces risk factors. Regular physical activity, a balanced diet, mental activity, managing cardiovascular risk factors, quality sleep, and stress management are essential. Engaging in puzzles, games, and socializing can build cognitive reserve and reduce dementia risk. Managing stress through relaxation techniques and maintaining a healthy lifestyle can help individuals maintain cognitive function as they age.",
-     
       cover: pic5,
-      detailing: "Consider different activities the person can do to stay active, such as household chores, cooking and baking, exercise, and gardening. Match the activity to what the person can Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning Help get an activity started or join in to make the activity more fun. People with dementia may lack interest or initiative and can have trouble starting activities. But, if others do the planning, they may join in.Add music to exercises or activities if it helps motivate the person. Dance to the music if possible.Be realistic about how much activity can be done at one time. Several short “mini-workouts” may be best",
-      subheading: "Eat a balanced diet",
       
-      subheading1: "Eat a balanced diet",
-      detailing1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      subheading2: "Eat a balanced meal",
-      detailing2:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+
+      desc:"It is a long established fact that a reader will be distracted by the reaLorem Ipsum is that it has a m",
+      subheading1:"sub1",
+      image1:pic2,
+      // image11:pic2,
+      detail1:"It is a lonent of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointA1:"pont",
+      pointA2:"pont",
+      pointA3:"pont",
+      pointA4:"pont",
+      pointA5:"pont",
+
+      
+      subheading2:"sub2",
+      desc:"It is a long esby the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image2:pic2,
+      image22:pic2,
+      detail2:"It i by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      pointB2:"pont",
+      pointB3:"pont",
+      pointB3:"pont",
+      pointB4:"pont",
+      pointB5:"pont",
+      
+      subheading3:"sub3",
+      desc:"It is ay the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      image3:pic2,
+      image33:pic2,
+      detail3:"It is ad by the readable content of a page wayout. The point of using Lorem Ipsum is that it has a m",
+      pointC1:"pontn",
+      pointC2:"pontu",
+      pointC3:"pontgv",
+      pointC4:"ponthg",
+      pointC5:"ponthgv"
+      
+
+      
     },
       
-    
-    
+
+
     
 
   ]
