@@ -18,7 +18,7 @@ const Popup = ({ isOpen, onClose, websiteUrl }) => {
             <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-title">Chat with me</h5>
+                        <h5 className="modal-title">Chat with Zap</h5>
                         <button type="button" className="btn-close" onClick={onClose}></button>
                     </div>
                     <div className="modal-body">
