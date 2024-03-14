@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import axios from 'axios';
 
 import image1 from "../../assets/images/PredictionPage/pic1.jpg";
 
@@ -7,6 +8,10 @@ function ImageUpload() {
   const location = useLocation();
   const fileInputRef = useRef(null);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedFileImage, setSelectedFileImage] = useState(null);
+
+  const [result, setResult] = useState(null)
+  const [loading , setLoading] = useState(false)
 
   const handleImageUpload = () => {
     // Trigger the file input click
@@ -15,6 +20,7 @@ function ImageUpload() {
 
   const handleFileChange = (event) => {
     const selectedFile = event.target.files[0];
+    setSelectedFileImage(selectedFile)
 
     if (selectedFile && selectedFile.type.startsWith("image/")) {
       // Set the selected image for preview
@@ -37,11 +43,32 @@ function ImageUpload() {
     imageSrc: image1,
   };
 
+  const handleFormSubmit = (event) =>{
+    event.preventDefault()
+    const formData = new FormData();
+    formData.append('image', selectedFileImage);
+
+    setLoading(true)
+    axios.post('http://127.0.0.1:5001/predict', formData)
+        .then((response) => {
+          setResult(null)
+          console.log('Prediction Result:', response.data);
+          setLoading(false)
+          setResult(response.data.prediction)
+        })
+        .catch((error) => {
+          setResult(null)
+          setLoading(false)
+          console.error('Error during prediction:', error);
+        });
+  }
+
   return (
     <div>
       <div className="container-fluid mb-5">
         <div className="row py-4 h-100 justify-content-center">
           <div className=" mb-3 text-center">
+
             <h5
               className="mb-3"
               style={{
@@ -52,42 +79,75 @@ function ImageUpload() {
             >
               Upload the MRI Scan
             </h5>
-            {selectedImage && (
-              <img
-                src={selectedImage}
-                className="img-fluid mb-3 smaller-image-preview "
-                alt="Selected"
-              />
-            )}
+
             <img
               src={boxData.imageSrc}
               className="img-fluid mb-3 smaller-image col-md-4"
               alt={`Image for ${boxData.title}`}
             />
+
             <div>
+
               <h5
                 className="mb-3"
                 style={{ fontSize: "1.5rem", fontWeight: "bold" }}
               >
                 {boxData.title}
               </h5>
+
               <p>{boxData.description}</p>
-              <input
-                type="file"
-                ref={fileInputRef}
-                style={{ display: "none" }}
-                onChange={handleFileChange}
-                accept="image/*"
-              />
-              <button
-                onClick={handleImageUpload}
-                className="btn btn-outline-primary mt-3"
-              >
-                Choose Image
-              </button>{" "}
-              <Link to={boxData.link} className="btn btn-primary mt-3">
-                Submit
-              </Link>
+
+              {selectedImage && (
+                  <center>
+                  <img
+                      src={selectedImage}
+                      style={{width:"30%"}}
+                      className="img-fluid mb-3 smaller-image-preview "
+                      alt="Selected"
+                  />
+                  </center>
+              )}
+
+              <form action="" onSubmit={handleFormSubmit}>
+                <input
+                    type="file"
+                    required
+                    ref={fileInputRef}
+                    style={{display: "none"}}
+                    onChange={handleFileChange}
+                    accept="image/*"
+                />
+
+                {loading && (
+                    <div className="spinner-border text-success" role="status">
+                      <span className="sr-only">Loading...</span>
+                    </div>
+                )}
+
+                {result && (
+                    <strong>{result}</strong>
+                )}
+
+                <br/>
+
+                <button
+                    onClick={handleImageUpload}
+                    className="btn btn-outline-primary mt-3"
+                >
+                  Choose Image
+                </button>
+                {" "}
+
+                {/*<Link to={boxData.link} className="btn btn-primary mt-3">*/}
+                {/*  Submit*/}
+                {/*</Link>*/}
+
+                <button type={`submit`} className="btn btn-primary mt-3">
+                  Submit
+                </button>
+
+              </form>
+
               <div
                 className="mt-3 mb-3"
                 style={{
