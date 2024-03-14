@@ -32,7 +32,10 @@ const NavBarTest = () => {
             </Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            {/* <a href="#">Contact</a> */}
+            <Link to="/contactUsPage" className="">
+              Contact
+            </Link>
           </li>
         </ul>
       </header>
