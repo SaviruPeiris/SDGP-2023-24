@@ -1,6 +1,17 @@
 .rightContainer {
-  background-color: rgb(197, 176, 216);
+  background-color: rgba(193, 171, 212, 0.214);
   margin: 0px;
   padding-top: 50px;
   padding-left: 50px;
+}
+.leftImageContainer {
+  position: relative;
+  /* background-color: red; */
+}
+.contactUsImage {
+  width: 100%;
+  height: auto;
+}
+.row {
+  /* background-color: blue; */
 }
