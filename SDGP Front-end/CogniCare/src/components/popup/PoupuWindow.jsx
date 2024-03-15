@@ -22,8 +22,7 @@ const Popup = ({ isOpen, onClose, websiteUrl }) => {
                         <button type="button" className="btn-close" onClick={onClose}></button>
                     </div>
                     <div className="modal-body">
-                        {/* //Connecting the chatbot with Streammlit witht the help of iframe to the front-end
-                        //iframe is used to display the content of another HTML page within the current HTML page */}
+                        {/* //Connecting the chatbot with Streammlit witht the help of iframe to the front-end */}
                         <iframe src={websiteUrl} title="Chat with me" width="100%" height="550px" />
                     </div>
                 </div>
