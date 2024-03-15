@@ -2,9 +2,9 @@ import React from "react";
 import NavBarTest from "../../components/NavBar/NavBarTest";
 import About from "../../components/About/About";
 import Hero from "../../components/About/Hero";
-import Footer from "../../components/About/Footer";
 import Support from "../../../../AboutPage/src/components/Support";
 import Services from "../../../../AboutPage/src/components/Services";
+import Footer from "../../components/Footer";
 
 const aboutPage = () => {
   return (

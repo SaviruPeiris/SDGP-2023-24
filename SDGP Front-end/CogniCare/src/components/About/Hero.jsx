@@ -1,5 +1,6 @@
 import React from 'react';
-import Dementia from '../assets/aboutImages/pic4.jpg';
+// import Dementia from '../assets/aboutImages/pic4.jpg';
+import Dementia from "../../assets/images/aboutImages/pic4.jpg";
 
 const Hero = () => {
   return (
