@@ -14,7 +14,8 @@ const Popup = ({ isOpen, onClose, websiteUrl }) => {
     }, [isOpen]);
 
     return (
-        <div className={`modal ${isOpen ? 'show' : ''}`} style={{ display: isOpen ? 'block' : 'none' , backgroundColor:"rgba(0, 0, 0, 0.5)"}}>
+        <div className={`modal ${isOpen ? 'show' : ''}`} style={{ display: isOpen ? 'block' : 'none' , backgroundColor:"rgba(255, 255, 255, 0.5)", 
+        backdropFilter:"blur(5px)"}}>
             <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
@@ -23,7 +24,7 @@ const Popup = ({ isOpen, onClose, websiteUrl }) => {
                     </div>
                     <div className="modal-body">
                         {/* //Connecting the chatbot with Streammlit witht the help of iframe to the front-end */}
-                        <iframe src={websiteUrl} title="Chat with me" width="100%" height="550px" />
+                        <iframe src={websiteUrl} title="Chat with me" width="100%" height="600px" />
                     </div>
                 </div>
             </div>
