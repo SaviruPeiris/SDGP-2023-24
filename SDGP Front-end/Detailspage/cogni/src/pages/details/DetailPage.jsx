@@ -27,13 +27,16 @@ export const DetailPage = () => {
           <div className="section">
 
           <div id="section1" className="section1">
-            <h1>{blogs.subheading1}</h1>
+            <h1>{blogs.title}</h1>
             <p>{blogs.desc}</p>
-            
-
             <img src={blogs.image1} alt=''></img>
-            <img src={blogs.image11} alt=''></img>
+
+            <h1>{blogs.subheading1}</h1>
             <p>{blogs.detail1}</p>
+
+            
+            <img src={blogs.image11} alt=''></img>
+     
             <p>{blogs.pointA1}</p>
             <p>{blogs.pointA2}</p>
             <p>{blogs.pointA3}</p>
@@ -44,11 +47,13 @@ export const DetailPage = () => {
             </div>
 
             <div id="section2" className="section2">
-            <h1>{blogs.subheading2}</h1>
-            <p>{blogs.desc}</p>
-            
+           
+           
 
-            <img src={blogs.image2} alt=''></img>
+            <h1>{blogs.subheading2}</h1>
+          
+            <img src={blogs.image2} alt=''></img> 
+
             <img src={blogs.image22} alt=''></img>
             <p>{blogs.detail2}</p>
             <p>{blogs.pointB1}</p>
@@ -61,18 +66,21 @@ export const DetailPage = () => {
             </div>
 
             <div id="section3" className="section3">
+           
+           
             <h1>{blogs.subheading3}</h1>
-            <p>{blogs.desc}</p>
+            <p>{blogs.detail33}</p>
             
 
             <img src={blogs.image3} alt=''></img>
-            <img src={blogs.image33} alt=''></img>
             <p>{blogs.detail3}</p>
+            <img src={blogs.image33} alt=''></img>
+          
             <p>{blogs.pointC1}</p>
             <p>{blogs.pointC2}</p>
             <p>{blogs.pointC3}</p>
-            <p>{blogs.point4}</p>
-            <p>{blogs.point5}</p>
+            <p>{blogs.pointC4}</p>
+            <p>{blogs.pointC5}</p>
 
             
             
