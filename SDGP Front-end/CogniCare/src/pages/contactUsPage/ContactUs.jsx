@@ -2,6 +2,8 @@
 import NavBarTest from "../../components/NavBar/NavBarTest";
 import ContactUsImg from "../../assets/images/ContactUs.jpg";
 import "./ContactUs.css";
+import Footer from "../../components/Footer";
+
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -178,6 +180,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

@@ -29,11 +29,17 @@ a {
   font-size: 25px;
   text-decoration: none;
   color: black;
+  transition: transform 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.06);
 }
 
 .main-nav {
   margin-top: 5px;
   padding-top: 10px;
+  margin-right: 5px;
 }
 .logo a,
 .main-nav a {
@@ -48,10 +54,13 @@ a {
   color: #34495e;
   /* font-size: 0.99em; */
   font-size: 18px;
+  transition: transform 0.5s;
 }
 
 .main-nav a:hover {
   color: #718daa;
+    transform: scale(1.06);
+
 }
 
 .header {
