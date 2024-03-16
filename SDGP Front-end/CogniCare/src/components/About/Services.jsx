@@ -3,9 +3,9 @@ import { CheckIcon } from '@heroicons/react/outline';
 
 const Services = () => {
   return (
-    <div name='platforms' className='w-full my-10'>
+    <div name='platforms' className='w-full my-16'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <h2 className='text-3xl font-bold text-center text-gray-900 mb-6'>All-In-One Dementia Prediction Platform</h2>
+        <h2 className='text-3xl font-bold text-center text-purple-900 mb-6'>All-In-One Dementia Prediction Platform</h2>
         <p className='text-lg text-gray-600 text-center mb-12'>
           Welcome to our all-in-one dementia prediction platform. We are dedicated to providing comprehensive services and resources to help you understand, prevent, and manage dementia effectively.
         </p>
@@ -37,10 +37,10 @@ const ServiceCard = ({ title, description }) => {
   return (
     <div className='bg-white shadow-md rounded-lg p-6'>
       <div className='flex items-center mb-4'>
-        <CheckIcon className='w-6 h-6 mr-2 text-green-500' />
-        <h3 className='text-lg font-semibold text-gray-900'>{title}</h3>
+        <CheckIcon className='w-6 h-6 mr-2 text-pink-800' />
+        <h3 className='text-lg font-semibold text-purple-800'>{title}</h3>
       </div>
-      <p className='text-gray-600 text-lg'>{description}</p>
+      <p className='text-gray-500 text-lg'>{description}</p>
     </div>
   );
 };
