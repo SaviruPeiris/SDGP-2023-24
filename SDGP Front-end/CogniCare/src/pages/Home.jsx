@@ -24,6 +24,7 @@ const Home = () => {
       <Stats></Stats>
       <MemoryGameCard></MemoryGameCard>
       <PredictionCard></PredictionCard>
+      <Footer></Footer>
       {/* <VisionContainer></VisionContainer> */}
     </>
   );

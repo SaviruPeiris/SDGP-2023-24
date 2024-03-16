@@ -1,4 +1,4 @@
-nav {
+/* nav {
   background-color: rgb(196, 65, 218, 67%);
   padding: 25px;
   display: flex;
@@ -17,36 +17,6 @@ li {
   margin-right: 15px;
 }
 
-/* a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 22px;
-}
-
-a:hover {
-  color: #065c31;
-}
-
-.navbar-links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-
-.navLink {
-  margin-left: 60px;
-  transition: transform 0.3s;
-  text-decoration: none;
-  color: black;
-}
-
-.navLink:hover {
-  transform: scale(1.05);
-  transition-duration: 300ms;
-} */
-
 .logo {
   transition: transform 0.3s;
   cursor: pointer;
@@ -58,4 +28,4 @@ a:hover {
 
 .navBarLinks {
   border: 5px solid red;
-}
+} */

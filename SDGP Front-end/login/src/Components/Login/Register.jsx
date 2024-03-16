@@ -41,7 +41,11 @@ const Login = () => {
 
         <div className="w-full flex flex-col max-w-[500px]">
           <div className="w-full flex flex-col mt-2">
-            <h3 className="text-3xl font-semibold mt-2" data-aos="fade-left">
+            <h3
+              className="text-3xl font-semibold mt-2"
+              data-aos="fade-left"
+              data-aos-once="true"
+            >
               Register
             </h3>
             <p className="text-base mt-2" data-aos="fade-left">

@@ -13,6 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MemoryGame from "./pages/MemoryGame";
 import PredictionPage from "./pages/prediction/PredictionPage";
 import AboutPage from "./pages/aboutpage/aboutPage";
+import ContactUsPage from "./pages/contactUsPage/ContactUs";
 // import AwarenessPage from "./pages/awareness/DetailsPage.jsx";
 
 function App() {
@@ -33,8 +34,11 @@ function App() {
           element={<PredictionPage></PredictionPage>}
         />
         <Route path="/about" element={<AboutPage></AboutPage>} />
+        <Route
+          path="/contactUsPage"
+          element={<ContactUsPage></ContactUsPage>}
+        />
         {/* <Route path="/awarenessPage" element={<AwarenessPage></AwarenessPage>} /> */}
-        {/* <Route index element={<MemoryGame></MemoryGame>} /> */}
       </Routes>
     </BrowserRouter>
   );
