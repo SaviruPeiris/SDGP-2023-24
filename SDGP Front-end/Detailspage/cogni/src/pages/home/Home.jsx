@@ -1,5 +1,5 @@
 import React from "react"
-import { Card } from "../../components/awareness/Card"
+import { Card } from "../../../../../CogniCare/src/pages/AwaranessPage/Card"
 
 
 export const Home = () => {

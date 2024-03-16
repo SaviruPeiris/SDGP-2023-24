@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { awareness } from "../../assets/data/data";
-import Sidebar from "./Sidebar";
+import { awareness } from "../../assets/data/data/data";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 
 import "./details.css";

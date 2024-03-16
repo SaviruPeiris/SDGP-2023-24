@@ -3,7 +3,7 @@ import React from "react";
 import "./blog.css";
 import { blog } from "../../assets/data/data";
 // import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Card = () => {
   return (
