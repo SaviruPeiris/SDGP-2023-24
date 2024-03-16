@@ -28,6 +28,7 @@ def predict():
         }
     )
 
+
 if APP_NAME == 'alz':
-    app.run(debug=False,port=5001)
+    app.run(debug=False)
 
