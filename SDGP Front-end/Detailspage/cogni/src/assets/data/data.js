@@ -239,7 +239,7 @@ import { ListGroupItem } from "react-bootstrap"
       pointA2:"1. Preparing a will : It will specifies how a person’s estate — property, money, and other financial assets — will be distributed and managed when they die. It may also address care for minors, gifts, and end-of-life arrangements, such as funeral and burial.",
       pointA3:"2. Assining an attorny : A durable power of attorney for finances names someone who will make financial decisions for you when you are not able.",
       pointA4:"3. A living trust names and instructs someone, called the trustee, to hold and distribute property and funds on your behalf when you are no longer able to manage your affairs.",
-      pointA5:"pont",
+
 
       
       subheading2:"Legal planing.",
