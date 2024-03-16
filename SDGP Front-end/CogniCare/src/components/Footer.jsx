@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-400 py-8">
         <div>
           <h6 className="font-bold pt-2">CONTACT US</h6>
-          <ul>
+          <ul className="p-0">
             <li className="py-1">Tel : +94 77 773 4321</li>
             <li className="py-1">Email : cognicareplus@gmail.com</li>
           </ul>
@@ -22,27 +22,39 @@ const Footer = () => {
 
         <div>
           <h6 className="font-bold pt-2">QUICK LINKS</h6>
-          <ul>
+          <ul className="p-0">
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 Home{" "}
               </a>
             </li>
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 About{" "}
               </a>
             </li>
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 Awareness{" "}
               </a>
             </li>
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 e-Channelling{" "}
               </a>
@@ -51,13 +63,13 @@ const Footer = () => {
         </div>
         <div>
           <h6 className="font-bold pt-2">FOLLOW US</h6>
-          <ul>
+          <ul className="p-0">
             <li className="py-1">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition hover:opacity-75"
+                className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 Facebook{" "}
@@ -68,7 +80,7 @@ const Footer = () => {
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition hover:opacity-75"
+                className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 Instagram{" "}
@@ -79,7 +91,7 @@ const Footer = () => {
                 href="https://www.twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition hover:opacity-75"
+                className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 Twitter{" "}
@@ -90,7 +102,7 @@ const Footer = () => {
                 href="https://www.github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition hover:opacity-75"
+                className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 Github{" "}
@@ -101,27 +113,39 @@ const Footer = () => {
 
         <div>
           <h6 className="font-bold pt-2">LEGAL</h6>
-          <ul>
+          <ul className="p-0">
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 Privacy{" "}
               </a>
             </li>
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 Policies{" "}
               </a>
             </li>
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 Terms{" "}
               </a>
             </li>
             <li className="py-1">
-              <a href="#" className="transition hover:opacity-75">
+              <a
+                href="#"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
                 {" "}
                 Conditions{" "}
               </a>
@@ -151,6 +175,7 @@ const Footer = () => {
             href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-300"
           >
             <FaFacebook />
           </a>
@@ -158,6 +183,7 @@ const Footer = () => {
             href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-300"
           >
             <FaInstagram />
           </a>
@@ -165,6 +191,7 @@ const Footer = () => {
             href="https://www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-300"
           >
             <FaTwitter />
           </a>
@@ -172,6 +199,7 @@ const Footer = () => {
             href="https://www.github.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-300"
           >
             <FaGithub />
           </a>
@@ -179,6 +207,7 @@ const Footer = () => {
             href="https://www.whatsapp.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-300"
           >
             <FaWhatsapp />
           </a>

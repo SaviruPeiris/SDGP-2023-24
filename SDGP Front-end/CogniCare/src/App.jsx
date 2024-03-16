@@ -39,7 +39,6 @@ function App() {
           element={<ContactUsPage></ContactUsPage>}
         />
         {/* <Route path="/awarenessPage" element={<AwarenessPage></AwarenessPage>} /> */}
-        {/* <Route index element={<MemoryGame></MemoryGame>} /> */}
       </Routes>
     </BrowserRouter>
   );
