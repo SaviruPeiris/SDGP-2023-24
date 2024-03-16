@@ -1,5 +1,8 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
+
 import {
   FaFacebook,
   FaGithub,
@@ -24,31 +27,40 @@ const Footer = () => {
           <h6 className="font-bold pt-2">QUICK LINKS</h6>
           <ul className="p-0">
             <li className="py-1">
-              <a
-                href="#"
+              <Link
+                to="/home"
                 className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 Home{" "}
-              </a>
+              </Link>
             </li>
             <li className="py-1">
-              <a
-                href="#"
+              <Link
+                to="/about"
                 className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 About{" "}
-              </a>
+              </Link>
             </li>
             <li className="py-1">
-              <a
-                href="#"
+              <Link
+                to="/awarenessPage"
                 className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 Awareness{" "}
-              </a>
+              </Link>
+            </li>
+            <li className="py-1">
+              <Link
+                to="/contactUsPage"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
+                {" "}
+                Contact-Us{" "}
+              </Link>
             </li>
             <li className="py-1">
               <a
