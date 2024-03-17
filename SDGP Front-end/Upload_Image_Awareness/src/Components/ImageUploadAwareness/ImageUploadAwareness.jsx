@@ -31,20 +31,22 @@ const ImageUploadAwareness = () => {
             </div>
 
             <div className='text-center mt-20 mb-20'>
-                <h1 className='mb-10 text-5xl font-bold text-purple-800'>topic</h1>
-                <p className='text-xl'>add something.</p>
+                <h1 className='mb-10 text-5xl font-bold text-purple-800'>Empowering Users Through Knowledge</h1>
+                <p className='text-2xl '>Empowering users through knowledge is our priority. We offer educational resources and a supportive community to help users understand their dementia risk and make informed decisions about their health. 
+                </p>
             </div>
-                <div className='w-[1500px] h-[450px] bg-gray-800/80 absolute'>
+                <div className='w-[1550px] h-[450px] bg-gray-800/80 absolute'>
                     <img className='w-full h-full object-cover mix-blend-overlay' src={MRI_scanner} alt="." />
                 </div >
                 <div className='relative'>
                     <div className='text-center mt-40 mb-10'>
-                        <h1 className='mb-10 text-5xl font-bold text-white'>Topic</h1>
-                        <p className='text-xl text-white'>add something.</p>
+                        <h1 className='mb-10 text-5xl font-bold text-white'>The Importance of Early Awareness of Dementia Risk level</h1>
+                        <p className='text-2xl text-white'>Early awareness of dementia risk is crucial. Detecting signs early allows for prompt intervention, potentially slowing its progression and improving quality of life. It empowers individuals and families to plan ahead and adopt healthy lifestyles. Early identification aids in recruiting participants for clinical trials and reduces stigma. Overall, it enhances individual outcomes and contributes to dementia prevention efforts.
+                        </p>
                     </div>
                 </div>
 
-            <div className="mx-auto mt-80 mb-10" style={{ maxWidth: '700px'}}>
+            <div className="mx-auto mt-60 mb-10" style={{ maxWidth: '700px'}}>
                 <div className="border-2 border-purple-800 rounded-lg p-6 shadow-xl bg-gradient-to-br from-white to-purple-100">
                     <p className="text-purple-800 font-bold mb-2">Patient Consent......</p>
                     <p className='text-lg leading-relaxed'>
