@@ -74,7 +74,7 @@ chain = get_chain()
 # It's empty in the beginning, so we add the first message from the bot
 if 'messages' not in st.session_state:
     st.session_state['messages'] = [{"role": "bot",
-                                     "content": "Hello I'm Zap, how can I Help?"}]
+                                     "content": "Hello I'm Zap, How can I Help?"}]
     
 # Then we show all the chat messages in Markdown format
 for message in st.session_state['messages']:
@@ -88,7 +88,7 @@ for message in st.session_state['messages']:
 # We ask for the user's question, append it to the messages and show below
 input_type = st.radio("Select input type:", ("Text", "Speech"))
 if input_type == "Text":
-    query_input = st.text_input("Please ask your Question Here:")
+    query_input = st.text_input("Please Ask your Question Here:")
 
 
 if query_input:
