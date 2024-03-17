@@ -68,24 +68,7 @@ chain = get_chain()
 
 
 
-# def speech_to_text():
-#     recognizer=sr.Recognizer()
-#     mic=sr.Microphone()
 
-#     with mic as source:
-#         st.info("Listening.......")
-#         recognizer.adjust_for_ambient_noise(source)
-#         audio=recognizer.listen(source,timeout=None)
-#         try:
-#             st.info("Processing.....")
-#             query=recognizer.recognize_google(audio)
-#             return query
-#         except sr.UnknownValueError:
-#             st.error("Sorry, I could not understand what you said.")
-#             return None
-#         except sr.RequestError as e:
-#             st.error("Could not request results from Google Speech Recognition service; {0}".format(e))
-#             return None
     
 # We use st.session_state and fill in the st.session_state.messages list
 # It's empty in the beginning, so we add the first message from the bot
