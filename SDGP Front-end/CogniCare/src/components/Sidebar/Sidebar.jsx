@@ -11,7 +11,7 @@ const Sidebar = () => {
         <li><a href="#section1">Eat a balanced diet</a></li>
         <li><a href="#section2">Healthy life </a></li>
         <li><a href="#section3">Resources</a></li>
-        <li><Link to="/card">Awareness page</Link></li>
+        <li><Link to="/awarenessPage">Awareness page</Link></li>
         
       </ul>
     </div>

@@ -7,7 +7,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 
 import "./details.css";
 
-const DetailPage = () => {
+const DetailPage = () => { 
   const { id } = useParams();
   const [blogs, setBlogs] = useState(null);
 

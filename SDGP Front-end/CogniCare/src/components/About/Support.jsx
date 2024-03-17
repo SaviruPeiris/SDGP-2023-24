@@ -3,7 +3,7 @@ import React from 'react';
 import { PhoneIcon, ArrowSmRightIcon } from '@heroicons/react/outline';
 import { SupportIcon } from '@heroicons/react/solid';
 
-import supportImg from '../assets/aboutImages/pic2.jpg';
+import supportImg from '../../assets/images/aboutImages/pic1.jpg';
 
 const Support = () => {
   return (

@@ -17,7 +17,7 @@ import ContactUsPage from "./pages/contactUsPage/ContactUs";
 import AwarenessPage from "./pages/AwaranessPage/awareness";
 import NethmageHomePageEka from "./pages/AwaranessPage/Home";
 
-import {DetailPage} from "./pages/DetailsPage/DetailPage";
+import DetailPage from "./pages/DetailsPage/DetailPage";
 // import Card from "./pages/AwaranessPage/Card";
 
 function App() {
