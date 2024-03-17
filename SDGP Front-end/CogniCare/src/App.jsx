@@ -16,6 +16,7 @@ import AboutPage from "./pages/aboutpage/aboutPage";
 import ContactUsPage from "./pages/contactUsPage/ContactUs";
 import AwarenessPage from "./pages/AwaranessPage/awareness";
 import NethmageHomePageEka from "./pages/AwaranessPage/Home";
+import ImageUploadAwareness from "./pages/prediction/ImageUploadAwareness"
 
 import DetailPage from "./pages/DetailsPage/DetailPage";
 // import Card from "./pages/AwaranessPage/Card";
@@ -33,9 +34,13 @@ function App() {
         <Route index element={<Home></Home>} />
         <Route path="/home" element={<Home></Home>} />
         <Route path="/memorygame" element={<MemoryGame></MemoryGame>} />
-        <Route
+        {/* <Route
           path="/predictionPage"
           element={<PredictionPage></PredictionPage>}
+        /> */}
+        <Route
+          path="/predictionPage"
+          element={<ImageUploadAwareness></ImageUploadAwareness>}
         />
         <Route path="/about" element={<AboutPage></AboutPage>} />
         <Route
