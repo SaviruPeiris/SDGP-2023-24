@@ -24,7 +24,7 @@ const Popup = ({ isOpen, onClose, websiteUrl }) => {
                     </div>
                     <div className="modal-body">
                         {/* //Connecting the chatbot with Streammlit witht the help of iframe to the front-end */}
-                        <iframe src={websiteUrl} title="Chat with Zap" width="100%" height="620px" backgroundColor="blue" />
+                        <iframe src={websiteUrl} title="Chat with Zap" width="100%" height="620px" backgroundColor="rgba(5, 0, 134, 0.1)" />
                     </div>
                 </div>
             </div>
