@@ -1,5 +1,6 @@
 import React from "react"
 import "./awareness.css"
+import "../../components/AwarenessPage/blog.css"
 import { awareness } from "../../assets/data/data"
 import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
 import { Link } from "react-router-dom"

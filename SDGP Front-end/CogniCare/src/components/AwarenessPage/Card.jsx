@@ -1,7 +1,8 @@
 import React from "react";
 
-import "./blog.css";
-import { blog } from "../../assets/data/data";
+// import "./blog.css";
+import "../../pages/AwaranessPage/awareness.css";
+import { awareness } from "../../assets/data/data";
 // import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
 import { Link } from "react-router-dom";
 
@@ -10,7 +11,7 @@ export const Card = () => {
     <>
       <section className="blog">
         <div className="container grid3">
-          {blog.map((item) => (
+          {awareness.map((item) => (
             <div className="box boxItems" key={item.id}>
               <div className="img">
                 <img src={item.cover} alt="" />

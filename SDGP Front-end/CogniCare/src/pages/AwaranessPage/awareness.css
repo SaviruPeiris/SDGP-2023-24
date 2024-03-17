@@ -1,7 +1,5 @@
-
-
 .awareness {
- margin: 50px 0;
+  margin: 50px 0;
 }
 /* .awareness.cardItems {
  transition: 0.3s;
@@ -13,60 +11,54 @@
 
 } */
 .cardItems {
- background-color: rgb(244, 231, 246); 
- border-radius: 10px;
- box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- transition: transform 0.3s ease;
- width: 450px;  
- margin-bottom: 20px;
+  background-color: rgb(244, 231, 246);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 450px;
+  margin-bottom: 20px;
 }
 
 .awareness .cardItems:hover {
- box-shadow: 0 2px 4px rgba(244, 2, 131, 0.08);
- cursor: pointer;
- transform: translateY(-5px);
- transform:scale(0.9);
-
+  box-shadow: 0 2px 4px rgba(244, 2, 131, 0.08);
+  cursor: pointer;
+  transform: translateY(-5px);
+  transform: scale(0.9);
 }
 
-
 .awareness .icon {
- margin-right: 10px;
- font-size: 20px;
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 .awareness h3 {
- font-weight: 500;
-} 
+  font-weight: 500;
+}
 
 .awareness p {
- color: #3d0bb3;
- font-weight: 400;
- margin: 20px 0;
- font-size: 17px;
- line-height: 25px;
+  color: #3d0bb3;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 .container {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 20px;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-
 .awareness img {
-width: 100%;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-height: 250px;
-object-fit: cover;
-border-radius: 10px;
-margin-bottom: 20px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .details {
-padding: 20px;
+  padding: 20px;
 }
-
-

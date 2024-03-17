@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { awareness } from "../../assets/data/data/data";
+import { awareness } from "../../assets/data/data";
 import Sidebar from "../../components/Sidebar/Sidebar";
 
 
 import "./details.css";
 
-export const DetailPage = () => {
+const DetailPage = () => {
   const { id } = useParams();
   const [blogs, setBlogs] = useState(null);
 
@@ -96,3 +96,6 @@ export const DetailPage = () => {
   );
 
 };
+
+export default DetailPage;
+

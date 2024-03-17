@@ -1,28 +1,23 @@
-// import React from "react"
+import React from "react";
 
-import { Home } from "./pages/home/Home"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import { DetailPage } from "../../../CogniCare/src/pages/DetailsPage/DetailPage"
-import { Card } from "../../../CogniCare/src/pages/AwaranessPage/Card"
+import { Home } from "../../pages/AwaranessPage/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { DetailPage } from "../DetailsPage/DetailPage";
+import { Card } from "../AwaranessPage/Card";
 
 const App = () => {
   return (
     <>
       <Router>
-     
-        <Switch>
-          <Route exact path='/' component={Home} />
-          
-          <Route exact path='/details/:id' component={DetailPage} />
-        
-          <Route exact path='/card' component={Card} />
+        <Routes>
+          <Route exact path="/" component={Home} />
 
-        </Switch>
-       
+          <Route exact path="/details/:id" component={DetailPage} />
+
+          <Route exact path="/card" component={Card} />
+        </Routes>
       </Router>
     </>
-  )
-}
-export default App
-
-
+  );
+};
+export default App;
