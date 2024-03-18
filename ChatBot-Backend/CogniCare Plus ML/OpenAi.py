@@ -86,7 +86,7 @@ for message in st.session_state['messages']:
             st.markdown(message["content"])
  
 # We ask for the user's question, append it to the messages and show below
-if query := st.chat_input("Please ask your Question Here:"):
+if query := st.chat_input("Please Ask Your Question Here:"):
     st.session_state.messages.append({"role": "user", "content": query})
     with st.chat_message("user"):
         st.markdown(query)
