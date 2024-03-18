@@ -74,7 +74,7 @@ bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_40
 # It's empty in the beginning, so we add the first message from the bot
 if 'messages' not in st.session_state:
     st.session_state['messages'] = [{"role": "bot",
-                                     "content": "Hello, How Can I help?"}]
+                                     "content": "Hello, How Can I Help?"}]
  
 # Then we show all the chat messages in Markdown format
 for message in st.session_state['messages']:
@@ -86,7 +86,7 @@ for message in st.session_state['messages']:
             st.markdown(message["content"])
  
 # We ask for the user's question, append it to the messages and show below
-if query := st.chat_input("Please ask your question here:"):
+if query := st.chat_input("Please ask your Question Here:"):
     st.session_state.messages.append({"role": "user", "content": query})
     with st.chat_message("user"):
         st.markdown(query)
