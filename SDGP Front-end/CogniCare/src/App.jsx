@@ -15,7 +15,7 @@ import PredictionPage from "./pages/prediction/PredictionPage";
 import AboutPage from "./pages/aboutpage/aboutPage";
 import ContactUsPage from "./pages/contactUsPage/ContactUs";
 import AwarenessPage from "./pages/AwaranessPage/awareness";
-import NethmageHomePageEka from "./pages/AwaranessPage/Home";
+import AwarenessHomePage from "./pages/AwaranessPage/Home";
 import ImageUploadAwareness from "./pages/ImageUploadAwareness/ImageUploadAwareness"
 
 import DetailPage from "./pages/DetailsPage/DetailPage";
@@ -39,8 +39,12 @@ function App() {
           element={<PredictionPage></PredictionPage>}
         /> */}
         <Route
-          path="/predictionPage"
+          path="/imageUploadAwareness"
           element={<ImageUploadAwareness></ImageUploadAwareness>}
+        />
+        <Route
+          path="/predictionPage"
+          element={<PredictionPage></PredictionPage>}
         />
         <Route path="/about" element={<AboutPage></AboutPage>} />
         <Route
@@ -49,7 +53,7 @@ function App() {
         />
         <Route
           path="/awarenessPage"
-          element={<NethmageHomePageEka></NethmageHomePageEka>}
+          element={<AwarenessHomePage></AwarenessHomePage>}
         />
         <Route path="/details/:id" element={<DetailPage></DetailPage>} />
         {/* <Route exact path="/card" component={<Card></Card>} /> */}

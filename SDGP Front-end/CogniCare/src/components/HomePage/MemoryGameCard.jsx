@@ -12,11 +12,15 @@ import { Link } from "react-router-dom";
 const MemoryGameCard = () => {
   useEffect(() => {
     AOS.init();
-    // AOS.refresh();
+    AOS.refresh();
   }, []);
   return (
     <div className="MemoryGameCardContainer">
-      <div className="card text-center memoryGameCard" data-aos="zoom-in">
+      <div
+        className="card text-center memoryGameCard"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
         <div className="card-header">Featured</div>
         <div className="card-body">
           <h5 className="card-title">Test your short-term memory</h5>

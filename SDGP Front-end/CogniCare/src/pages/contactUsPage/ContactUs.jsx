@@ -4,7 +4,6 @@ import ContactUsImg from "../../assets/images/ContactUs.jpg";
 import "./ContactUs.css";
 import Footer from "../../components/Footer";
 
-
 import { TypeAnimation } from "react-type-animation";
 
 // aos
@@ -67,7 +66,7 @@ const ContactUs = () => {
       <div className="container-fluid g-0">
         <div className="row g-0">
           {/* Image Column */}
-          <div className="col-md-6 leftImageContainer">
+          <div className="col-md-6 leftImageContainer" data-aos="fade-right">
             <img
               src={ContactUsImg}
               className="img-fluid contactUsImage"

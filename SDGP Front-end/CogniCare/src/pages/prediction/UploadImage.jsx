@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import axios from "axios";
 
+import "./UploadImage.css";
 import image1 from "../../assets/images/PredictionPage/pic1.jpg";
 
 function ImageUpload() {
@@ -79,12 +80,13 @@ function ImageUpload() {
             >
               Upload the MRI Scan
             </h5>
-
-            <img
-              src={boxData.imageSrc}
-              className="img-fluid mb-3 smaller-image col-md-4"
-              alt={`Image for ${boxData.title}`}
-            />
+            <div className="centered-image-container-uploadImagePage">
+              <img
+                src={boxData.imageSrc}
+                className="img-fluid mb-3 smaller-image col-md-4"
+                alt={`Image for ${boxData.title}`}
+              />
+            </div>
 
             <div>
               <h5

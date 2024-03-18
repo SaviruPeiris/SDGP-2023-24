@@ -10,6 +10,7 @@ import AOS from "aos";
 function CardContainer() {
   useEffect(() => {
     AOS.init();
+    AOS.refresh();
   }, []);
 
   // Define separate state for each card

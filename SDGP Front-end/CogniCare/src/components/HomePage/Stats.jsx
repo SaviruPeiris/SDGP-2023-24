@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+//importing CountUp
 import CountUp from "react-countup";
 
 const Stats = () => {
