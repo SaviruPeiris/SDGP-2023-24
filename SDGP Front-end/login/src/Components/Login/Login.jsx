@@ -158,7 +158,6 @@ function handleSubmit(e){
   
   return (
     <div className="w-full h-screen flex items-start">
-      <form onSubmit={handleSubmit}>
       <div className="relative w-1/2 h-full flex flex-col">
         <div className="absolute top-[20%] left-[10%] flex flex-col"></div>
         <img
@@ -169,6 +168,7 @@ function handleSubmit(e){
       </div>
 
       <div className="w-1/2 h-full bg-[#f5f5f5] flex flex-col p-20 justify-between items-center">
+        <form onSubmit={handleSubmit}>
         <h1
           style={{ fontWeight: "bolder", fontSize: "22px", color: "DarkBlue" }}
           className="w-full max-w-[500px] mx-auto text-x1 text-[#060606] font-semibold"
@@ -261,8 +261,8 @@ function handleSubmit(e){
             </span>
           </p>
         </div>
-      </div>
       </form>
+      </div>
     </div>
   );
 };
