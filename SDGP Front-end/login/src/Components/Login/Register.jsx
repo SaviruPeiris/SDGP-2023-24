@@ -1,25 +1,47 @@
 // import React from "react";
 import LOGIN_IMAGE from "../Assets/dementia5.jpeg";
 import GOOGLE_ICON from "../Assets/google.svg";
+import React, { useState, useEffect } from "react";
 
-import { Link } from "react-router-dom";
 
 // aos
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Validation from "./Validation";
+
+import { Link } from "react-router-dom";
 const colors = {
   primary: "#060606",
   background: "#f5f5f5",
   disbaled: "D9D9D9",
 };
 
-const Login = () => {
+const Login= () => {
   useEffect(() => {
     AOS.init();
     // AOS.refresh();
   }, []);
+
+//setting a variable
+const[values,setValues]=useState({ 
+  name:'',
+  email:'',
+  password:''
+
+})
+const[errors,setError]=useState({})
+
+function handleChange(e){
+  setValues({...values,[e.target.name]: e.target.value})
+}
+
+function handleSubmit(e){
+e.preventDefault();
+setError(Validation(values));
+}
+
   return (
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
@@ -32,6 +54,7 @@ const Login = () => {
       </div>
 
       <div className="w-1/2 h-full bg-[#f5f5f5] flex flex-col p-20 justify-between items-center">
+      <form onSubmit={handleSubmit}>
         <h1
           style={{ fontWeight: "bolder", fontSize: "22px", color: "DarkBlue" }}
           className="w-full max-w-[500px] mx-auto text-x1 text-[#060606] font-semibold"
@@ -49,22 +72,37 @@ const Login = () => {
               Register
             </h3>
             <p className="text-base mt-2" data-aos="fade-left">
-              Please enter your Details to Register
+              Please enter your Details to Register.
             </p>
           </div>
+
+          <input
+              type="text"
+              placeholder="Username"
+              value={values.name}
+              name="name" onChange={handleChange}
+              className="w-full text-black py-2 my-2 bg-transparent border-b border-black outline-none focus:outline-none "
+            />
+            {errors.name &&  <p style ={{color: "red",fontSize:"13px"}}>{errors.name} </p>}
 
           <div className="w-full flex flex-col">
             <input
               type="email"
               placeholder="Email"
+              value={values.email}
+              name="email" onChange={handleChange}
               className="w-full text-black py-2 my-2 bg-transparent border-b border-black outline-none focus:outline-none "
             />
+             {errors.email &&  <p style ={{color: "red",fontSize:"13px"}}>{errors.email} </p>}
 
             <input
               type="password"
               placeholder="Password"
+              value={values.password}
+              name="password" onChange={handleChange}
               className="w-full text-black py-2 my-2 bg-transparent border-b border-black outline-none focus:outline-none "
             />
+             {errors.password &&  <p style ={{color: "red",fontSize:"13px"}}>{errors.password} </p>}
           </div>
 
           <div className="w-full flex items-center justify-between">
@@ -108,6 +146,7 @@ const Login = () => {
             </span>
           </p>
         </div>
+        </form>
       </div>
     </div>
   );

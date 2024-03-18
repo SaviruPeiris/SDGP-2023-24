@@ -9,14 +9,14 @@ else if (values.name.length<5){
 }
 
 if (!values.email){
-    errors.email="Email required"
+    errors.email="Email Required"
 }
 
 if (!values.password){
     errors.password="Password Required"
 }
-else if (values.password.length<8){
-    errors.password="password must be more than 5 characters"
+else if (values.password.length<6){
+    errors.password="password must be more than 6 characters"
 }
 
 
