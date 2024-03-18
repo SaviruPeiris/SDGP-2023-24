@@ -65,17 +65,17 @@ bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_40
 
 chain = get_chain()
 
-
-
-
-
     
+# URL for the logo of the assistant bot
+# We need it as a separate variable because it's used in multiple places
+bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_400x400.jpg'
+ 
 # We use st.session_state and fill in the st.session_state.messages list
 # It's empty in the beginning, so we add the first message from the bot
 if 'messages' not in st.session_state:
     st.session_state['messages'] = [{"role": "bot",
-                                     "content": "Hello I'm Zap, How can I Help?"}]
-    
+                                     "content": "Hello, How Can I help?"}]
+ 
 # Then we show all the chat messages in Markdown format
 for message in st.session_state['messages']:
     if message["role"] == 'bot':
@@ -84,28 +84,18 @@ for message in st.session_state['messages']:
     else:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
-
+ 
 # We ask for the user's question, append it to the messages and show below
-input_type = st.radio("Select input type:", ("Text", "Speech"))
-if input_type == "Text":
-    query_input = st.text_input("Please Ask your Question Here:")
-
-
-if query_input:
-    st.session_state.messages.append({"role": "user", "content": query_input})
+if query := st.chat_input("Please ask your question here:"):
+    st.session_state.messages.append({"role": "user", "content": query})
     with st.chat_message("user"):
-        st.markdown(query_input)
-
-    # Generate response from the chatbot
-    result = chain({"question": query_input})
-
-    # Create a new chat message and display the result
+        st.markdown(query)
+ 
+    # We create a new chat message and launch the "chain" for the answer
     with st.chat_message("assistant", avatar=bot_logo):
         message_placeholder = st.empty()
-
-        # Check if the answer is tea-related before displaying
-        if is_dementia_related(result['answer']):
-            message_placeholder.markdown(result['answer'])
-        else:
-            st.warning("The answer may not be directly related to Dementia, diseases, or treatment plans.")
-
+        result = chain.invoke({"question": query})
+        message_placeholder.markdown(result['answer'])
+ 
+    # We also add the answer to the messages history
+    st.session_state.messages.append({"role": "bot", "content": result['answer']})
