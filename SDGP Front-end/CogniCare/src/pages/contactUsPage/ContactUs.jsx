@@ -3,6 +3,9 @@ import NavBarTest from "../../components/NavBar/NavBarTest";
 import ContactUsImg from "../../assets/images/ContactUs.jpg";
 import "./ContactUs.css";
 import Footer from "../../components/Footer";
+import { FaStar } from "react-icons/fa";
+
+
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -14,6 +17,7 @@ import "aos/dist/aos.css";
 import { FaAffiliatetheme } from "react-icons/fa";
 
 const ContactUs = () => {
+
   useEffect(() => {
     AOS.init();
     // AOS.refresh();
@@ -27,6 +31,15 @@ const ContactUs = () => {
   });
 
   const [errors, setErrors] = useState({});
+
+  const[rating,setRating] = useState(null); //rating Stars
+  const[hover,setHover] = useState(null); //rating Stars
+  const [ratingError, setRatingError] = useState(null);
+  const handleRatingClick = (currentRating) => {
+    setRating(currentRating);
+    setRatingError(null); // Clear any existing error message when a rating is selected
+};
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -58,6 +71,14 @@ const ContactUs = () => {
     if (Object.keys(validationErrors).length === 0) {
       alert("Wada wada, he he");
     }
+    
+      if (!rating) {
+          setRatingError("Rating is required");
+          return; // Prevent further execution if rating is not selected
+      }
+      // Proceed with form submission logic
+  
+
   };
 
   return (
@@ -66,7 +87,7 @@ const ContactUs = () => {
       <div className="container-fluid g-0">
         <div className="row g-0">
           {/* Image Column */}
-          <div className="col-md-6 leftImageContainer" data-aos="fade-right">
+          <div className="col-md-6 leftImageContainer">
             <img
               src={ContactUsImg}
               className="img-fluid contactUsImage"
@@ -164,8 +185,35 @@ const ContactUs = () => {
                   )}
                 </div>
 
+                
+                <div className="pt-2 pb-4">
+            <p className="text-xl">Please rate our website: </p>
+            {[...Array(5)].map((star, index) => {
+                const currentRating = index + 1;
+                return (
+                    <label key={index}>
+                        <input
+                            type="radio" 
+                            name="rating"
+                            value={currentRating}
+                            onClick={() => handleRatingClick(currentRating)}
+                        />
+                        <FaStar
+                            className="star pl-3" 
+                            size={45}
+                            color={currentRating <= (hover || rating) ? "#ffc107" : "#848482"}
+                            onMouseEnter={() => setHover(currentRating)}
+                            onMouseLeave={() => setHover(null)}
+                        />
+                    </label>
+                );
+            })}
+            {ratingError && <span className="text-danger">{ratingError}</span>}
+            
+        </div>
+
                 <button
-                  type="submit"
+                 type="submit"
                   className="btn btn-primary"
                   data-aos="fade-right"
                   data-aos-delay="400"

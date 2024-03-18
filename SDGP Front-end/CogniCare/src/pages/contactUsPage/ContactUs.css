@@ -15,3 +15,11 @@
 .row {
   /* background-color: blue; */
 }
+
+input[type = radio]{
+  display: none;
+}
+
+.star{
+  cursor: pointer;
+}
