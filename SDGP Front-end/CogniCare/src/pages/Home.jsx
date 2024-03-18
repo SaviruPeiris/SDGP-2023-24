@@ -10,13 +10,15 @@ import Footer from "../components/Footer";
 import MemoryGameCard from "../components/HomePage/MemoryGameCard";
 import Swiper from "../components/HomePage/Swiper";
 import PredictionCard from "../components/HomePage/PredictionCard";
+import HomeTopContent from "../components/HomePage/HomeTopContent";
 
 const Home = () => {
   return (
     <>
       <NavBarTest></NavBarTest>
+      <HomeTopContent></HomeTopContent>
       {/* <Swiper></Swiper> */}
-      <LeftContent></LeftContent>
+      {/* <LeftContent></LeftContent> */}
       {/* <Stats></Stats> */}
       <VisionContainer></VisionContainer>
       <CardContainer></CardContainer>

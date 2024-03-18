@@ -59,11 +59,12 @@ a {
 
 .main-nav a:hover {
   color: #718daa;
-    transform: scale(1.06);
-
+  transform: scale(1.06);
 }
 
 .header {
+  /* position: fixed;
+  z-index: 1000; */
   width: 100%;
   /* padding-top: 0.5em;
   padding-bottom: 0.5em; */
