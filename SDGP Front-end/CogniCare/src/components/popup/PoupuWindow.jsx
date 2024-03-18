@@ -16,7 +16,7 @@ const Popup = ({ isOpen, onClose, websiteUrl }) => {
     return (
         <div className={`modal ${isOpen ? 'show' : ''}`} style={{ display: isOpen ? 'block' : 'none' , backgroundColor:"rgba(255, 255, 255, 0.5)", 
         backdropFilter:"blur(5px)"}}>
-            <div className="modal-dialog modal-xl">
+            <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title">Chat with Zap</h5>
