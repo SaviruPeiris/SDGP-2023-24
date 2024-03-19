@@ -1,5 +1,5 @@
 // import React from "react";
-import backgroundImage from "../../assets/images/HomePageIMG2.jpg";
+import backgroundImage from "../../assets/images/HomePageImages/HomePageIMG12.jpg";
 import "./HomeTopContent.css";
 // aos
 import React, { useEffect } from "react";

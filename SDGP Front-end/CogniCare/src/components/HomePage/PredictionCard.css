@@ -1,15 +1,19 @@
 .predictionCard-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   /* align-items: center;
   justify-content: center; */
-  background-color: rgb(245, 187, 252);
-}
-.predictionCard-container {
-  display: flex;
+  /* background-color: rgba(245, 187, 252, 0.533); */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .predictionCard-left-half {
   flex: 1;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .predictionCard-right-half {

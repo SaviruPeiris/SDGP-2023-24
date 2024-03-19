@@ -1,6 +1,6 @@
 import React from "react";
 import "./ChatbotCard.css";
-import chatbotImage from "../../assets/images/HomePageImages/HomePageIMG5.jpg";
+import chatbotImage from "../../assets/images/HomePageImages/HomePageIMG15.jpg";
 // aos
 import { useEffect } from "react";
 // importing aos
@@ -14,15 +14,21 @@ const ChatbotCard = () => {
     }, []);
   return (
     <div
-      className="chatbotCard-container border mb-5 border shadow rounded"
-      data-aos="zoom-in"
+      className="chatbotCard-container mb-0 rounded"
+      //   data-aos="zoom-in"
+      //   data-aos-duration="1000"
     >
-      <div className="chatbotCard-left-half" data-aos="fade-right">
+      <div
+        className="chatbotCard-left-half"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        // data-aos-offset="200"
+      >
         <img className="chatbotImage" src={chatbotImage} />
       </div>
-      <div className="chatbotCard-right-half mt-5 px-10" data-aos="zoom-in">
+      <div className="chatbotCard-right-half mt-0" data-aos="zoom-in">
         <h2>Meet ZAP: Your Personalized Dementia Support Companion</h2>
-        <p className="text-2xl text-justify">
+        <p className="text-2xl text-left">
           Our interactive chatbot provides personalized support and information
           for individuals and caregivers dealing with dementia. Whether you have
           questions about symptoms, caregiving tips, or need emotional support,

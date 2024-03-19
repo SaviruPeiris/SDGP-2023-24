@@ -21,10 +21,10 @@ const MemoryGameCard = () => {
         data-aos="zoom-in"
         data-aos-delay="100"
       >
-        <div className="card-header">Featured</div>
+        {/* <div className="card-header">Featured</div> */}
         <div className="card-body">
-          <h5 className="card-title">Test your short-term memory</h5>
-          <p className="card-text" style={{ textAlign: "justify" }}>
+          <h5 className="card-title text-4xl">Test your short-term memory</h5>
+          <p className="card-text text-2xl px-10 pt-4">
             Our website features a simple memory game designed to challenge and
             entertain users. Players match pairs of hidden cards to test their
             memory and concentration skills. It's a great way to have fun while

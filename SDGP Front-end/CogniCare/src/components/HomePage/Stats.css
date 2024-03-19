@@ -15,9 +15,9 @@
   text-align: center;
 }
 
-.stat p {
+/* .stat p {
   font-size: 25px;
-}
+} */
 
 .statRow {
   /* margin-top: 30px; */
@@ -35,10 +35,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../../assets/images/HomePageImages/HomePageIMG12.jpg");
+  background-image: url("../../assets/images/HomePageImages/HomePageIMG13.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
-  opacity: 0.4; 
-}
+  opacity: 0.3}

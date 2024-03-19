@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./PredictionCard.css";
-import predictionImage from "../../assets/images/HomePageImages/HomePageIMG11.jpg";
+import predictionImage from "../../assets/images/HomePageImages/HomePageIMG16.jpg";
 
 const PredictionCard = () => {
   useEffect(() => {
@@ -34,14 +34,17 @@ const PredictionCard = () => {
     //   </div>
     // </div>
     <div
-      className="predictionCard-container border mb-5 border shadow rounded"
-      data-aos="zoom-in"
-      data-aos-offset="100"
+      className="predictionCard-container mb-10 border shadow rounded"
+      // data-aos="zoom-in"
+      // data-aos-offset="200"
+      // data-aos-duration="1000"
     >
       <div
-        className="predictionCard-left-half mt-5 px-10"
+        className="predictionCard-left-half mt-0"
         data-aos="fade-right"
-        data-aos-offset="100"
+        // data-aos-offset="200"
+        data-aos-duration="1000"
+        data-aos-offset="400"
       >
         <h2>Predict the risk level</h2>
         <p className="text-2xl text-justify">
@@ -60,7 +63,8 @@ const PredictionCard = () => {
       <div
         className="predictionCard-right-half"
         data-aos="zoom-in"
-        data-aos-offset="100"
+        data-aos-offset="400"
+        data-aos-duration="1000"
       >
         <img className="predictionImage" src={predictionImage} />
       </div>

@@ -1,18 +1,27 @@
 .chatbotCard-container {
-  display: flex;
-  background-color: rgb(245, 187, 252);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: rgba(245, 187, 252, 0.533); */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .chatbotCard-left-half {
   flex: 1;
+  /* width: 50%; */
 }
 
 .chatbotCard-right-half {
   flex: 1;
+  /* width: 50%; */
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .chatbotImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

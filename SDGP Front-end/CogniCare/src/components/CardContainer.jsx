@@ -4,7 +4,7 @@ import Card from "./Card";
 // import Card1Img from "../assets/images/Card1Img.jpg";
 import Card1Img from "../assets/images/HomePageImages/HomePageIMG7.jpg";
 // import Card2Img from "../assets/images/Card2Img.jpg";
-import Card2Img from "../assets/images/HomePageImages/HomePageIMG4.jpg";
+import Card2Img from "../assets/images/HomePageImages/HomePageIMG14.jpg";
 import Card3Img from "../assets/images/Card3Img.jpg";
 import "aos/dist/aos.css";
 import AOS from "aos";
