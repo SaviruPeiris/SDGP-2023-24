@@ -6,6 +6,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 
 
 import "./details.css";
+import NavBarTest from "../../components/NavBar/NavBarTest";
 
 const DetailPage = () => { 
   const { id } = useParams();
@@ -20,9 +21,20 @@ const DetailPage = () => {
 
  
   return (
+    <>
+    <NavBarTest></NavBarTest>
     <div className="detail-page-container">
-      <Sidebar />
+   
+
+<Sidebar
+  Subheading1={blogs && blogs.subheading1}
+  Subheading2={blogs && blogs.subheading2}
+  Subheading3={blogs && blogs.subheading3}
+/>
+
       <section className="descriptionPage">
+
+        
         {blogs ? (
           <div className="section">
 
@@ -34,7 +46,6 @@ const DetailPage = () => {
             <h1>{blogs.subheading1}</h1>
             <p>{blogs.detail1}</p>
 
-            
             <img src={blogs.image11} alt=''></img>
      
             <p>{blogs.pointA1}</p>
@@ -47,9 +58,7 @@ const DetailPage = () => {
             </div>
 
             <div id="section2" className="section2">
-           
-           
-
+         
             <h1>{blogs.subheading2}</h1>
           
             <img src={blogs.image2} alt=''></img> 
@@ -67,23 +76,17 @@ const DetailPage = () => {
 
             <div id="section3" className="section3">
            
-           
             <h1>{blogs.subheading3}</h1>
             <p>{blogs.detail33}</p>
-            
-
             <img src={blogs.image3} alt=''></img>
             <p>{blogs.detail3}</p>
             <img src={blogs.image33} alt=''></img>
-          
             <p>{blogs.pointC1}</p>
             <p>{blogs.pointC2}</p>
             <p>{blogs.pointC3}</p>
             <p>{blogs.pointC4}</p>
             <p>{blogs.pointC5}</p>
-
-            
-            
+ 
             </div>
           </div>
 
@@ -92,10 +95,10 @@ const DetailPage = () => {
         )}
       </section>
     </div>
+    </>
     
   );
 
 };
 
 export default DetailPage;
-

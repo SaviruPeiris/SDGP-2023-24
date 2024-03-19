@@ -5,12 +5,15 @@ import { awareness } from "../../assets/data/data"
 import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
 import { Link } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
+import NavBarTest from "../../components/NavBar/NavBarTest"
 
 export const Card = () => {
   return (
+
    
     
  <>
+ <NavBarTest></NavBarTest>
   <section className='awareness'>
    <div className='container grid3 card'>
      {awareness.map((item) => (

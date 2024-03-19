@@ -4,13 +4,13 @@ import './Sidebar.css'; // Import CSS for styling
 import { Link } from 'react-router-dom';
 
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   return (
     <div className="sidebar">
       <ul>
-        <li><a href="#section1">Eat a balanced diet</a></li>
-        <li><a href="#section2">Healthy life </a></li>
-        <li><a href="#section3">Resources</a></li>
+        <li><a href="#section1">{props.Subheading1}</a></li>
+        <li><a href="#section2">{props.Subheading2} </a></li>
+        <li><a href="#section3">{props.Subheading3}</a></li>
         <li><Link to="/awarenessPage">Awareness page</Link></li>
         
       </ul>
@@ -19,3 +19,6 @@ const Sidebar = () => {
 }
 
 export default Sidebar;
+
+
+Sidebar.js
