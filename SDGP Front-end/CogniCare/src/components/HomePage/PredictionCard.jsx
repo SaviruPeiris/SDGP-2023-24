@@ -46,15 +46,14 @@ const PredictionCard = () => {
         data-aos-duration="1000"
         data-aos-offset="400"
       >
-        <h2>Predict the risk level</h2>
-        <p className="text-2xl text-justify">
-          A visual representation of brain scans or medical imagery. Right Half
-          (Description): Our dementia prediction component utilizes advanced
-          machine learning algorithms to analyze MRI scans of the brain and
-          assess the risk of dementia. By leveraging cutting-edge technology, we
-          provide early detection and personalized risk assessments, enabling
-          proactive healthcare decisions and interventions for individuals at
-          risk of developing dementia.
+        <h3 className="mb-4">Predict the risk level</h3>
+        <p className="text-lg text-justify">
+          Our dementia prediction component utilizes advanced machine learning
+          algorithms to analyze MRI scans of the brain and assess the risk of
+          dementia. By leveraging cutting-edge technology, we provide early
+          detection and personalized risk assessments, enabling proactive
+          healthcare decisions and interventions for individuals at risk of
+          developing dementia.
         </p>
         <Link to="/imageUploadAwareness" className="btn btn-primary">
           Try it

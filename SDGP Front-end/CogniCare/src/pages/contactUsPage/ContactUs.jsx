@@ -1,14 +1,14 @@
+// Import emailjs library
+import emailjs from "@emailjs/browser";
 // import React from "react";
 import NavBarTest from "../../components/NavBar/NavBarTest";
 import ContactUsImg from "../../assets/images/ContactUs.jpg";
 import "./ContactUs.css";
 import Footer from "../../components/Footer";
 import { FaStar } from "react-icons/fa";
-
-
+import { useRef } from "react";
 
 import { TypeAnimation } from "react-type-animation";
-
 // aos
 import React, { useState, useEffect } from "react";
 // importing aos
@@ -22,6 +22,26 @@ const ContactUs = () => {
     AOS.init();
     // AOS.refresh();
   }, []);
+
+  //for the email
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_1kdysl3", "template_qizftyj", form.current, {
+        publicKey: "6UwiUJtXqJLblSLnq",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
 
   //for the validation
   const [formData, setFormData] = useState({
@@ -69,7 +89,8 @@ const ContactUs = () => {
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length === 0) {
-      alert("Wada wada, he he");
+      sendEmail(e);
+      alert("Email sent successfully!");
     }
     
       if (!rating) {
@@ -117,7 +138,7 @@ const ContactUs = () => {
               className="mx-10"
             />
             <div>
-              <form className="mx-10 mt-3" onSubmit={handleSubmit}>
+              <form ref={form} className="mx-10 mt-3" onSubmit={handleSubmit}>
                 <div
                   className="mb-3"
                   data-aos="fade-right"
@@ -185,35 +206,39 @@ const ContactUs = () => {
                   )}
                 </div>
 
-                
                 <div className="pt-2 pb-4">
-            <p className="text-xl">Please rate our website: </p>
-            {[...Array(5)].map((star, index) => {
-                const currentRating = index + 1;
-                return (
-                    <label key={index}>
+                  <p className="text-xl">Please rate our website: </p>
+                  {[...Array(5)].map((star, index) => {
+                    const currentRating = index + 1;
+                    return (
+                      <label key={index}>
                         <input
-                            type="radio" 
-                            name="rating"
-                            value={currentRating}
-                            onClick={() => handleRatingClick(currentRating)}
+                          type="radio"
+                          name="rating"
+                          value={currentRating}
+                          onClick={() => handleRatingClick(currentRating)}
                         />
                         <FaStar
-                            className="star pl-3" 
-                            size={45}
-                            color={currentRating <= (hover || rating) ? "#ffc107" : "#848482"}
-                            onMouseEnter={() => setHover(currentRating)}
-                            onMouseLeave={() => setHover(null)}
+                          className="star pl-3"
+                          size={45}
+                          color={
+                            currentRating <= (hover || rating)
+                              ? "#ffc107"
+                              : "#848482"
+                          }
+                          onMouseEnter={() => setHover(currentRating)}
+                          onMouseLeave={() => setHover(null)}
                         />
-                    </label>
-                );
-            })}
-            {ratingError && <span className="text-danger">{ratingError}</span>}
-            
-        </div>
+                      </label>
+                    );
+                  })}
+                  {ratingError && (
+                    <span className="text-danger">{ratingError}</span>
+                  )}
+                </div>
 
                 <button
-                 type="submit"
+                  type="submit"
                   className="btn btn-primary"
                   data-aos="fade-right"
                   data-aos-delay="400"
