@@ -27,8 +27,8 @@ const ChatbotCard = () => {
         <img className="chatbotImage" src={chatbotImage} />
       </div>
       <div className="chatbotCard-right-half mt-0" data-aos="zoom-in">
-        <h2>Meet ZAP: Your Personalized Dementia Support Companion</h2>
-        <p className="text-2xl text-left">
+        <h3>Meet ZAP: Your Personalized Dementia Support Companion</h3>
+        <p className="text-lg text-left">
           Our interactive chatbot provides personalized support and information
           for individuals and caregivers dealing with dementia. Whether you have
           questions about symptoms, caregiving tips, or need emotional support,
