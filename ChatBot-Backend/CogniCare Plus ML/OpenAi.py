@@ -59,7 +59,7 @@ def is_dementia_related(answer):
 
 # URL for the logo of the assistant bot
 # We need it as a separate variable because it's used in multiple places
-bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_400x400.jpg'
+# bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_400x400.jpg'
 
 
 
