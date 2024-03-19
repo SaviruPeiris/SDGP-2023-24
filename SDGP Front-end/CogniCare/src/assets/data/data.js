@@ -3,6 +3,27 @@ import pic2 from "../images/blogs/dementia_2.webp";
 import pic3 from "../images/blogs/dementia_3.webp";
 import pic4 from "../images/blogs/dementia4.jpeg";
 import pic5 from "../images/blogs/dementia_4.jpeg";
+import pic6 from"../images/blogs/Causes-of-dementia.png";
+import pic7 from"../images/blogs/cuases2.jpeg";
+import pic8 from"../images/blogs/sings.png";
+import pic9 from"../images/blogs/symtoms.jpeg";
+import pic10 from"../images/blogs/dementia1_31.jpeg";
+import pic11 from "../images/blogs/stats.png";
+import pic12 from "../images/blogs/healthy.png";
+import pic13 from "../images/blogs/health2.jpeg";
+import pic14 from "../images/blogs/safesteps.jpeg";
+import pic15 from "../images/blogs/planing for future 2.webp";
+import pic16 from "../images/blogs/financial.jpeg";
+import pic17 from "../images/blogs/caregivers.webp";
+import pic18 from "../images/blogs/caregiving2.png";
+
+import pic19 from  "../images/blogs/Commwithcare.png";
+import pic20 from "../images/blogs/communication2.jpeg";
+import pic21 from "../images/blogs/emergency-kit-essentials.png";
+import pic22 from "../images/blogs/riskfactors.jpeg";
+import pic23 from "../images/blogs/tips.webp"
+import pic24 from "../images/blogs/Reducing-the-risk.jpeg";
+import pic25 from "../images/blogs/risk2.jpeg";
 
 import { ListGroupItem } from "react-bootstrap";
 
@@ -16,8 +37,8 @@ export const awareness = [
     subheading1: "What cuases dementia ",
     detail1:
       "Dementia is caused by a variety of diseases that cause damage to certain brain regions that cause neurons (nerve cells). This damage interferes with the ability of brain cells to communicate with each other. When brain cells cannot communicate normally, thinking, behavior and feelings can be affected. There are several unique areas in the brain, and each one is in charge of carrying out a certain function (such as memory, judgment, and movement). Damage to a region's cells prevents that area from performing its activities correctly.",
-    image1: pic2,
-    image11: pic2,
+    image1: pic6,
+    image11: pic7,
     pointA1:
       "In most cases, the underlying causes are unknown but reserches have shown tht the following  factors  may contibute to increase the risk of developing dementia",
     pointA2:
@@ -32,8 +53,8 @@ export const awareness = [
     subheading2: "Signs and symptoms ",
     detail2:
       "Dementia symptoms typically progress gradually, with cognitive impairments slowly worsening over time, eventually leading to a diagnosis of dementia. It's crucial not to overlook signs of memory difficulties or other changes in thinking skills, whether they're experienced by yourself or someone you know. Early recognition and intervention can significantly impact the management and quality of life for individuals affected by dementia. Therefore, it's essential to seek medical advice and support if you notice any concerning changes in cognitive function. ",
-    image2: pic2,
-    image22: pic2,
+    image2: pic8,
+    image22: pic9,
     detail22:
       " Here are some of the most notable symptoms of dementia at its early stages:",
     pointB1: "1. Memory loss, poor judgment, and confusion. ",
@@ -45,8 +66,8 @@ export const awareness = [
 
     subheading3: "Facts and Figures",
 
-    image3: pic2,
-    image33: pic2,
+    image3: pic10,
+    image33: pic11,
     detail3:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointC2:
@@ -67,8 +88,8 @@ export const awareness = [
     title: "Resources for patientce",
     subheading1: "Tips for an Healthy and Active lifestyle.",
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
-    image1: pic2,
-    image11: pic2,
+    image1: pic12,
+    image11: pic13,
     detail1:
       "Once diagnosed with dementia, it's vital not to panic but rather gradually accept the diagnosis and the changes it will bring to your life. Adjusting to these changes is essential. Regular visits to your doctor are crucial to obtain necessary medications and medical guidance. Additionally, maintaining a healthy and active lifestyle is key for supporting overall well-being and cognitive function, especially in reducing the worsening of symptoms. ",
     pointA1:
@@ -83,7 +104,7 @@ export const awareness = [
       "5. Engage in  mental activties such as brain games, memory tasks and puzzles ",
 
     subheading2: "What should be done when diagnoised ",
-    image22: pic2,
+    image22: pic14,
     detail2:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointB1:
@@ -99,8 +120,8 @@ export const awareness = [
 
     subheading3: "Planing for future.",
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
-    image3: pic2,
-    image3: pic2,
+    image3: pic15,
+    image33: pic16,
     detail3:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointC1: "1. Health Care Planing",
@@ -119,8 +140,8 @@ export const awareness = [
     cover: pic3,
     subheading1: "Providing everyday care.",
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page wha m",
-    image1: pic2,
-    image11: pic2,
+    image1: pic17,
+    image11: pic18,
 
     detail1:
       "Caring for a person with dementia isn’t just one person’s job, but the role of many people who share tasks and responsibilities. No matter what kind of caregiver you are, taking care of another person can be overwhelming at times. It extends beyond giving  just physical care .Treating the patient with utomost care , giving the emotianal support and companionship he needs.",
@@ -142,8 +163,8 @@ export const awareness = [
     detail2:
       "Communication can be hard for people with Alzheimer’s and related dementias because they have trouble remembering things. They also can become agitated and anxious, even angry. In some forms of dementia, language abilities are affected such that people have trouble finding the right words or have difficulty speaking. You may feel frustrated or impatient, but it is important to understand that the disease is causing the change in communication skills  ",
     detail22: " ",
-    image2: pic2,
-    image22: pic2,
+    image2: pic19,
+    image22: pic20,
     pointB1:
       "1. Reassure the person. Speak calmly. Listen to his or her concerns and frustrations. Try to show that you understand if the person is angry or fearful.",
     pointB2:
@@ -158,7 +179,7 @@ export const awareness = [
     subheading3: " Emergency preparations",
 
     image3: pic2,
-    image3: pic2,
+    image3: pic21,
     detail3:
       " Dementia patients, particularly the elderly, tend to  have an unpredictable nature . Therefore if they  lose control and acts violently or when any other medical emergencies occur  it's important to respond calmly and appropriately to ensure safety for both the patient and others",
     pointC1:
@@ -174,12 +195,12 @@ export const awareness = [
   {
     id: 4,
     title: "How to prevent dementia.",
-    cover: pic4,
+    cover: pic23,
 
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     subheading1: "What are the risk factors",
-    image1: pic2,
-    image11: pic2,
+    // image1: pic22,
+    image11: pic22,
     detail1:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointA1:
@@ -195,8 +216,8 @@ export const awareness = [
 
     subheading2: "Strategies to Safeguard Against Dementia",
 
-    image2: pic2,
-    image22: pic2,
+    image22: pic25,
+    image2: pic24,
     detail2:
       "Although there is no effective treatment or proven prevention for Alzheimer’s and related dementias, in general, leading a healthy lifestyle may help address risk factors that have been associated with these diseases.  The following are some measures can be taken to mitigate  risk.",
     pointB2:
