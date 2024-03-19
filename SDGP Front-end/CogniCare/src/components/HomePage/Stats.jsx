@@ -7,6 +7,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 //importing CountUp
 import CountUp from "react-countup";
+//importing image
+import statBgImage from "../../assets/images/HomePageImages/HomePageIMG12.jpg";
 
 const Stats = () => {
   useEffect(() => {
@@ -14,18 +16,23 @@ const Stats = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className="statRow" data-aos-delay="0" data-aos="zoom-in-up">
+    <div
+      className="statRow py-10"
+      data-aos-delay="0"
+      data-aos="zoom-in-down"
+      data-aos-duration="700"
+    >
       <div className="stat col" data-aos="">
         <h1>
           <CountUp
             start={0}
             end={100}
-            duration={5}
+            duration={10}
             enableScrollSpy={true}
           ></CountUp>{" "}
           lakhs
         </h1>
-        <p>cases per year</p>
+        <p>dementia cases per year</p>
       </div>
       <div className="stat col" data-aos="">
         <h1>
@@ -37,7 +44,7 @@ const Stats = () => {
           ></CountUp>{" "}
           lakhs
         </h1>
-        <p>deaths per year</p>
+        <p>dementia deaths per year</p>
       </div>
     </div>
   );

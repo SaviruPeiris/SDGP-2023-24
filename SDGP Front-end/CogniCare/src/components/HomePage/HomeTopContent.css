@@ -11,6 +11,7 @@
   justify-content: center;
   /* opacity: 80%; */
   background-image: url("../../assets/images/HomePageIMG2.jpg");
+  /* background-image: url("../../assets/images/HomePageImages/HomePageIMG9.jpg"); */
 }
 
 .HomeWelcomeTextBlock {
@@ -46,7 +47,7 @@
 
 .background-image img {
   position: relative;
-  z-index: 1; /* Ensure the image stays above the overlay */
+  z-index: 1;
 }
 
 @keyframes scrollAnimation {
@@ -54,6 +55,6 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(50px); 
+    transform: translateY(50px);
   }
 }

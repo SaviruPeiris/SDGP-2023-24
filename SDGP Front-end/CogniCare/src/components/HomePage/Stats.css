@@ -5,8 +5,8 @@
   background-color: rgba(218, 0, 189, 0.056);
   margin-left: 150px;
   margin-right: 150px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-top: 10px;
 }
 
@@ -17,4 +17,28 @@
 
 .stat p {
   font-size: 25px;
+}
+
+.statRow {
+  /* margin-top: 30px; */
+  /* padding-top: 15px; */
+  /* Remove background image from the container */
+  background: none;
+  position: relative;
+  /* min-height: 400px; */
+}
+
+.statRow::before {
+  content: ""; /* Add content for pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/HomePageImages/HomePageIMG12.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.4; 
 }

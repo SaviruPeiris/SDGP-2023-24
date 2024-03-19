@@ -75,13 +75,16 @@ const HomeTopContent = () => {
         data-aos-delay="100"
       >
         <h1
-          className="text-7xl"
+          className="text-7xl "
           style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
+          data-aos-duration="700"
         >
-          Welcome to CogniCare+
+          Welcome to{" "}
+          <span className="text-violet-800 CogniCare">CogniCare+</span>
         </h1>
         <p
-          className="text-3xl"
+          className="text-3xl mx-10"
+          data-aos-duration="700"
           style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
         >
           Empowering Lives: Bridging Technology and Healthcare for Dementia

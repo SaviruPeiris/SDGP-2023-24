@@ -1,11 +1,11 @@
 .visionCard {
   /* border: 10px solid red; */
   width: 640px;
-  margin: 30px;
+  /* margin: 30px; */
 }
 
 .visionContainer {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;

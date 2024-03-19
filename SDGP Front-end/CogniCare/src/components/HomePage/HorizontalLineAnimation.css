@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+  height: 200vh; /* Ensure enough height for scrolling */
+}
+
+.content {
+  padding: 20px;
+}
+
+.line {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform-origin: left;
+  transition: transform 0.5s ease-out; /* Transition for animation */
+}

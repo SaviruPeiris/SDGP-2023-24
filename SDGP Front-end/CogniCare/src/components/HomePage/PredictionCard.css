@@ -1,6 +1,23 @@
-.predictionCardContainer {
+.predictionCard-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+  /* align-items: center;
+  justify-content: center; */
+  background-color: rgb(245, 187, 252);
+}
+.predictionCard-container {
+  display: flex;
+}
+
+.predictionCard-left-half {
+  flex: 1;
+}
+
+.predictionCard-right-half {
+  flex: 1;
+}
+
+.predictionImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

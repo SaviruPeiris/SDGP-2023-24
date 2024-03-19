@@ -11,23 +11,22 @@ import MemoryGameCard from "../components/HomePage/MemoryGameCard";
 import Swiper from "../components/HomePage/Swiper";
 import PredictionCard from "../components/HomePage/PredictionCard";
 import HomeTopContent from "../components/HomePage/HomeTopContent";
+import VisionMission from "../components/HomePage/VisionMission";
+import HorizontalLineAnimation from "../components/HomePage/HorizontalLineAnimation";
+import ChatbotCard from "../components/HomePage/ChatbotCard";
 
 const Home = () => {
   return (
     <>
       <NavBarTest></NavBarTest>
       <HomeTopContent></HomeTopContent>
-      {/* <Swiper></Swiper> */}
-      {/* <LeftContent></LeftContent> */}
-      {/* <Stats></Stats> */}
-      <VisionContainer></VisionContainer>
+      <VisionMission></VisionMission>
       <CardContainer></CardContainer>
-      {/* <CardContainer></CardContainer> */}
       <Stats></Stats>
-      <MemoryGameCard></MemoryGameCard>
+      <ChatbotCard></ChatbotCard>
       <PredictionCard></PredictionCard>
+      <MemoryGameCard></MemoryGameCard>
       <Footer></Footer>
-      {/* <VisionContainer></VisionContainer> */}
     </>
   );
 };

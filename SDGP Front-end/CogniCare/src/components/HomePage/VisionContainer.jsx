@@ -4,11 +4,33 @@ import VisionImage from "../../assets/images/VisionIMG.png";
 
 import AOS from "aos";
 // import "aos/dist/aos.css";
+import { useState } from "react";
+import { useEffect } from "react";
+
+
 
 const VisionContainer = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
-      <div className="visionContainer" data-aos="zoom-in" >
+      <div
+        className="visionContainer"
+        data-aos="zoom-in"
+        style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
+      >
         <div className="visionCard card mb-3" style={{ maxWidth: "640px" }}>
           <div className="row g-0">
             <div className="col-md-4">
