@@ -1,7 +1,9 @@
 
 // import React from "react";
-import LOGIN_IMAGE from "../Assets/dementia5.jpeg";
-import GOOGLE_ICON from "../Assets/google.svg";
+// import LOGIN_IMAGE from "../Assets/dementia5.jpeg";
+// import GOOGLE_ICON from "../Assets/google.svg";
+import GOOGLE_ICON from "../../assets/images/Loginpage/google.svg";
+import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 // aos
 import React, { useEffect, useState } from "react";
 // importing aos

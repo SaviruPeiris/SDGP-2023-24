@@ -17,6 +17,8 @@ import ContactUsPage from "./pages/contactUsPage/ContactUs";
 import AwarenessPage from "./pages/AwaranessPage/awareness";
 import AwarenessHomePage from "./pages/AwaranessPage/Home";
 import ImageUploadAwareness from "./pages/ImageUploadAwareness/ImageUploadAwareness"
+import RegisterPage from "./pages/Loginpage/Register";                                 
+import LoginPage from "./pages/Loginpage/Login";
 
 import DetailPage from "./pages/DetailsPage/DetailPage";
 // import Card from "./pages/AwaranessPage/Card";
@@ -34,13 +36,21 @@ function App() {
         <Route index element={<Home></Home>} />
         <Route path="/home" element={<Home></Home>} />
         <Route path="/memorygame" element={<MemoryGame></MemoryGame>} />
-        {/* <Route
+        <Route
           path="/predictionPage"
           element={<PredictionPage></PredictionPage>}
-        /> */}
+        />
         <Route
           path="/imageUploadAwareness"
           element={<ImageUploadAwareness></ImageUploadAwareness>}
+        />
+        <Route
+          path="/registerPage"
+          element={<RegisterPage></RegisterPage>}
+        />
+        <Route
+          path="/loginPage"
+          element={<LoginPage></LoginPage>}
         />
         <Route
           path="/predictionPage"

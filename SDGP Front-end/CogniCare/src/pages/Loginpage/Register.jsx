@@ -1,9 +1,8 @@
 // import React from "react";
-
 import GOOGLE_ICON from "../../assets/images/Loginpage/google.svg";
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
-// import GOOGLE_ICON from "../Assets/google.svg";
 import React, { useState, useEffect } from "react";
+import axios from 'axios';
 
 
 // aos
@@ -23,10 +22,10 @@ const colors = {
 const Login= () => {
   useEffect(() => {
     AOS.init();
-    // AOS.refresh();
+  
   }, []);
 
-//setting a variable
+
 const[values,setValues]=useState({ 
   name:'',
   email:'',
@@ -39,9 +38,54 @@ function handleChange(e){
   setValues({...values,[e.target.name]: e.target.value})
 }
 
-function handleSubmit(e){
-e.preventDefault();
-setError(Validation(values));
+async function handleSubmit(e) {
+  e.preventDefault();
+  setError(Validation(values));
+
+  if (Object.keys(errors).length === 0) {
+    try {
+      const response = await axios.post('http://localhost:3000/api/v1/users/', {
+        userName: values.name,
+        email: values.email,
+        password: values.password
+      });
+
+      if (response.status === 200 || response.status === 201) {
+        console.log('Registration successful:', response.data);
+    
+      } else {
+        console.error('Registration failed: Unexpected status code:', response.status);
+        
+      }
+
+    } catch (error) {
+      if (error.response) {
+        switch (error.response.status) {
+          case 400: 
+            setError({...errors, global: 'Missing required fields or invalid data'});
+            break;
+          case 402: 
+            setError({...errors, name: 'Invalid username format'});
+            break;
+          case 403:  
+            setError({...errors, email: 'Username already exists'});
+            break;
+          case 404:  
+            setError({...errors, email: 'Invalid email format'});
+            break;
+          case 500: 
+            setError({...errors, global: 'An error occurred on the server. Please try again later.'});
+            break;
+          default: 
+            setError({...errors, global: 'An error occurred during registration. Please try again.'});
+        }
+      } else if (error.request) {
+        setError({...errors, global: 'Network Error. Could not connect to the server.'});
+      } else {
+        setError({...errors, global: 'An unexpected error occurred.'});
+      }
+    }
+  }
 }
 
   return (
