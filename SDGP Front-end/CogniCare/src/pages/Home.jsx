@@ -14,6 +14,7 @@ import HomeTopContent from "../components/HomePage/HomeTopContent";
 import VisionMission from "../components/HomePage/VisionMission";
 import HorizontalLineAnimation from "../components/HomePage/HorizontalLineAnimation";
 import ChatbotCard from "../components/HomePage/ChatbotCard";
+import EChannelingCard from "../components/HomePage/EChannelingCard";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <Stats></Stats>
       <ChatbotCard></ChatbotCard>
       <PredictionCard></PredictionCard>
+      <EChannelingCard></EChannelingCard>
       <MemoryGameCard></MemoryGameCard>
       <Footer></Footer>
     </>

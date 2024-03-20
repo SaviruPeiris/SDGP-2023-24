@@ -1,0 +1,7 @@
+.ECCARD {
+  background-color: rgba(255, 0, 0, 0.184);
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  /* height: auto; */
+}

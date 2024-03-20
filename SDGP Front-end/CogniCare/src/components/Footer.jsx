@@ -2,7 +2,6 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-
 import {
   FaFacebook,
   FaGithub,
@@ -13,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24 bg-purple-900 text-gray-300 py-1 px-2">
+    <div className="w-full bg-purple-900 text-gray-300 py-1 px-2">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-400 py-8">
         <div>
           <h6 className="font-bold pt-2">CONTACT US</h6>
@@ -63,13 +62,13 @@ const Footer = () => {
               </Link>
             </li>
             <li className="py-1">
-              <a
-                href="#"
+              <Link
+                to="/eChannelingPage"
                 className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
                 e-Channelling{" "}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -78,7 +77,7 @@ const Footer = () => {
           <ul className="p-0">
             <li className="py-1">
               <a
-                href="https://www.facebook.com"
+                href="https://web.facebook.com/profile.php?id=61557183195099"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition hover:opacity-75 no-underline text-gray-300"
@@ -89,7 +88,7 @@ const Footer = () => {
             </li>
             <li className="py-1">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/cognicareplus/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition hover:opacity-75 no-underline text-gray-300"
@@ -100,7 +99,7 @@ const Footer = () => {
             </li>
             <li className="py-1">
               <a
-                href="https://www.twitter.com"
+                href="https://twitter.com/CogniCarePlus"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition hover:opacity-75 no-underline text-gray-300"
@@ -109,7 +108,7 @@ const Footer = () => {
                 Twitter{" "}
               </a>
             </li>
-            <li className="py-1">
+            {/* <li className="py-1">
               <a
                 href="https://www.github.com"
                 target="_blank"
@@ -119,7 +118,7 @@ const Footer = () => {
                 {" "}
                 Github{" "}
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

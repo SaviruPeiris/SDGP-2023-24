@@ -19,8 +19,9 @@ import AwarenessHomePage from "./pages/AwaranessPage/Home";
 import ImageUploadAwareness from "./pages/ImageUploadAwareness/ImageUploadAwareness"
 import RegisterPage from "./pages/Loginpage/Register";                                 
 import LoginPage from "./pages/Loginpage/Login";
-
+import UserProfile from "./pages/UserProfile/UserProfile"
 import DetailPage from "./pages/DetailsPage/DetailPage";
+import EChannelingPage from "./pages/E-ChannelingPage/EChannelingPage";
 // import Card from "./pages/AwaranessPage/Card";
 
 function App() {
@@ -44,14 +45,8 @@ function App() {
           path="/imageUploadAwareness"
           element={<ImageUploadAwareness></ImageUploadAwareness>}
         />
-        <Route
-          path="/registerPage"
-          element={<RegisterPage></RegisterPage>}
-        />
-        <Route
-          path="/loginPage"
-          element={<LoginPage></LoginPage>}
-        />
+        <Route path="/registerPage" element={<RegisterPage></RegisterPage>} />
+        <Route path="/loginPage" element={<LoginPage></LoginPage>} />
         <Route
           path="/predictionPage"
           element={<PredictionPage></PredictionPage>}
@@ -64,6 +59,14 @@ function App() {
         <Route
           path="/awarenessPage"
           element={<AwarenessHomePage></AwarenessHomePage>}
+        />
+        <Route
+          path="/eChannelingPage"
+          element={<EChannelingPage></EChannelingPage>}
+        />
+        <Route
+          path="/myProfilePage"
+          element={<UserProfile></UserProfile>}
         />
         <Route path="/details/:id" element={<DetailPage></DetailPage>} />
         {/* <Route exact path="/card" component={<Card></Card>} /> */}

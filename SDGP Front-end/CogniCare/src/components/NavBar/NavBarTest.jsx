@@ -6,6 +6,8 @@ import Popup from "../popup/PoupuWindow";
 import { FaPlus } from "react-icons/fa";
 import { TbMessageChatbot } from "react-icons/tb";
 
+import Logo from "../../assets/images/CogniCareLogo.png";
+
 const NavBarTest = () => {
   const [isPopupOpen, setPopupOpen] = useState(false);
   const websiteUrl = "http://localhost:8501/";
@@ -21,6 +23,11 @@ const NavBarTest = () => {
             <h1 class="logo">CogniCare+</h1>
           </Link>
         </div>
+        {/* <div className="logo">
+          <Link to="/home" className="">
+            <img src={Logo}></img>
+          </Link>
+        </div> */}
         <ul class="main-nav">
           <li>
             {/* <a href="#">Home</a> */}
@@ -44,6 +51,12 @@ const NavBarTest = () => {
             {/* <a href="#">Contact</a> */}
             <Link to="/contactUsPage" className="">
               Contact
+            </Link>
+          </li>
+          <li>
+            {/* <a href="#">Contact</a> */}
+            <Link to="/myProfilePage" className="">
+              My Profile
             </Link>
           </li>
         </ul>

@@ -1,5 +1,6 @@
 import React from 'react'
 import bgImg from '../assets/pic3.jpg'
+import bgImg from '../assets/images/'
 
 const IntroSection = () => {
   return (

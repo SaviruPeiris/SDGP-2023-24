@@ -34,7 +34,7 @@ const PredictionCard = () => {
     //   </div>
     // </div>
     <div
-      className="predictionCard-container mb-10 border shadow rounded"
+      className="predictionCard-container mb-0 border rounded"
       // data-aos="zoom-in"
       // data-aos-offset="200"
       // data-aos-duration="1000"

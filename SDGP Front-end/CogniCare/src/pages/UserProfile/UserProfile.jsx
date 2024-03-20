@@ -1,12 +1,14 @@
-import './App.css';
-import UserProfile from './Components/UserProfile/UserProfile';
-
+// import './App.css';
+import Footer from "../../components/Footer";
+import NavBarTest from "../../components/NavBar/NavBarTest";
+import UserProfile from "../../components/UserProfile/UserProfile";
 
 function App() {
   return (
-    <div >
-       <UserProfile/>
-
+    <div>
+      <NavBarTest></NavBarTest>
+      <UserProfile />
+      <Footer></Footer>
     </div>
   );
 }
