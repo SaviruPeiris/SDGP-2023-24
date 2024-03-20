@@ -44,7 +44,7 @@ const Stats = () => {
           ></CountUp>{" "}
           lakhs
         </h1>
-        <p className="text-4xl">dementia cases per year</p>
+        <p className="text-3xl">Cases per year</p>
       </div>
       <div className="stat col" data-aos="">
         <h1 className="text-5xl">
@@ -56,7 +56,7 @@ const Stats = () => {
           ></CountUp>{" "}
           lakhs
         </h1>
-        <p className="text-4xl">dementia deaths per year</p>
+        <p className="text-3xl">Deaths per year</p>
       </div>
     </div>
   );
