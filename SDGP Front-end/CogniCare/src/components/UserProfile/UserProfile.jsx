@@ -22,16 +22,18 @@ const UserProfile = () => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setUserData({ ...userData, [name]: value });
-  };
+};
 
-  const handleImageChange = (e) => {
-    setUserData({ ...userData, image: URL.createObjectURL(e.target.files[0]) });
-  };
+const handleImageChange = (e) => {
+    if (e.target.files && e.target.files.length > 0) {
+    const selectedImage = e.target.files[0];
+    setUserData({ ...userData, image: URL.createObjectURL(selectedImage) });
+    }
+};
 
-  const handleImageDelete = () => {
+const handleImageDelete = () => {
     setUserData({ ...userData, image: null });
-  };
-
+};
   const handleSave = () => {
     // Check if new password and confirm password match
     if (userData.newPassword !== userData.confirmPassword) {
@@ -53,7 +55,7 @@ const UserProfile = () => {
                 <div className="relative">
 
                     <img
-                    className="w-44 h-44 rounded-full object-cover ml-14 mb-6 shadow-xl"
+                    className="w-44 h-44 rounded-full object-cover ml-14 mb-6 shadow-xl border-2 border-gray-400"
                     src={userData.image || User_Image}
                     alt="user-avatar"
                     />
@@ -75,8 +77,9 @@ const UserProfile = () => {
                         <label htmlFor="image-upload" className="cursor-pointer">
                         <button 
                             className="bg-blue-500 hover:bg-blue-700 transform transition duration-500 hover:scale-105 text-white font-bold py-2 px-4 rounded mr-2"
+                            onClick={() => document.getElementById('image-upload').click()}
                         >
-                            Upload Image
+                        Upload Image
                         </button>
                         </label>
                         
@@ -104,15 +107,15 @@ const UserProfile = () => {
             </div>
             
             <div className=" p-5 font-calibri ">
-                <div className=' border-4 border-gray-700 rounded-xl shadow-2xl p-10 bg-gray-500 bg-opacity-70'>
+                <div className=' border-4 border-gray-600 rounded-xl shadow-2xl p-10 bg-gray-500 bg-opacity-70'>
                     
                     <div className="mb-6 flex justify-between mt-6">
                         <div className="w-1/3">
-                            <label className="text-3xl font-bold pr-10">User Name: </label>
+                            <label className="text-3xl font-bold">User Name: </label>
                             {editMode ? (
                                 <input
                                 type="text"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="userName"
                                 value={userData.userName}
                                 onChange={handleInputChange}
@@ -122,12 +125,12 @@ const UserProfile = () => {
                             )}
                         </div>
 
-                        <div className="mb-6 w-1/3 mr-20">
-                            <label className="text-3xl font-bold pr-10">First name:</label>
+                        <div className="w-1/3 mr-20">
+                            <label className="text-3xl font-bold">First name:</label>
                             {editMode ? (
                                 <input
                                 type="text"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="firstName"
                                 value={userData.firstName}
                                 onChange={handleInputChange}
@@ -140,11 +143,11 @@ const UserProfile = () => {
 
                     <div className="mb-6 flex justify-between">
                         <div className="w-1/3">
-                            <label className="text-3xl font-bold pr-10">Last name:</label>
+                            <label className="text-3xl font-bold">Last name:</label>
                             {editMode ? (
                                 <input
                                 type="text"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3" 
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3" 
                                 name="lastName"
                                 value={userData.lastName}
                                 onChange={handleInputChange}
@@ -154,12 +157,12 @@ const UserProfile = () => {
                             )}
                         </div>
 
-                        <div className="mb-6 w-1/3 mr-20">
-                            <label className="text-3xl font-bold pr-5">email:</label>
+                        <div className="w-1/3 mr-20">
+                            <label className="text-3xl font-bold">email:</label>
                             {editMode ? (
                                 <input
                                 type="text"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="email"
                                 value={userData.email}
                                 onChange={handleInputChange}
@@ -170,13 +173,13 @@ const UserProfile = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-between">
-                        <div className="mb-6 w-1/3 mr-4">
-                            <label className="text-3xl font-bold pr-10">Age:</label>
+                    <div className="mb-6 flex justify-between">
+                        <div className=" w-1/3 mr-4">
+                            <label className="text-3xl font-bold">Age:</label>
                             {editMode ? (
                                 <input
                                 type="text"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="age"
                                 value={userData.age}
                                 onChange={handleInputChange}
@@ -186,11 +189,11 @@ const UserProfile = () => {
                             )}
                         </div>
 
-                        <div className="mb-6 w-1/3 mr-20">
-                            <label className="text-3xl font-bold pr-5">Gender:</label>
+                        <div className="w-1/3 mr-20">
+                            <label className="text-3xl font-bold">Gender:</label>
                             {editMode ? (
                                 <select
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="gender"
                                 value={userData.gender}
                                 onChange={handleInputChange}
@@ -209,10 +212,10 @@ const UserProfile = () => {
                     {editMode && (
                     <>
                         <div className="mb-6 w-1/3">
-                            <label className=" text-3xl font-bold pr-5">Current Password:</label>
+                            <label className=" text-3xl font-bold">Current Password:</label>
                             <input
                                 type="password"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="currentPassword"
                                 value={userData.currentPassword}
                                 onChange={handleInputChange}
@@ -220,10 +223,10 @@ const UserProfile = () => {
                         </div>
                         
                         <div className="mb-6 w-1/3">
-                            <label className="text-3xl font-bold pr-5">New Password:</label>
+                            <label className="text-3xl font-bold">New Password:</label>
                             <input
                                 type="password"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="newPassword"
                                 value={userData.newPassword}
                                 onChange={handleInputChange}
@@ -231,10 +234,10 @@ const UserProfile = () => {
                         </div>
 
                         <div className=" w-1/3">
-                            <label className="text-3xl font-bold pr-5">Confirm Password:</label>
+                            <label className="text-3xl font-bold">Confirm Password:</label>
                             <input
                                 type="password"
-                                className="border border-gray-400 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
                                 name="confirmPassword"
                                 value={userData.confirmPassword}
                                 onChange={handleInputChange}
@@ -244,6 +247,7 @@ const UserProfile = () => {
                                 <p className="text-red-800 text-m mt-1">Password doesn't match</p>
                             )}
                         </div>
+                        
                     </>
                     )}
                     <div className='text-right mt-2 text-white mr-10'>
@@ -261,7 +265,7 @@ const UserProfile = () => {
             </div>
         </div>
     </div>
-  );
+);
 };
 
 export default UserProfile;
