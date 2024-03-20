@@ -5,17 +5,19 @@ const UserProfile = () => {
   const [editMode, setEditMode] = useState(false);
   const [userData, setUserData] = useState({
     image: null,
-    userName: '',
-    firstName: '',
-    lastName: '',
-    email: '',
-    gender: '',
-    age: '',
-    existingDiseases: '',
-    currentMedications: '',
-    currentPassword: '',
-    newPassword: '',
-    confirmPassword: '',
+        userName: '',
+        firstName: '',
+        lastName: '',
+        email: '',
+        gender: '',
+        age: '',
+        existingDiseases: '',
+        currentMedications: '',
+        prescriptionPhoto: null,
+        mriScanPhoto: null,
+        currentPassword: '',
+        newPassword: '',
+        confirmPassword: '',
     });
 
     const [passwordMatchError, setPasswordMatchError] = useState(false);
@@ -35,11 +37,33 @@ const UserProfile = () => {
     const handleImageDelete = () => {
         setUserData({ ...userData, image: null });
     };
+    const handlePrescriptionPhotoChange = (e) => {
+        if (e.target.files && e.target.files.length > 0) {
+            const selectedPhoto = e.target.files[0];
+            setUserData({ ...userData, prescriptionPhoto: selectedPhoto });
+        }
+    };
+
+    const handleMRIScanPhotoChange = (e) => {
+        if (e.target.files && e.target.files.length > 0) {
+            const selectedPhoto = e.target.files[0];
+            setUserData({ ...userData, mriScanPhoto: selectedPhoto });
+        }
+    };
+
+    const handleDeletePrescriptionPhoto = () => {
+        setUserData({ ...userData, prescriptionPhoto: null });
+    };
+
+    const handleDeleteMRIScanPhoto = () => {
+        setUserData({ ...userData, mriScanPhoto: null });
+    };
+
     const handleSave = () => {
         // Check if new password and confirm password match
         if (userData.newPassword !== userData.confirmPassword) {
-        setPasswordMatchError(true);
-        return;
+            setPasswordMatchError(true);
+            return;
         }
 
         // Handle save functionality, you can send data to server or perform local storage operations
@@ -47,7 +71,6 @@ const UserProfile = () => {
         setEditMode(false);
         setPasswordMatchError(false);
     };
-
     return (
         <div className=" py-10 px-10 justify-center">
             <div className=" w-full ">
@@ -270,7 +293,65 @@ const UserProfile = () => {
 
                         <hr className='border'/>
 
-                       
+                        <div className="mt-5 mb-10 flex justify-between">
+
+                            <div className="ml-10 w-1/3 mr-4">
+                                <label className="text-3xl font-bold">Prescriptions:</label>
+                                {editMode ? (
+                                    <>
+                                        <input
+                                            type="file"
+                                            accept="image/*"
+                                            className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                            onChange={handlePrescriptionPhotoChange}
+                                        />
+                                        {userData.prescriptionPhoto && (
+                                            <button onClick={handleDeletePrescriptionPhoto} className="mt-2 text-white ml-3 py-1 px-3 bg-red-500 rounded-lg">Delete</button>
+                                        )}
+                                    </>
+                                ) : (
+                                    userData.prescriptionPhoto && (
+                                        <>
+                                            <img
+                                                src={userData.prescriptionPhoto ? URL.createObjectURL(userData.prescriptionPhoto) : User_Image}
+                                                alt="Prescription"
+                                                className="w-50 mt-4 border shadow-lg mb-3"
+                                            />
+                                            <a className='py-1 px-2 bg-green-500 text-white rounded-lg' href={URL.createObjectURL(userData.prescriptionPhoto)} download="PrescriptionPhoto.jpg">Download</a>
+                                        </>
+                                    )
+                                )}
+                            </div>
+
+                            <div className="w-1/3 mr-20">
+                                <label className="text-3xl font-bold">MRI Scan:</label>
+                                {editMode ? (
+                                    <>
+                                        <input
+                                            type="file"
+                                            accept="image/*"
+                                            className="border border-gray-700 rounded w-full py-3 px-3 text-gray-700 mt-3"
+                                            onChange={handleMRIScanPhotoChange}
+                                        />
+                                        {userData.mriScanPhoto && (
+                                            <button onClick={handleDeleteMRIScanPhoto} className="mt-2 text-white ml-3 py-1 px-3 bg-red-500 rounded-lg">Delete</button>
+                                        )}
+                                    </>
+                                ) : (
+                                    userData.mriScanPhoto && (
+                                        <>
+                                            <img
+                                                src={userData.mriScanPhoto ? URL.createObjectURL(userData.mriScanPhoto) : User_Image}
+                                                alt="MRI Scan"
+                                                className="w-50 mt-4 border shadow-lg mb-3"
+                                                
+                                            />
+                                            <a className='py-1 px-2 bg-green-500 text-white rounded-lg' href={URL.createObjectURL(userData.mriScanPhoto)} download="MRIScanPhoto.jpg">Download</a>
+                                        </>
+                                    )
+                                )}
+                            </div>
+                        </div>
 
                         {editMode && (
                         <>
