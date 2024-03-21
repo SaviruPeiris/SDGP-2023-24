@@ -24,6 +24,12 @@ import pic22 from "../images/blogs/riskfactors.jpeg";
 import pic23 from "../images/blogs/tips.webp"
 import pic24 from "../images/blogs/Reducing-the-risk.jpeg";
 import pic25 from "../images/blogs/risk2.jpeg";
+import pic26 from "../images/blogs/treatments3.jpeg";
+import pic27 from "../images/blogs/Tretments.jpeg";
+import pic28 from "../images/blogs/medications2.jpeg"
+import pic29 from "../images/blogs/mediction.png";
+import pic30 from "../images/blogs/diagnoisis.webp";
+import pic31 from "../images/blogs/diagnosed2.webp";
 
 import { ListGroupItem } from "react-bootstrap";
 
@@ -247,12 +253,12 @@ export const awareness = [
   {
     id: 5,
     title: "Treatments and Diagnosis.",
-    cover: pic5,
+    cover: pic26,
 
     desc: "It is a long established fact that a reader will be distracted by the reaLorem Ipsum is that it has a m",
     subheading1: "How dementia is being diaognised",
-    image1: pic2,
-    image11: pic2,
+    image1: pic26,
+    image11: pic31,
     detail1:
       "There is no single exact test that can determine if a person is living with Alzheimer’s or another dementia. Physicians use diagnostic tools combined with medical history and other information, including neurological exams, cognitive and functional assessments, brain imaging (MRI, CT, PET) and cerebrospinal fluid or blood tests to make an accurate diagnosis. ",
     pointA1:
@@ -268,8 +274,8 @@ export const awareness = [
 
     subheading2: "Treatments.",
 
-    image2: pic2,
-    image22: pic2,
+    image2: pic26,
+    // image22: pic2,
     detail2:
       "Eventhough  there's no cure for Alzheimer’s, there are treatments that could alter how the disease develops, along with drug and non-drug approaches to manage symptoms. Knowing about these options can assist both individuals with the condition and their caregivers in dealing with symptoms and enhancing their quality of life.",
     pointB1:
@@ -285,8 +291,8 @@ export const awareness = [
 
     subheading3: "Medication process.",
 
-    image3: pic2,
-    image33: pic2,
+    image3: pic28,
+    image33: pic29,
     detail3:
       "Before initiating treatment, it is essential to seek guidance on whether medications prescribed for other health conditions could impact dementia symptoms. Additionally, understanding how to adjust medications if they are not effectively managing symptoms is crucial.Below are the few steps need to ba taken when starting the medication process. ",
     pointC1:
