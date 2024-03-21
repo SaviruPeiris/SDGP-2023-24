@@ -32,7 +32,7 @@ const NavBarTest = () => {
           <li>
             {/* <a href="#">Home</a> */}
             <Link to="/home" className="">
-              Home
+              Homee
             </Link>
           </li>
           <li>
