@@ -183,7 +183,7 @@ const Footer = () => {
         <p className="py-4">&copy; 2024 CogniCare+. All Rights Reserved.</p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
           <a
-            href="https://www.facebook.com"
+            href="https://web.facebook.com/profile.php?id=61557183195099"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300"
@@ -191,7 +191,7 @@ const Footer = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/cognicareplus/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300"
@@ -199,14 +199,14 @@ const Footer = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.twitter.com"
+            href="https://twitter.com/CogniCarePlus"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300"
           >
             <FaTwitter />
           </a>
-          <a
+          {/* <a
             href="https://www.github.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -221,7 +221,7 @@ const Footer = () => {
             className="text-gray-300"
           >
             <FaWhatsapp />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

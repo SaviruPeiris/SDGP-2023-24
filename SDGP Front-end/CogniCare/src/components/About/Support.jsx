@@ -3,7 +3,7 @@
 import { PhoneIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 import { SupportIcon } from "@heroicons/react/solid";
 
-import supportImg from "../../assets/images/aboutImages/pic1.jpg";
+import supportImg from "../../assets/images/aboutImages/pic5.jpg";
 // aos
 import React, { useEffect } from "react";
 // importing aos
@@ -19,7 +19,7 @@ const Support = () => {
     <div name="support" className="w-full mt-20">
       <div className="w-full h-[700px] bg-gray-800/90 absolute">
         <img
-          className="w-full h-full object-cover mix-blend-overlay"
+          className="w-full h-full object-cover object-top mix-blend-overlay"
           src={supportImg}
           alt="/"
         />

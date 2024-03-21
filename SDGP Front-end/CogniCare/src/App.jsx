@@ -16,13 +16,14 @@ import AboutPage from "./pages/aboutpage/aboutPage";
 import ContactUsPage from "./pages/contactUsPage/ContactUs";
 import AwarenessPage from "./pages/AwaranessPage/awareness";
 import AwarenessHomePage from "./pages/AwaranessPage/Home";
-import ImageUploadAwareness from "./pages/ImageUploadAwareness/ImageUploadAwareness"
-import RegisterPage from "./pages/Loginpage/Register";                                 
+import ImageUploadAwareness from "./pages/ImageUploadAwareness/ImageUploadAwareness";
+import RegisterPage from "./pages/Loginpage/Register";
 import LoginPage from "./pages/Loginpage/Login";
-import UserProfile from "./pages/UserProfile/UserProfile"
+import UserProfile from "./pages/UserProfile/UserProfile";
 import DetailPage from "./pages/DetailsPage/DetailPage";
 import EChannelingPage from "./pages/E-ChannelingPage/EChannelingPage";
 // import Card from "./pages/AwaranessPage/Card";
+import ScrollToTopOnPageChange from "./components/ScrollToTopOnPageChange";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
     // </>
 
     <BrowserRouter>
+      <ScrollToTopOnPageChange />
       <Routes>
         <Route index element={<Home></Home>} />
         <Route path="/home" element={<Home></Home>} />
@@ -64,10 +66,7 @@ function App() {
           path="/eChannelingPage"
           element={<EChannelingPage></EChannelingPage>}
         />
-        <Route
-          path="/myProfilePage"
-          element={<UserProfile></UserProfile>}
-        />
+        <Route path="/myProfilePage" element={<UserProfile></UserProfile>} />
         <Route path="/details/:id" element={<DetailPage></DetailPage>} />
         {/* <Route exact path="/card" component={<Card></Card>} /> */}
       </Routes>

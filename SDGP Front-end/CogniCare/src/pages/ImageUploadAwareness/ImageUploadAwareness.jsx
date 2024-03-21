@@ -130,7 +130,7 @@ const ImageUploadAwareness = () => {
         </div>
 
         <div className=" text-center bottom-10 right-10 pb-10">
-          <Link to="/registerPage">
+          <Link to="/predictionPage">
             <button className="font-bold bg-purple-600 text-white px-8 py-3 rounded-lg shadow-xl transition-all hover:bg-purple-800 duration-500 hover:scale-105">
               Continue here...
             </button>
