@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.css"; // Import the CSS file
-import CogniLogo from "../assets/images/CogniLogo.png";
+// import CogniLogo from "../assets/images/CogniLogo.png";
 import Awareness from "../pages/home/Home";
 
 const Navbar = () => {
   return (
     <nav data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
       <div className="logo">
-        <img src={CogniLogo} alt="Logo" />
+        {/* <img src={CogniLogo} alt="Logo" /> */}
       </div>
 
       <div className="navBarLinks">
