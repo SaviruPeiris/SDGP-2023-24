@@ -6,7 +6,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 import os
 
-
+# Hosting the domain in vercal
+# Domain name-cognicareplus.online
 def get_chain():
   os.environ["OPENAI_API_KEY"]='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';
 
