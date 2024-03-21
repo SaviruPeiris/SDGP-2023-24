@@ -69,6 +69,7 @@ chain = get_chain()
 # URL for the logo of the assistant bot
 # We need it as a separate variable because it's used in multiple places
 bot_logo = 'https://pbs.twimg.com/profile_images/1739538983112048640/4NzIg1h6_400x400.jpg'
+# bot_logo='SDGP-2023-24/ChatBot-Backend/CogniCare Plus ML/chabot1.jpg.webp'
  
 # We use st.session_state and fill in the st.session_state.messages list
 # It's empty in the beginning, so we add the first message from the bot

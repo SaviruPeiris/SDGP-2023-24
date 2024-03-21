@@ -6,7 +6,7 @@ import Popup from "../popup/PoupuWindow";
 import { FaPlus } from "react-icons/fa";
 import { TbMessageChatbot } from "react-icons/tb";
 
-import Logo from "../../assets/images/CogniCareLogo.png";
+// import Logo from "../../assets/images/CogniCareLogo.png";
 
 const NavBarTest = () => {
   const [isPopupOpen, setPopupOpen] = useState(false);
