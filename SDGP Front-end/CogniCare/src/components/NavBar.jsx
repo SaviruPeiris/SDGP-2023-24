@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css"; // Import the CSS file
+// import "./Navbar.css"; // Import the CSS file
 // import CogniLogo from "../assets/images/CogniLogo.png";
 import Awareness from "../pages/home/Home";
 
