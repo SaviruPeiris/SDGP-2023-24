@@ -17,7 +17,6 @@ import "aos/dist/aos.css";
 import { FaAffiliatetheme } from "react-icons/fa";
 
 const ContactUs = () => {
-
   useEffect(() => {
     AOS.init();
     // AOS.refresh();
@@ -52,14 +51,13 @@ const ContactUs = () => {
 
   const [errors, setErrors] = useState({});
 
-  const[rating,setRating] = useState(null); //rating Stars
-  const[hover,setHover] = useState(null); //rating Stars
+  const [rating, setRating] = useState(null); //rating Stars
+  const [hover, setHover] = useState(null); //rating Stars
   const [ratingError, setRatingError] = useState(null);
   const handleRatingClick = (currentRating) => {
     setRating(currentRating);
     setRatingError(null); // Clear any existing error message when a rating is selected
-};
-
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -92,21 +90,19 @@ const ContactUs = () => {
       sendEmail(e);
       alert("Email sent successfully!");
     }
-    
-      if (!rating) {
-          setRatingError("Rating is required");
-          return; // Prevent further execution if rating is not selected
-      }
-      // Proceed with form submission logic
-  
 
+    if (!rating) {
+      setRatingError("Rating is required");
+      return; // Prevent further execution if rating is not selected
+    }
+    // Proceed with form submission logic
   };
 
   return (
     <div>
       <NavBarTest></NavBarTest>
       <div className="container-fluid g-0">
-        <div className="row g-0">
+        <div className="row g-0 contactUsImageContainer">
           {/* Image Column */}
           <div className="col-md-6 leftImageContainer">
             <img
@@ -239,9 +235,10 @@ const ContactUs = () => {
 
                 <button
                   type="submit"
-                  className="btn btn-primary"
+                  className="btn btn-primary mb-10"
                   data-aos="fade-right"
                   data-aos-delay="400"
+                  // data-aos-offset="400"
                   data-aos-once="true"
                   // onClick={testFunction}
                 >

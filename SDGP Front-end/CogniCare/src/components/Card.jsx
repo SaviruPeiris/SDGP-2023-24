@@ -14,7 +14,7 @@ const Card = (props) => {
 
   return (
     <div>
-      <div className="container-fluid cardHeight">
+      <div className="container-fluid cardHeight flex items-center justify-center">
         <div className="card">
           <img src={props.image} alt="Image" style={{ width: "100%" }} />
           <div className="card-body ">

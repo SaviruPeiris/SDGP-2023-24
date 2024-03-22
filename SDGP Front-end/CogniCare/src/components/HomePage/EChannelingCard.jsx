@@ -29,8 +29,8 @@ const EChannelingCard = () => {
         <img className="chatbotImage" src={predictionImage} />
       </div>
       <div className="chatbotCard-right-half mt-0" data-aos="zoom-in">
-        <h3 className="mb-4">Channel a doctor</h3>
-        <p className="text-lg text-left">
+        <h3 className="mb-4 xl:text-3xl text-3xl">Channel a doctor</h3>
+        <p className="text-lg text-left xl:text-lg text-lg">
           E-Channelling presents a modern solution to healthcare accessibility
           and convenience. Patients can easily schedule appointments online,
           eliminating geographical barriers and reducing waiting times. With

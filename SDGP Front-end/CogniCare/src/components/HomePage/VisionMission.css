@@ -1,13 +1,15 @@
-.vision-mission-container {
+/* .vision-mission-container {
   display: flex;
-}
+} */
 
 .left-half {
   flex: 1;
+  margin-left: 2.5rem;
 }
 
 .right-half {
   flex: 1;
+  margin-right: 2.5rem;
 }
 
 .vision-mission-container {
@@ -16,6 +18,7 @@
   /* Remove background image from the container */
   background: none;
   position: relative;
+  display: flex;
   /* min-height: 1000px; */
 }
 
@@ -31,4 +34,18 @@
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.5; /* Adjust the opacity as needed */
+}
+@media only screen and (max-width: 900px) {
+  .vision-mission-container {
+    flex-direction: column;
+  }
+  .left-half {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .right-half {
+     margin-left: 0px;
+    margin-right: 0px;
+  }
 }

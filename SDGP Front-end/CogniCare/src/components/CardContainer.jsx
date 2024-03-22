@@ -41,24 +41,26 @@ function CardContainer() {
     <>
       <div
         className="learnAboutDementiaContainer pb-10"
+        data-aos="zoom-in"
+        data-aos-duration="700"
         // style={{ transform: `translateY(-${offsetY1 * 0.3 - 400}px)` }}
       >
         <div
-          className="cardContainerTitle text-5xl mb-10"
+          className="cardContainerTitle xl:text-5xl text-4xl xl:mb-5 mx-5"
           data-aos="zoom-in"
-          style={{ transform: `translateY(-${offsetY1 * 0.4 - 300}px)` }}
+          style={{ transform: `translateY(-${offsetY1 * 0.3 - 280}px)` }}
         >
           Learn about Dementia
         </div>
         <div className="container-fluid CardContainer">
           <div
-            className="row"
-            // style={{ transform: `translateY(-${offsetY1 * 0.5}px)` }}
+            className="row CardContainerRow"
+            style={{ transform: `translateY(-${offsetY1 * 0.3 - 330}px)` }}
           >
             <div
-              className="col"
-              data-aos="zoom-in-right"
-              style={{ transform: `translateY(-${offsetY1 * 0.4 - 330}px)` }}
+              className="col xl:mb-0 mb-6 learnMoreCard"
+              // data-aos="zoom-in-right"
+              // style={{ transform: `translateY(-${offsetY1 * 0.4 - 330}px)` }}
             >
               <Card
                 image={Card3Img}
@@ -71,9 +73,9 @@ function CardContainer() {
               />
             </div>
             <div
-              className="col"
-              data-aos="zoom-in"
-              style={{ transform: `translateY(-${offsetY1 * 0.4 - 330}px)` }}
+              className="col xl:mb-0 mb-6 learnMoreCard"
+              // data-aos="zoom-in"
+              // style={{ transform: `translateY(-${offsetY1 * 0.4 - 330}px)` }}
             >
               <Card
                 image={Card1Img}
@@ -86,9 +88,9 @@ function CardContainer() {
               />
             </div>
             <div
-              className="col"
-              data-aos="zoom-in-left"
-              style={{ transform: `translateY(-${offsetY1 * 0.4 - 330}px)` }}
+              className="col learnMoreCard"
+              // data-aos="zoom-in-left"
+              // style={{ transform: `translateY(-${offsetY1 * 0.4 - 330}px)` }}
             >
               <Card
                 image={Card2Img}

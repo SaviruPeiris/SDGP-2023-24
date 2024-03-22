@@ -34,7 +34,7 @@ const Stats = () => {
       data-aos-duration="700"
       style={{ transform: `translateY(-${offsetY * 0.3 - 600}px)` }}
     >
-      <div className="stat col" data-aos="">
+      <div className="stat col leftStat" data-aos="">
         <h1 className="text-5xl">
           <CountUp
             start={0}
@@ -46,7 +46,7 @@ const Stats = () => {
         </h1>
         <p className="text-3xl">Cases per year</p>
       </div>
-      <div className="stat col" data-aos="">
+      <div className="stat col rightStat" data-aos="">
         <h1 className="text-5xl">
           <CountUp
             start={0}

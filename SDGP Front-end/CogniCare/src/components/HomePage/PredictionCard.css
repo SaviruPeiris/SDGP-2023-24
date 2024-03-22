@@ -1,5 +1,5 @@
 .predictionCard-container {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   /* align-items: center;
   justify-content: center; */
@@ -7,7 +7,6 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-
 }
 
 .predictionCard-left-half {
@@ -24,4 +23,15 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 700px) {
+  .predictionCard-container {
+    flex-direction: column-reverse;
+  }
+  .predictionCard-left-half {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+  }
 }
