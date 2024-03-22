@@ -24,49 +24,6 @@ const HomeTopContent = () => {
   }, []);
 
   return (
-    // <div
-    //   className="background-image"
-    //   data-aos="zoom-in"
-    //   style={{
-    //     position: "relative", // Make the container relative for absolute positioning
-    //     backgroundImage: `url(${backgroundImage})`, // Set the background image
-    //     backgroundSize: "cover", // Cover the entire container
-    //     backgroundPosition: "center", // Center the background image
-    //     height: "100vh", // Adjust the height as needed
-    //     display: "flex",
-    //     alignItems: "center",
-    //     justifyContent: "center",
-    //     // backgroundColor: "rgba(0, 0, 0, 0.5)",
-    //     // opacity: "50%",
-    //   }}
-    // >
-    //   {/* Text block in the middle */}
-    //   <div
-    //     style={{
-    //       position: "absolute",
-    //       textAlign: "center",
-    //       color: "white",
-    //       padding: "20px",
-    //       backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent black background
-    //       borderRadius: "8px",
-    //       //   opacity: "100%",
-    //     }}
-    //   >
-    //     <h1>Welcome to My Website</h1>
-    //     <p>This is a sample text block on top of the background image.</p>
-    //   </div>
-    // </div>
-
-    // <div className="HomeTopContent">
-    //   <div className="background-image">
-    //     <img src={backgroundImage} />
-    //   </div>
-    //   <div className="HomeWelcomeTextBlock">
-    //     <h1>Welcome to My Website</h1>
-    //     <p>This is a sample text block on top of the background image.</p>
-    //   </div>
-    // </div>
-
     <div className="background-image" data-aos="zoom-in">
       {/* Text block in the middle */}
       <div
@@ -75,7 +32,7 @@ const HomeTopContent = () => {
         data-aos-delay="100"
       >
         <h1
-          className="text-7xl "
+          className="xl:text-7xl lg:text-6xl sm:text-7xl text-4xl"
           style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
           data-aos-duration="700"
         >
@@ -83,7 +40,7 @@ const HomeTopContent = () => {
           <span className="text-violet-800 CogniCare">CogniCare+</span>
         </h1>
         <p
-          className="text-3xl mx-10"
+          className="xl:text-3xl lg:text-2xl text-xl mx-10"
           data-aos-duration="700"
           style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
         >

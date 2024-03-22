@@ -8,20 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   /* margin-top: 60px; */
   /* font-size: 40px; */
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  /* overflow: visible; */
 }
-
-/* .learnAboutDementiaContainer {
-  margin-top: 30px;
-  padding-top: 15px;
-  background-image: url('../assets/images/HomePageImages/HomePageIMG4.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-} */
 
 .learnAboutDementiaContainer {
   /* margin-top: 30px; */
@@ -30,6 +22,8 @@
   background: none;
   position: relative;
   min-height: 400px;
+  /* height: 100%; */
+  /* overflow-x: hidden; */
 }
 
 .learnAboutDementiaContainer::before {
@@ -46,3 +40,24 @@
   opacity: 0.3;
 }
 
+.learnMoreCard {
+  overflow-y: visible;
+}
+
+@media only screen and (max-width: 380px) {
+  .learnAboutDementiaContainer {
+    transform: translateY(0px);
+  }
+
+  .cardContainerTitle {
+    transform: translateY(0px);
+  }
+
+  .CardContainerRow {
+    transform: translateY(0px);
+  }
+
+  .learnMoreCard {
+    transform: translateY(0px);
+  }
+}

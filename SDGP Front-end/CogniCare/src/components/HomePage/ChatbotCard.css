@@ -1,5 +1,5 @@
 .chatbotCard-container {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   /* background-color: rgba(245, 187, 252, 0.533); */
   /* width: 100%; */
@@ -24,4 +24,15 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 700px) {
+  .chatbotCard-container {
+    flex-direction: column;
+  }
+  .chatbotCard-right-half {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+  }
 }

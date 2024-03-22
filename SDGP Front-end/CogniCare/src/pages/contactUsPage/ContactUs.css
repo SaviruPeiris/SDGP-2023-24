@@ -16,10 +16,16 @@
   /* background-color: blue; */
 }
 
-input[type = radio]{
+input[type="radio"] {
   display: none;
 }
 
-.star{
+.star {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .leftImageContainer {
+    display: none !important;
+  }
 }

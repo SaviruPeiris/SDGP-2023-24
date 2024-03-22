@@ -46,8 +46,8 @@ const PredictionCard = () => {
         data-aos-duration="1000"
         data-aos-offset="400"
       >
-        <h3 className="mb-4">Predict the risk level</h3>
-        <p className="text-lg text-justify">
+        <h3 className="mb-4 xl:text-3xl text-3xl">Predict the risk level</h3>
+        <p className="xl:text-lg text-lg">
           Our dementia prediction component utilizes advanced machine learning
           algorithms to analyze MRI scans of the brain and assess the risk of
           dementia. By leveraging cutting-edge technology, we provide early
