@@ -1,0 +1,11 @@
+{
+    
+	"PasswordLinkValidPeriod": "24h",
+    "S3Config": {
+		"Minutes": "/Minutes",
+		"ProfileImages": "/ProfileImages",
+		"OrganizationImages": "/OrganizationImages",
+		"AuthenticatedACL": "authenticated-read",
+		"ContentType": "image/png"
+    }
+}
