@@ -49,6 +49,7 @@ function App() {
         />
         <Route path="/registerPage" element={<RegisterPage></RegisterPage>} />
         <Route path="/loginPage" element={<LoginPage></LoginPage>} />
+       
         <Route
           path="/predictionPage"
           element={<PredictionPage></PredictionPage>}

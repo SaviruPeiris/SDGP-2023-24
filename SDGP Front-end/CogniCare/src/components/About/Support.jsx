@@ -54,7 +54,7 @@ const Support = () => {
             <div className="bg-slate-100 pl-8 py-4">
               {/* Replace 'Contact Us' with anchor tag */}
               <a
-                href="/contact"
+                href="/contactUsPage"
                 className="flex items-center text-indigo-600 hover:underline"
               >
                 Contact Us <ArrowSmRightIcon className="w-5 ml-2" />
@@ -77,7 +77,7 @@ const Support = () => {
             <div className="bg-slate-100 pl-8 py-4">
               {/* Replace 'Contact Us' with anchor tag */}
               <a
-                href="/contact"
+                href="/contactUsPage"
                 className="flex items-center text-indigo-600 hover:underline"
               >
                 Contact Us <ArrowSmRightIcon className="w-5 ml-2" />
@@ -102,7 +102,7 @@ const Support = () => {
             <div className="bg-slate-100 pl-8 py-4">
               {/* Replace 'Contact Us' with anchor tag */}
               <a
-                href="/contact"
+                href="/contactUsPage"
                 className="flex items-center text-indigo-600 hover:underline"
               >
                 Contact Us <ArrowSmRightIcon className="w-5 ml-2" />
