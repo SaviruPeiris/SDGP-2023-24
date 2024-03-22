@@ -1,3 +1,4 @@
+// vercel.json file is create to fix the error when refreshing the tab
 {
     "rewrites":  [
       {"source": "/(.*)", "destination": "/"}
