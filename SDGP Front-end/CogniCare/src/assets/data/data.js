@@ -1,42 +1,49 @@
-import pic1 from "../images/blogs/dementia1.jpeg";
-import pic2 from "../images/blogs/dementia_2.webp";
+
 import pic3 from "../images/blogs/dementia_3.webp";
 import pic4 from "../images/blogs/dementia4.jpeg";
-import pic5 from "../images/blogs/dementia_4.jpeg";
 import pic6 from"../images/blogs/Causes-of-dementia.png";
 import pic7 from"../images/blogs/cuases2.jpeg";
 import pic8 from"../images/blogs/sings.png";
 import pic9 from"../images/blogs/symtoms.jpeg";
 import pic10 from"../images/blogs/dementia1_31.jpeg";
 import pic11 from "../images/blogs/stats.png";
-import pic12 from "../images/blogs/healthy.png";
-import pic13 from "../images/blogs/health2.jpeg";
+
+import pic13 from  "../images/blogs/Healthy2.jpeg";
 import pic14 from "../images/blogs/safesteps.jpeg";
 import pic15 from "../images/blogs/planing for future 2.webp";
 import pic16 from "../images/blogs/financial.jpeg";
 import pic17 from "../images/blogs/caregivers.webp";
 import pic18 from "../images/blogs/caregiving2.png";
 
-import pic19 from  "../images/blogs/Commwithcare.png";
 import pic20 from "../images/blogs/communication2.jpeg";
 import pic21 from "../images/blogs/emergency-kit-essentials.png";
 import pic22 from "../images/blogs/riskfactors.jpeg";
-import pic23 from "../images/blogs/tips.webp"
 import pic24 from "../images/blogs/Reducing-the-risk.jpeg";
 import pic25 from "../images/blogs/risk2.jpeg";
 import pic26 from "../images/blogs/treatments3.jpeg";
 import pic27 from "../images/blogs/Tretments.jpeg";
 import pic28 from "../images/blogs/medications2.jpeg"
 import pic29 from "../images/blogs/mediction.png";
-import pic30 from "../images/blogs/diagnoisis.webp";
-import pic31 from "../images/blogs/diagnosed2.webp";
+
+import pic32 from "../images/blogs/treatments2.jpeg"
+import pic33 from"../images/blogs/treatments.jpeg";
+import pic36 from "../images/blogs/financial.png"
+import pic34 from "../images/blogs/criminal planing 2.webp";
+import pic35 from "../images/blogs/criminal planing 1.webp"
+
+import coverpic1 from "../images/blogs/dementia.jpg";
+import coverpic2 from "../images/blogs/family.jpg";
+import coverpic3 from "../images/blogs/caregivers.jpg";
+import coverpic4 from "../images/blogs/prevention.2jpg.jpg";
+import coverpic5 from "../images/blogs/treatments.jpg";
+import coverpic6 from "../images/blogs/legal.jpg";
 
 import { ListGroupItem } from "react-bootstrap";
 
 export const awareness = [
   {
     id: 1,
-    cover: pic1,
+    cover: coverpic1,
     title: "What is dementia?",
 
     desc: " A broad category of brain-related neurological disorders that deteriorate over time is referred to as dementia.It leads to a decline in cognitive abilities such as memory, reasoning, and thinking, impacting daily activities. Individuals with dementia may experience difficulties in managing emotions and behaviors, often undergoing personality changes.Historically, dementia was referred to as senility and mistakenly considered a typical aspect of aging, likely due to its higher prevalence among older adults. However, dementia is not an inherent part of aging, and not everyone experiences it as they grow older. While around one-third of individuals aged 85 or above may have some form of dementia, it can also manifest in midlife in rare cases",
@@ -60,12 +67,11 @@ export const awareness = [
     detail2:
       "Dementia symptoms typically progress gradually, with cognitive impairments slowly worsening over time, eventually leading to a diagnosis of dementia. It's crucial not to overlook signs of memory difficulties or other changes in thinking skills, whether they're experienced by yourself or someone you know. Early recognition and intervention can significantly impact the management and quality of life for individuals affected by dementia. Therefore, it's essential to seek medical advice and support if you notice any concerning changes in cognitive function. ",
     image2: pic8,
-    image22: pic9,
     detail22:
       " Here are some of the most notable symptoms of dementia at its early stages:",
+    image22: pic9,
     pointB1: "1. Memory loss, poor judgment, and confusion. ",
-    pointB2:
-      "2. Changes in the ability to speak, understand, and express thoughts and/or words and to write and read",
+    pointB2: "2. Changes in the ability to speak, understand, and express thoughts and/or words and to write and read",
     pointB3: "3. Mood and Personality Changes:",
     pointB4: "4. Hallucinations, delusions, and paranoia",
     pointB5: "5. Loss of interest in normal daily activities or events",
@@ -75,7 +81,8 @@ export const awareness = [
     image3: pic10,
     image33: pic11,
     detail3:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+     "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+    detail33:"sdfsdf",
     pointC2:
       "Currently more than 55 million people have dementia worldwide, over 60% of whom live in low-and middle-income countries. Every year, there are nearly 10 million new cases.",
     pointC1:
@@ -90,11 +97,13 @@ export const awareness = [
 
   {
     id: 2,
-    cover: pic2,
+    cover: coverpic2,
     title: "Resources for patientce",
     subheading1: "Tips for an Healthy and Active lifestyle.",
+    //add content
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
-    image1: pic12,
+    image1: pic3,//PIC SHLD BE SMALLER
+
     image11: pic13,
     detail1:
       "Once diagnosed with dementia, it's vital not to panic but rather gradually accept the diagnosis and the changes it will bring to your life. Adjusting to these changes is essential. Regular visits to your doctor are crucial to obtain necessary medications and medical guidance. Additionally, maintaining a healthy and active lifestyle is key for supporting overall well-being and cognitive function, especially in reducing the worsening of symptoms. ",
@@ -109,8 +118,10 @@ export const awareness = [
     pointA5:
       "5. Engage in  mental activties such as brain games, memory tasks and puzzles ",
 
+   
     subheading2: "What should be done when diagnoised ",
     image22: pic14,
+    //add content 
     detail2:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointB1:
@@ -118,16 +129,19 @@ export const awareness = [
     pointB2:
       "2. Develop a daily routine : Make a daily plan to keep track of the few tasks you want to accomplish each day.Set realistic goals and focus well.  ",
     pointB3:
-      "3. Accept the changes in your abilities : Avoid covering up for their difficulties and being reluctant to ask help, to protect themselves and their family from embarrassment.",
+      "3. Accept the changes in your abilities :Avoid covering up for their difficulties and being reluctant to ask help, to protect themselves and their family from embarrassment.",
     pointB4:
       "4. Adapt to Your Environment : Make adjustments to your living environment to enhance safety and independence.",
     pointB5:
       "5. Maintain social relationships : Stay connected with your family and friends, join for support groups and communtites ",
 
     subheading3: "Planing for future.",
+    //add content
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     image3: pic15,
-    image33: pic16,
+    //add content
+    detail33:"giuhiuhiu",
+   
     detail3:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointC1: "1. Health Care Planing",
@@ -140,13 +154,14 @@ export const awareness = [
       "Enjoy Life: Focus on living life to the fullest and enjoying meaningful activities and experiences with your loved ones. Stay engaged in hobbies, interests, and social activities that bring you joy and fulfillment.",
   },
 
+
   {
     id: 3,
     title: "Resources for caregivers and families ",
-    cover: pic3,
+    cover: coverpic3,
     subheading1: "Providing everyday care.",
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page wha m",
-    image1: pic17,
+    image1: pic17,//pic shld be smaller..
     image11: pic18,
 
     detail1:
@@ -169,7 +184,7 @@ export const awareness = [
     detail2:
       "Communication can be hard for people with Alzheimer’s and related dementias because they have trouble remembering things. They also can become agitated and anxious, even angry. In some forms of dementia, language abilities are affected such that people have trouble finding the right words or have difficulty speaking. You may feel frustrated or impatient, but it is important to understand that the disease is causing the change in communication skills  ",
     detail22: " ",
-    image2: pic19,
+  
     image22: pic20,
     pointB1:
       "1. Reassure the person. Speak calmly. Listen to his or her concerns and frustrations. Try to show that you understand if the person is angry or fearful.",
@@ -184,7 +199,7 @@ export const awareness = [
 
     subheading3: " Emergency preparations",
 
-    image3: pic2,
+
     image3: pic21,
     detail3:
       " Dementia patients, particularly the elderly, tend to  have an unpredictable nature . Therefore if they  lose control and acts violently or when any other medical emergencies occur  it's important to respond calmly and appropriately to ensure safety for both the patient and others",
@@ -201,13 +216,13 @@ export const awareness = [
   {
     id: 4,
     title: "How to prevent dementia.",
-    cover: pic23,
+    cover: coverpic4,
 
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     subheading1: "What are the risk factors",
-    // image1: pic22,
+    image1: pic32, //image shld be smaller
     image11: pic22,
-    detail1:
+    detail1: //add more content
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     pointA1:
       " 1. Age : Age is a significant risk factor for Alzheimer's and other dementias, but it is not a normal part of aging or a direct cause for dementia. Most individuals with the disease are 65 and older, with the risk increasing every five years.",
@@ -221,11 +236,14 @@ export const awareness = [
       " 5. Cardiovascular Risk Factors: Conditions that affect the heart and blood vessels, such as high blood pressure, high cholesterol, diabetes, and obesity, can increase the risk of dementia. ",
 
     subheading2: "Strategies to Safeguard Against Dementia",
-
-    image22: pic25,
     image2: pic24,
+   
+
     detail2:
       "Although there is no effective treatment or proven prevention for Alzheimer’s and related dementias, in general, leading a healthy lifestyle may help address risk factors that have been associated with these diseases.  The following are some measures can be taken to mitigate  risk.",
+    image22: pic25,
+    //add content
+    detail22:"jhgjhgjg",
     pointB2:
       "1. Control high blood pressure : Having high blood pressure is bad for the heart, blood vessels, and brain, and it makes the chances of having a stroke or dementia higher. Taking medicine for high blood pressure and doing healthy things like exercising and stopping smoking can lower the risk of dementia.",
     pointB3:
@@ -237,28 +255,30 @@ export const awareness = [
     pointB5:
       "5. Keep your brain and body healthy by following your doctor's recommendations and attending regular check-ups.",
 
-    subheading3: ".",
+    subheading3: "Why early diagnosing is important?",
 
-    image3: pic2,
-    image33: pic2,
-    detail3:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
-    pointC1: "pont",
-    pointC2: "pont",
-    pointC3: "pont",
-    pointC4: "pont",
-    pointC5: "pont",
+    image3: pic3,//add image
+    detail3: "jhgdjkshk",//add content 
+
+   //add content 
+    detail33:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+    pointC1: "1. Give Access to Support Services:-  Those with early diagnosis have an easier time accessing resources, information, and support services to help them understand and manage their disease.",
+    pointC2: "2. Assistance with Treatment Planning:-  Understanding the kind and stage of dementia enables medical professionals to design an effective care strategy. Although there isn't a cure, there are therapies that can lessen symptoms and enhance life", 
+    pointC3: "3. Permit Medication:-  Drugs that control symptoms and halt the advancement of some dementias, such as Alzheimer's disease, can be helpful. These are best initiated early on.",
+    pointC4: "6. Encourage Clinical Trial and Research Participation:-  Early diagnosis facilitates clinical trial and research participation, which is more beneficial when the disease is still in its early stages.",
+    pointC5: "5. Help with Legal and Financial Planning:-  Timely diagnosis allows for the creation of advance directives and power of attorney agreements, among other legal and financial arrangements, to guarantee that desires are carried out as the illness advances.",
   },
 
   {
     id: 5,
     title: "Treatments and Diagnosis.",
-    cover: pic26,
-
+    cover: coverpic5,
+//add content 
     desc: "It is a long established fact that a reader will be distracted by the reaLorem Ipsum is that it has a m",
     subheading1: "How dementia is being diaognised",
-    image1: pic26,
-    image11: pic31,
+    image1: pic26,//image small
+    image11: pic27,
+    
     detail1:
       "There is no single exact test that can determine if a person is living with Alzheimer’s or another dementia. Physicians use diagnostic tools combined with medical history and other information, including neurological exams, cognitive and functional assessments, brain imaging (MRI, CT, PET) and cerebrospinal fluid or blood tests to make an accurate diagnosis. ",
     pointA1:
@@ -274,8 +294,9 @@ export const awareness = [
 
     subheading2: "Treatments.",
 
-    image2: pic26,
-    // image22: pic2,
+      
+        image2: pic33,
+    
     detail2:
       "Eventhough  there's no cure for Alzheimer’s, there are treatments that could alter how the disease develops, along with drug and non-drug approaches to manage symptoms. Knowing about these options can assist both individuals with the condition and their caregivers in dealing with symptoms and enhancing their quality of life.",
     pointB1:
@@ -310,12 +331,12 @@ export const awareness = [
   {
     id: 6,
     title: "Financial and legal  approches",
-    cover: pic5,
-
+    cover: coverpic6,
+    image1: pic34,
     desc: "If you or someone you care for has been diagnosed with Alzheimer's disease or a related dementia, it's understandable that focusing on daily challenges can be overwhelming. However, taking proactive steps now can pave the way for a more organized future. As Alzheimer's and related dementias progress, cognitive abilities may decline, making decision-making more challenging. Planning ahead allows individuals to make important decisions and communicate them effectively. Outlined below are key legal documents to contemplate, along with resources and advice aimed at preparing for future healthcare, financial, long-term care, and end-of-life decisions.  ",
     subheading1: "Financial planing.",
-    image1: pic2,
-    image11: pic2,
+    
+    image11: pic36,
     detail1:
       "When diagnosed with dementia, financial planning becomes crucial to ensure that your financial affairs are in order and that you and your loved ones are prepared for the future. Here are some important steps to consider for financial planning after a dementia diagnosis:",
     pointA1:
@@ -329,8 +350,8 @@ export const awareness = [
 
     subheading2: "Legal planing.",
 
-    image2: pic2,
-    image22: pic2,
+    image2: pic16,
+   
     detail2:
       "Planning for dementia involves several crucial legal and financial considerations to ensure the well-being and wishes of the individual are respected throughout the progression of the condition. ",
     pointB2:
@@ -345,8 +366,8 @@ export const awareness = [
       " 5. Finally, seeking legal consultation from professionals specializing in elder law or estate planning can provide valuable guidance throughout the process, ensuring comprehensive and effective planning for dementia. Through these legal measures, individuals and their families can navigate the complexities of dementia with foresight and preparation.",
 
     subheading3: "Criminal justice for dementia patients.",
-    image3: pic1,
-    image33: pic2,
+    image3: pic35,
+ 
     detail3:
       "When individuals with dementia commit crimes, the legal system faces significant challenges in determining their culpability and appropriate responses. Here are some key points and resources on this topic",
     pointC1:

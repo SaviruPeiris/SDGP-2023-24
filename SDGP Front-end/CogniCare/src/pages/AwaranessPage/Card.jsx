@@ -15,7 +15,7 @@ export const Card = () => {
  <>
  <NavBarTest></NavBarTest>
   <section className='awareness'>
-   <div className='container grid3 card'>
+   <div className='container grid3 '>
      {awareness.map((item) => (
        <div className=' box cardItems' key={item.id}>
          <div className='img'>
