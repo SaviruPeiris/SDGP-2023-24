@@ -75,6 +75,13 @@ const UserProfile = () => {
     <div className=" py-10 px-10 justify-center">
       <div className=" w-full ">
         <div className="flex-none p-4 ">
+          <div className='flex justify-end mr-2 '>
+              <button 
+                  className="bg-blue-800 hover:bg-blue-600 transform transition duration-500 hover:scale-105 text-white py-1 px-2 rounded"
+              >
+                  Sign out
+              </button>
+          </div>
           <div className="relative">
             <img
               className="w-44 h-44 rounded-full object-cover ml-14 mb-6 shadow-xl border-2 border-gray-400"
