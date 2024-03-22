@@ -32,7 +32,7 @@ const App = () => {
         Search <span className="">Doctors</span>
       </h2>
       <h2 className="text-gray-500 text-xl">
-        Search Your Doctor and Book Appointment in one click
+        Search Your Doctor and Book Your Appointment in one click
       </h2>
       <div className="container mx-auto p-5 ECCARD">
         {/* searchBar */}

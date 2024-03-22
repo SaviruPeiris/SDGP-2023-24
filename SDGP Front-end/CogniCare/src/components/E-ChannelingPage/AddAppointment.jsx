@@ -3,7 +3,7 @@ import { useState } from "react"
 export function AddAppointment({onSendAppointmentInfo, lastId}){
   const clearData={
     ownerName:'',
-    petName:'',
+    docName:'',
     aptNotes:'',
     aptDate: '',
     aptTime: ''
@@ -12,7 +12,7 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
   async function onFormPublish(){
     const appointmentInfo={
       id: lastId+1,
-      petName: formData.petName,
+      docName: formData.docName,
       ownerName: formData.ownerName,
       aptNotes: formData.aptNotes,
       aptDate: formData.aptDate+' '+formData.aptTime
@@ -27,7 +27,7 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
 
   return (
     <div>
-      <button onClick={()=>setToggleForm(!toggleForm)} className="bg-purple-400 text-white px-2 py-3 w-xs text-left rounded-t-md">
+      <button onClick={()=>setToggleForm(!toggleForm)} className="bg-pink-700 text-white px-2 py-3 w-xs text-left rounded-t-md">
         <div> Book Now</div>
       </button>
       {toggleForm && (
@@ -45,7 +45,7 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
               {toggleForm && <div className="border-r-2 border-b-2 border-l-2 border-light-blue-500 rounded-b-md pl-4 pr-4 pb-4">
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="ownerName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Owner Name
+              Name
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <input type="text" name="ownerName" id="ownerName"
@@ -55,19 +55,19 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
           </div>
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
-            <label htmlFor="petName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Pet Name
+            <label htmlFor="docName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+              Doc Name
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
-              <input type="text" name="petName" id="petName"
-                onChange={(e)=>{setFormData({...formData,petName: e.target.value})}}
+              <input type="text" name="docName" id="docName"
+                onChange={(e)=>{setFormData({...formData,docName: e.target.value})}}
                 className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md" />
             </div>
           </div>
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="aptDate" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Apt Date
+              Appointment Date
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <input type="date" name="aptDate" id="aptDate"
@@ -78,7 +78,7 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="aptTime" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Apt Time
+            Appointment Time
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <input type="time" name="aptTime" id="aptTime"
