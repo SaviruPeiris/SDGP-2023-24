@@ -11,10 +11,10 @@ import Footer from "../../components/Footer";
 const EChannelingPage = () => {
   return (
     <>
-      <NavBarTest></NavBarTest>
-      <IntroSection></IntroSection>
-      <SearchBar></SearchBar>
-      <Footer></Footer>
+      <NavBarTest />
+      <IntroSection />
+      <SearchBar />
+      <Footer />
     </>
   );
 };

@@ -16,7 +16,7 @@ console.log(psychologist)
   const { image, name, specializations, contactInformation, hospital, workingHours } = psychologist;
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between mt-8">
+    <div className="bg-white p-6 rounded-lg shadow flex flex-col justify-between mt-8 ">
       <div className="text-center mb-6">
         <img
           src={image}
@@ -48,7 +48,7 @@ console.log(psychologist)
         <p className="text-lg"><strong>Working Hours:</strong> {workingHours || 'Working hours not provided'}</p>
       </div>
       
-      <button>
+      <button className='cursor-pointer'>
  
         {/* Render the appointment popup based on the state */}
       {(

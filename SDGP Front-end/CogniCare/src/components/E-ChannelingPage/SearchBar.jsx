@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card"; // Assuming you have a Card component
-import psychologistData from "../../assets/data/docsData.json";
+import { psychologistData } from "../../assets/data/docsData";
 import "../../pages/E-ChannelingPage/EChannelingPage.css";
 
-const App = () => {
+const SearchBar = () => {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div className="mb-10 items-center px-5 flex flex-col gap-2">
+    <div className="mb-10 items-center px-5 flex flex-col gap-2 bg-gray-200 py-10">
        <div className="text-center border shadow bg-body rounded px-5 py-4">
         <h2 className="text-3xl xl:text-4xl	text-violet-800">Search Doctors</h2>
         <p className="xl:text-2xl text-lg">
@@ -42,9 +42,9 @@ const App = () => {
         Search Your Doctor and Book Your Appointment in one click
       </h2> */}
 
-      <div className="container mx-auto p-5 ECCARD">
+      <div className="container-e-channel mx-auto p-5">
         {/* searchBar */}
-        <div className="flex items-center mb-4">
+        <div className="flex items-center pb-4">
           <input
             type="text"
             placeholder="Search by Name.."
@@ -66,7 +66,7 @@ const App = () => {
           </button>
         </div>
         {/* doc cards */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
           {searchResults.map((psychologist) => (
             <Card key={psychologist.id} psychologist={psychologist} />
           ))}
@@ -76,4 +76,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default SearchBar;

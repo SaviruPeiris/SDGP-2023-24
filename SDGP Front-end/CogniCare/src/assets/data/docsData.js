@@ -1,8 +1,11 @@
-[
+import doc1 from"../images/E-ChannelingPage/doc1.jpeg";
+import doc2 from"../images/E-ChannelingPage/doc2.png";
+
+export const psychologistData =[
   {
     "id": 1,
     "name": "Dr. Iresha Kariyawasam",
-    "image": "./assets/pic3.jpg",
+    "image": doc2,
     "hospital": "City General Hospital",
     "workingHours": "9:00 AM - 5:00 PM",
     "contactInformation": {
@@ -14,7 +17,7 @@
   {
     "id": 2,
     "name": "Dr. Yohan Dharmapriya",
-    "image": "https://via.placeholder.com/150",
+    "image": doc1,
     "hospital": "Hill Psychiatric Center",
     "workingHours": "10:00 AM - 6:00 PM",
     "contactInformation": {
@@ -26,7 +29,7 @@
   {
     "id": 3,
     "name": "Dr. Roshan Dissanayake",
-    "image": "https://via.placeholder.com/150",
+    "image": doc1,
     "hospital": "Sunset Behavioral Health",
     "workingHours": "",
     "contactInformation": {
@@ -38,7 +41,7 @@
   {
     "id": 4,
     "name": "Dr. Daniel Brown",
-    "image": "https://via.placeholder.com/150",
+    "image": doc1,
     "hospital": "Lakeview Psychology Clinic",
     "workingHours": "12:00 PM - 8:00 PM",
     "contactInformation": {
@@ -50,7 +53,7 @@
   {
     "id": 5,
     "name": "Dr. Shane Arnold",
-    "image": "https://via.placeholder.com/150",
+    "image": doc1,
     "hospital": "Riverside Counseling Center",
     "workingHours": "9:00 AM - 5:00 PM",
     "contactInformation": {
@@ -62,7 +65,7 @@
   {
       "id": 6,
       "name": "Dr. Aischarya Gangadari",
-      "image": "https://via.placeholder.com/150",
+      "image": doc2,
       "hospital": "Colombo Healing Home",
       "workingHours": "9:00 AM - 5:00 PM",
       "contactInformation": {
@@ -74,7 +77,7 @@
     {
       "id": 7,
       "name": "Dr. Namal Bandara",
-      "image": "https://via.placeholder.com/150",
+      "image": doc1,
       "hospital": "Hill Psychiatric Center",
       "workingHours": "9:00 AM - 5:00 PM",
       "contactInformation": {
@@ -86,7 +89,7 @@
   {
     "id": 8,
     "name": "Dr. David Wilson",
-    "image": "https://via.placeholder.com/150",
+    "image": doc1,
     "hospital": "Hope Valley Psychiatric Clinic",
     "workingHours": "11:00 AM - 7:00 PM",
     "contactInformation": {
@@ -94,5 +97,5 @@
       "phone": "+94 (77) 901-2345"
     },
     "specializations": ["Brain Injury Rehabilitation", "Cognitive Assessment", "Memory Disorders"]
-  }
-]
+  },
+];
