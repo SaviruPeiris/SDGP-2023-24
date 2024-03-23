@@ -46,7 +46,7 @@ export const awareness = [
     cover: coverpic1,
     title: "What is dementia?",
 
-    desc: " A broad category of brain-related neurological disorders that deteriorate over time is referred to as dementia.It leads to a decline in cognitive abilities such as memory, reasoning, and thinking, impacting daily activities. Individuals with dementia may experience difficulties in managing emotions and behaviors, often undergoing personality changes.Historically, dementia was referred to as senility and mistakenly considered a typical aspect of aging, likely due to its higher prevalence among older adults. However, dementia is not an inherent part of aging, and not everyone experiences it as they grow older. While around one-third of individuals aged 85 or above may have some form of dementia, it can also manifest in midlife in rare cases",
+    desc: " A broad category of brain-related neurological disorders that deteriorate over time is referred to as dementia.It leads to a decline in cognitive abilities such as memory, reasoning, and thinking, impacting daily activities. Individuals with dementia may experience difficulties in managing emotions and behaviors, often undergoing personality changes.Historically, dementia was referred to as senility and mistakenly considered a typical aspect of aging, likely due to its higher prevalence among older adults. However, dementia is not an inherent part of aging, and not everyone experiences it as they grow older. While around one-third of individuals aged 85 or above may have some form of dementia, it can also manifest in midlife in rare cases.",
     subheading1: "What cuases dementia ",
     detail1:
       "Dementia is caused by a variety of diseases that cause damage to certain brain regions that cause neurons (nerve cells). This damage interferes with the ability of brain cells to communicate with each other. When brain cells cannot communicate normally, thinking, behavior and feelings can be affected. There are several unique areas in the brain, and each one is in charge of carrying out a certain function (such as memory, judgment, and movement). Damage to a region's cells prevents that area from performing its activities correctly.",
@@ -111,16 +111,21 @@ export const awareness = [
     image11: pic13,
     detail1:
       "Once diagnosed with dementia, it's vital not to panic but rather gradually accept the diagnosis and the changes it will bring to your life. Adjusting to these changes is essential. Regular visits to your doctor are crucial to obtain necessary medications and medical guidance. Additionally, maintaining a healthy and active lifestyle is key for supporting overall well-being and cognitive function, especially in reducing the worsening of symptoms. ",
-    pointA1:
-      "1. Meal planing : choose nutritious foods such as fruits and vegetables, whole grains, and lean sources of protein and dairy products. Avoid added sugars, saturated fats, and sodium.",
-    pointA2:
-      "2. Sleeping  schedule : Follow a regular schedule by going to sleep and getting up at the same time each day, even on weekends or when traveling.",
-    pointA3:
-      "3. Managing everyday tasks. : With time  even the simple everyday activities can become difficult to complete.Write down to-do lists, appointments, and events in a notebook or set up reminders.  ",
-    pointA4:
-      "4. Maintain physical health : Try to be physically active for at least 30 minutes per day and reduce having alchohol and smoking. ",
-    pointA5:
-      "5. Engage in  mental activties such as brain games, memory tasks and puzzles ",
+    subpointA1:"1 Meal planing ",
+      pointA1:
+      "Choose nutritious foods such as fruits and vegetables, whole grains, and lean sources of protein and dairy products. Avoid added sugars, saturated fats, and sodium.",
+      subpointA2:"2.Sleeping  schedule ",
+      pointA2:
+      "Follow a regular schedule by going to sleep and getting up at the same time each day, even on weekends or when traveling.",
+      subpointA3:"3. Managing everyday tasks ",
+      pointA3:
+      "With time  even the simple everyday activities can become difficult to complete.Write down to-do lists, appointments, and events in a notebook or set up reminders.  ",
+      subpointA4:"4. Maintain physical health ",
+      pointA4:
+      "Try to be physically active for at least 30 minutes per day and reduce having alchohol and smoking. ",
+      subpointA5:"5. Maintain mental health",
+      pointA5:
+      "5. Engage in  mental activties such as brain games, memory tasks and puzzles and additionally, it is important to minimize responsibilities and workloads to achieve a stress-free and peaceful life.",
 
    
     subheading2: "Life After Diagnosis. ",
@@ -128,29 +133,33 @@ export const awareness = [
 
     detail2:
       " Receiving a diagnosis of dementia is tough for both the person diagnosed and their loved ones. It's important to get help from healthcare providers who specialize in dementia care. Having a strong support network of family, friends, and caregivers is crucial for emotional support and practical help. Learning about dementia, its symptoms, and available resources is key to managing the condition well. Although a dementia diagnosis brings uncertainty and challenges, getting help early, receiving proper care, and having ongoing support can greatly improve the person's quality of life and help them stay independent and dignified for as long as possible.",
-    pointB1:
-      "1.  Educate Yourself : Learn as much as you can about dementia, including its symptoms, progression, and available treatments. Understanding the condition can help to  cope better and make informed decisions.",
-    pointB2:
-      "2. Develop a daily routine : Make a daily plan to keep track of the few tasks you want to accomplish each day.Set realistic goals and focus well.  ",
-    pointB3:
-      "3. Accept the changes in your abilities :Avoid covering up for their difficulties and being reluctant to ask help, to protect themselves and their family from embarrassment.",
-    pointB4:
-      "4. Adapt to Your Environment : Make adjustments to your living environment to enhance safety and independence.",
-    pointB5:
-      "5. Maintain social relationships : Stay connected with your family and friends, join for support groups and communtites ",
+     subpointB1:"1.Educate Yourself",
+      pointB1:
+      " Learn as much as you can about dementia, including its symptoms, progression, and available treatments. Understanding the condition can help to  cope better and make informed decisions.",
+      subpointB2:"2. Develop a daily routine",
+      pointB2:
+      "To develop a daily routine for a dementia patient, it's important to understand their preferences, abilities, and limitations. Plan consistent activities like meals, medication times, personal care, and recreational activities. Use visual aids to help them understand the schedule easily. Stick to the routine for stability but be flexible to accommodate changes. Include meaningful activities and encourage physical exercise while ensuring adequate rest periods. Involve caregivers for support and regularly adjust the routine based on the patient's needs. This approach helps provide predictability and support for the patient's well-being..  ",
+      subpointB3:"3. Accept the changes in your abilities",
+      pointB3:
+      "After being diagnosed with dementia, it's crucial to accept any changes in abilities and be willing to ask for help when needed. Instead of hiding difficulties or worrying about embarrassing situations, it's better to seek assistance openly. Embracing these changes helps individuals adjust to their new reality and get the support they require to manage daily tasks effectively. Talking openly about these changes with family members can create a supportive atmosphere that promotes well-being. Exploring coping strategies suited to their changing abilities can also help maintain independence and dignity despite dementia's progression..",
+      subpointB4:"4. Adapt to Your Environment",
+      pointB4:
+      " Make adjustments to your living environment to enhance safety and independence. Make their surroundings less messy, add safety features, and use signs to help them find their way. Stick to routines and use tools like calendars to help them remember things. Be there to help, and encourage them to spend time with others. Make sure their living spaces are cozy and familiar, and keep an eye on any changes they might need. Get advice from healthcare experts to make sure their environment fits their needs.",
+      subpointB5:" 5. Maintain social relationships",
+      pointB5:"Encouraging social interaction for dementia patients involves connecting them with loved ones through outings and gatherings. Engaging in group activities, using technology, and joining family events fosters inclusion. Participating in volunteer work, support groups, and intergenerational activities enriches their lives. Creating a stimulating environment, offering transportation help, and listening attentively also support their social connections. These efforts improve their quality of life and emotional well-being amidst dementia challenges.",
 
     subheading3: "Planing for future.",
     image3: pic15,
     detail3:"Upon receiving a diagnosis of dementia, individuals and their families are confronted with the daunting task of planning for the future, both legally and financially. As dementia , affects the persons memory, and decision-making, it highlights  the importance of proactive planning to ensure that the individual's wishes are respected and their affairs are managed effectively. Legal and financial planning involves various crucial aspects, including drafting advance directives, establishing power of attorney for healthcare and finances, creating wills or trusts, and addressing long-term care arrangements. This process requires careful consideration, consultation with legal and financial professionals, and open communication among family members to navigate the complexities of dementia and make informed decisions. ",
      //add content
-    
-    pointC1: "1. Health Care Planing",
-    pointC2:
+    subpointC1:
+    "1. Health Care Planing",
+    pointC1:
       "Discuss your preferences for future care with your loved ones and healthcare providers. Consider the type of care you would like to receive as the disease progresses, including preferences for living arrangements, medical treatments, and end-of-life care.",
-    pointC3: "2. Financial and legal planing ",
-    pointC4:
+    subpointC2: "2. Financial and legal planing ",
+    pointC2:
       "Consult with an attorney to create or update legal documents such as a will, power of attorney, and advance directives. Designate trusted individuals to make decisions on your behalf regarding healthcare, finances, and other important matters.",
-    pointC5:
+    pointC3:
       "Enjoy Life: Focus on living life to the fullest and enjoying meaningful activities and experiences with your loved ones. Stay engaged in hobbies, interests, and social activities that bring you joy and fulfillment.",
   },
 
@@ -203,14 +212,18 @@ export const awareness = [
     image3: pic21,
     detail3:
       " Dementia patients, particularly the elderly, tend to  have an unpredictable nature . Therefore if they  lose control and acts violently or when any other medical emergencies occur  it's important to respond calmly and appropriately to ensure safety for both the patient and others",
+    subpointC1:"1. Stay calm and ensure safety ",
     pointC1:
-      "1. Stay calm and ensure safety : If the person is in immediate danger of harming themselves or others, take steps to remove any potential weapons or dangerous objects from their vicinity. Create a safe space by clearing away any obstacles or hazards.",
-    pointC2:
-      "2. Use calming techniques : Speak to the person in a calm and reassuring tone. Use simple and clear language, and try to redirect their attention away from the source of agitation. Avoid arguing or contradicting them, as this may escalate the situation further.",
-    pointC3:
-      "3. Seek help : If you are unable to calm the person down or if the situation poses a risk to safety,  contact  a family member, caregiver, or a healthcare professional. In extreme cases where there is imminent danger, consider contacting emergency services (such as 911) for immediate assistancet",
-    pointC4:
-      "4. Keep prepare a emergency medical kit : In extreme situations where it may be necessary to take the patient to a hospital, ensure you have their essential medical documents, along with any required medical supplies, readily available. Additionally,  have some food and water on hand for the journey.",
+      "If the person is in immediate danger of harming themselves or others, take steps to remove any potential weapons or dangerous objects from their vicinity. Create a safe space by clearing away any obstacles or hazards.",
+      subpointC1:"2. Use calming techniques ",
+      pointC2:
+      "Speak to the person in a calm and reassuring tone. Use simple and clear language, and try to redirect their attention away from the source of agitation. Avoid arguing or contradicting them, as this may escalate the situation further.",
+      subpointC1:"3.Seek help ",
+      pointC3:
+      "If you are unable to calm the person down or if the situation poses a risk to safety,  contact  a family member, caregiver, or a healthcare professional. In extreme cases where there is imminent danger, consider contacting emergency services (such as 911) for immediate assistancet",
+      subpointC1:"4. Have a emergency medical kit prepared.",
+      pointC4:
+      "In extreme situations where it may be necessary to take the patient to a hospital, ensure you have their essential medical documents, along with any required medical supplies, readily available. Additionally,  have some food and water on hand for the journey.",
   },
 
   {
@@ -287,7 +300,7 @@ export const awareness = [
     id: 5,
     title: "Treatments and Diagnosis",
     cover: coverpic5,
-//add content 
+
     desc: " Dementia, a complex neurological condition, poses significant challenges for both patients and healthcare professionals. While there is currently no cure for dementia, timely diagnosis and appropriate treatment strategies can help manage symptoms and improve quality of life for affected individuals. However it is important to state that treatments have very minimum chances of  reverse the progression of dementia depending of the situation , they  just aim to optimize functioning and enhance well-being for individuals living with the condition.",
     subheading1: "How dementia is being diaognised",
     image1: pic26,//image small

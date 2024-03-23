@@ -1,17 +1,17 @@
-/* Sidebar.css */
+
 .sidebar {
     width: 200px; 
     height: 70%; 
     position:fixed;
-    top: 150px; /* Top position */
+    top: 150px; 
    
-    left: 0; /* Left position */
-    background-color: #ba55df; /* Sidebar background color */
-    padding-top: 20px; /* Add some padding at the top */
+    left: 0; 
+    background-color: #710996; 
+    padding-top: 5px; 
   }
   
   .sidebar ul {
-    list-style-type: none; /* Remove list bullets */
+    list-style-type: none; 
     padding: 0;
   }
   
@@ -32,6 +32,27 @@
   }
   
   .sidebar ul li a:hover {
-    background-color: #e6a7e6; /* Change background color on hover */
+    background-color: #883492; 
   }
   
+  @media screen and (max-width: 1200px) {
+    .sidebar {
+      display: none;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%; 
+        height: auto; 
+        top: 0; 
+        padding-top: 0; 
+    }
+  
+    .sidebar ul li a {
+        margin-top: 20px; 
+        font-size: 18px; 
+    }
+}

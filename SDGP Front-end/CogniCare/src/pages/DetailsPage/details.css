@@ -17,6 +17,7 @@
   font-size: 30px;
   font-weight: 500;
 }
+
 .descriptionPage p {
   /* margin: 20px 0; */
   font-size: 18px;
@@ -62,3 +63,8 @@ margin-bottom: 20px;
 
   
  }
+ .descriptionPage h1:hover,
+.points h2:hover {
+  color: #500e7f; /* Change to whatever color you want */
+  cursor: pointer; /* Optional: Change cursor to pointer */
+}

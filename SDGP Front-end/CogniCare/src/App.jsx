@@ -53,25 +53,30 @@ function App() {
             {/* Routes accessible regardless of authentication */}
             <Route path="/registerPage" element={<RegisterPage />} />
             <Route path="/loginPage" element={<LoginPage />} />
-
+            <Route index element={<Home></Home>} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/memorygame" element={<MemoryGame />} />
+                    <Route path="/predictionPage" element={<PredictionPage />} />
+                    <Route path="/contactUsPage" element={<ContactUsPage />} />
+                    <Route path="/awarenessPage" element={<AwarenessHomePage />} />
+                    <Route path="/details/:id" element={<DetailPage />} />
             {/* Routes accessible only when userId is available */}
             {userId && (
                 <>
                     <Route path="/home" element={<Home />} />
-                    <Route path="/memorygame" element={<MemoryGame />} />
-                    <Route path="/predictionPage" element={<PredictionPage />} />
+                  
                     <Route path="/imageUploadAwareness" element={<ImageUploadAwareness />} />
                     <Route path="/predictionPage" element={<PredictionPage />} />
-                    <Route path="/about" element={<AboutPage />} />
-                    <Route path="/contactUsPage" element={<ContactUsPage />} />
-                    <Route path="/awarenessPage" element={<AwarenessHomePage />} />
+                
                     <Route path="/eChannelingPage" element={<EChannelingPage />} />
                     <Route path="/myProfilePage" element={<UserProfile />} />
-                    <Route path="/details/:id" element={<DetailPage />} />
+                    
                 </>
             )}
             {/* Redirect to login page if userId is not available */}
             {!userId && <Route path="*" element={<Navigate to="/loginPage" />} />}
+           
+            
         </Routes>
 
     </BrowserRouter>
