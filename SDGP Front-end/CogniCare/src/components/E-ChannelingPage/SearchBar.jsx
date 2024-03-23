@@ -28,12 +28,20 @@ const App = () => {
 
   return (
     <div className="mb-10 items-center px-5 flex flex-col gap-2">
-      <h2 className="font-bold text-4xl tracking-wide mt-12">
-        Search <span className="">Doctors</span>
+       <div className="text-center border shadow bg-body rounded px-5 py-4">
+        <h2 className="text-3xl xl:text-4xl	text-violet-800">Search Doctors</h2>
+        <p className="xl:text-2xl text-lg">
+        Search Your Doctor and Book Your Appointment in one click
+        </p>
+      </div>
+
+      {/* <h2 className="font-bold text-4xl tracking-wide mt-12">
+        Search Doctors
       </h2>
       <h2 className="text-gray-500 text-xl">
         Search Your Doctor and Book Your Appointment in one click
-      </h2>
+      </h2> */}
+
       <div className="container mx-auto p-5 ECCARD">
         {/* searchBar */}
         <div className="flex items-center mb-4">
