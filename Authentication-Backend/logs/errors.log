@@ -1,0 +1,60 @@
+[2024-03-14T16:06:13.832] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-14T17:15:37.304] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-14T17:16:18.285] [ERROR] default - [userController] :: createUser() : Invalid email format
+[2024-03-14T17:16:51.366] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-14T17:17:41.189] [ERROR] default - [userController] :: editUser() : Invalid email format
+[2024-03-14T17:42:22.188] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-14T19:08:06.661] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-14T19:40:38.705] [ERROR] default - [mailUtil] :: sendMail() : error : Error: connect ECONNREFUSED 127.0.0.1:587
+[2024-03-14T19:43:41.834] [ERROR] default - [mailUtil] :: sendMail() : error : Error: connect ECONNREFUSED 127.0.0.1:587
+[2024-03-14T20:13:25.819] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:14:42.942] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:15:43.759] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:16:42.283] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:22:15.441] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:23:21.650] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:25:26.655] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:25:35.375] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:31:25.320] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:43:12.832] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T23:17:55.158] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-14T23:34:59.110] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-14T23:35:05.776] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-15T00:52:58.278] [ERROR] default - [ingredientController] :: createIngredient() : Error creating ingredient: Ingredient validation failed: user: Path `user` is required.
+[2024-03-15T00:58:14.577] [ERROR] default - [ingredientController] :: createIngredient() : Error creating ingredient: Ingredient validation failed: user: Path `user` is required.
+[2024-03-15T01:06:48.332] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-15T01:22:11.467] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-15T01:38:55.124] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:39:21.517] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:39:22.882] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:39:54.179] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:40:20.446] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:40:55.671] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:43:52.849] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:44:08.919] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:44:25.144] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:45:21.403] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:46:34.229] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:46:39.023] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-20T11:32:45.496] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T11:35:43.283] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T11:36:52.353] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:09:53.879] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T12:17:38.666] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:18:57.390] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:19:35.544] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:20:03.552] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:20:10.941] [ERROR] default - [userController] :: createUser() : Invalid email format
+[2024-03-20T12:24:24.016] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T12:26:38.237] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T12:26:44.365] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T12:34:11.509] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T12:43:59.498] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:44:23.066] [ERROR] default - [userController] :: createUser() : Invalid email format
+[2024-03-20T12:46:22.204] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T20:17:43.456] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T20:18:09.552] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T21:40:45.562] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T21:41:27.275] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-22T19:07:23.331] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-22T21:22:57.317] [ERROR] default - [userController] :: createUser() : Missing required field

@@ -1,0 +1,324 @@
+[2024-03-14T15:36:06.636] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:02:44.307] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:03:52.986] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:04:42.501] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:04:42.858] [TRACE] default - [userController] :: createUser() : End
+[2024-03-14T16:06:13.757] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:06:13.832] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-14T16:06:41.968] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:07:21.492] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T16:07:21.822] [TRACE] default - [userController] :: createUser() : End
+[2024-03-14T16:48:26.884] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:48:26.968] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:48:45.283] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:48:45.347] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:48:48.626] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:48:48.688] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:48:51.027] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:48:51.092] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:48:59.363] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:48:59.432] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:49:26.152] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:49:26.218] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:49:28.092] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:49:28.155] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:49:44.972] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:49:45.037] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:49:49.031] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:49:49.137] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T16:49:56.934] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T16:49:57.000] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T17:15:37.230] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T17:15:37.304] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-14T17:15:42.027] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T17:15:42.352] [TRACE] default - [userController] :: createUser() : End
+[2024-03-14T17:15:59.060] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T17:15:59.361] [TRACE] default - [userController] :: createUser() : End
+[2024-03-14T17:16:18.151] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T17:16:18.285] [ERROR] default - [userController] :: createUser() : Invalid email format
+[2024-03-14T17:16:51.220] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T17:16:51.366] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-14T17:17:01.643] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T17:17:02.181] [TRACE] default - [userController] :: createUser() : End
+[2024-03-14T17:17:41.188] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T17:17:41.189] [ERROR] default - [userController] :: editUser() : Invalid email format
+[2024-03-14T17:17:54.352] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T17:17:54.498] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T17:18:10.846] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-14T17:18:10.985] [TRACE] default - [userController] :: editUser() : End
+[2024-03-14T17:20:04.352] [TRACE] default - userController] :: getUsers() : Start
+[2024-03-14T17:20:04.496] [TRACE] default - [userController] :: getUsers() : End
+[2024-03-14T17:42:21.994] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:42:22.188] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-14T17:42:35.579] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:43:15.555] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:45:05.223] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:46:24.027] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:48:10.678] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:48:11.079] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T17:59:23.102] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:59:23.506] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T17:59:26.274] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T17:59:26.662] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T18:22:38.670] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T18:22:38.930] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T19:08:06.413] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T19:08:06.661] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-14T19:08:12.980] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T19:08:13.223] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T19:40:38.508] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T19:40:38.682] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T19:40:38.705] [ERROR] default - [mailUtil] :: sendMail() : error : Error: connect ECONNREFUSED 127.0.0.1:587
+[2024-03-14T19:40:38.706] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T19:43:41.526] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T19:43:41.811] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T19:43:41.834] [ERROR] default - [mailUtil] :: sendMail() : error : Error: connect ECONNREFUSED 127.0.0.1:587
+[2024-03-14T19:43:41.835] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:13:14.144] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:13:14.289] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:13:25.819] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:13:25.821] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:14:31.639] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:14:31.785] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:14:42.942] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:14:42.943] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:15:32.059] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:15:32.221] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:15:43.759] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:15:43.760] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:16:30.675] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:16:30.813] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:16:42.283] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:16:42.285] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:22:04.122] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:22:04.295] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:22:15.441] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:22:15.443] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:23:10.383] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:23:10.532] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:23:21.650] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Unexpected socket close
+[2024-03-14T20:23:21.652] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:25:23.987] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:25:24.126] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:25:26.655] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:25:26.656] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:25:32.453] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:25:32.582] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:25:35.375] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:25:35.376] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:31:16.336] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:31:21.822] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:31:25.320] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:31:25.322] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:43:11.129] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:43:11.277] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:43:12.832] [ERROR] default - [mailUtil] :: sendMail() : error : Error: Missing credentials for "PLAIN"
+[2024-03-14T20:43:12.833] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {false }
+[2024-03-14T20:46:01.022] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T20:46:01.168] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T20:46:04.855] [TRACE] default - [mailUtil] :: sendMail(): End
+[2024-03-14T20:46:04.856] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {true }
+[2024-03-14T20:46:04.863] [TRACE] default - [authController] :: requestPasswordReset() : End
+[2024-03-14T21:09:55.703] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T21:09:55.861] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T21:11:31.362] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T21:11:31.523] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T21:11:36.256] [TRACE] default - [mailUtil] :: sendMail(): End
+[2024-03-14T21:11:36.257] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {true }
+[2024-03-14T21:11:36.261] [TRACE] default - [authController] :: requestPasswordReset() : End
+[2024-03-14T21:54:49.533] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T21:55:21.473] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T21:55:21.730] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T21:58:05.253] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T21:59:58.328] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T22:00:39.202] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T22:01:22.024] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T22:01:40.497] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T22:01:40.668] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T22:05:09.178] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T22:05:09.419] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T23:02:44.541] [TRACE] default - [ingredientController] :: createIngredient() : Start
+[2024-03-14T23:02:44.650] [INFO] default - [ingredientController] :: createIngredient() : Ingredientcreated successfully
+[2024-03-14T23:02:44.650] [TRACE] default - [ingredientController] :: createIngredient() : End
+[2024-03-14T23:08:59.979] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-14T23:09:00.275] [TRACE] default - [userController] :: createUser() : End
+[2024-03-14T23:10:35.741] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-14T23:10:36.105] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-14T23:14:32.061] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T23:14:32.352] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T23:14:35.729] [TRACE] default - [mailUtil] :: sendMail(): End
+[2024-03-14T23:14:35.730] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {true }
+[2024-03-14T23:14:35.731] [TRACE] default - [authController] :: requestPasswordReset() : End
+[2024-03-14T23:17:55.015] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T23:17:55.158] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-14T23:34:33.166] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T23:34:33.460] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T23:34:37.880] [TRACE] default - [mailUtil] :: sendMail(): End
+[2024-03-14T23:34:37.881] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {true }
+[2024-03-14T23:34:37.883] [TRACE] default - [authController] :: requestPasswordReset() : End
+[2024-03-14T23:34:51.092] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T23:34:51.362] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-14T23:34:54.725] [TRACE] default - [mailUtil] :: sendMail(): End
+[2024-03-14T23:34:54.726] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {true }
+[2024-03-14T23:34:54.729] [TRACE] default - [authController] :: requestPasswordReset() : End
+[2024-03-14T23:34:58.979] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T23:34:59.110] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-14T23:35:05.644] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-14T23:35:05.776] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-15T00:52:58.272] [TRACE] default - [ingredientController] :: createIngredient() : Start
+[2024-03-15T00:52:58.278] [ERROR] default - [ingredientController] :: createIngredient() : Error creating ingredient: Ingredient validation failed: user: Path `user` is required.
+[2024-03-15T00:52:58.283] [TRACE] default - [ingredientController] :: createIngredient() : End
+[2024-03-15T00:58:14.570] [TRACE] default - [ingredientController] :: createIngredient() : Start
+[2024-03-15T00:58:14.577] [ERROR] default - [ingredientController] :: createIngredient() : Error creating ingredient: Ingredient validation failed: user: Path `user` is required.
+[2024-03-15T00:58:14.581] [TRACE] default - [ingredientController] :: createIngredient() : End
+[2024-03-15T00:58:42.614] [TRACE] default - [ingredientController] :: createIngredient() : Start
+[2024-03-15T00:58:42.701] [INFO] default - [ingredientController] :: createIngredient() : Ingredientcreated successfully
+[2024-03-15T00:58:42.701] [TRACE] default - [ingredientController] :: createIngredient() : End
+[2024-03-15T01:04:54.347] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:04:54.419] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:06:14.240] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:06:14.304] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:06:15.431] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:06:15.493] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:06:27.380] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:06:27.449] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:06:48.263] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-15T01:06:48.332] [ERROR] default - [authController] :: requestPasswordReset() : No users with the given userName
+[2024-03-15T01:08:24.838] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:08:24.910] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:09:29.828] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:09:29.898] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:12:23.068] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:16:41.912] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:17:34.243] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:17:36.819] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:18:35.998] [TRACE] default - [ingredientController] :: getIngredient() : Start
+[2024-03-15T01:18:36.077] [TRACE] default - [ingredientController] :: getIngredient() : end
+[2024-03-15T01:22:11.290] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-15T01:22:11.467] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-15T01:22:15.618] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-15T01:22:15.858] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-15T01:22:35.764] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-15T01:22:35.835] [TRACE] default - [userController] :: editUser() : End
+[2024-03-15T01:22:42.104] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-15T01:22:42.171] [TRACE] default - [userController] :: editUser() : End
+[2024-03-15T01:38:10.483] [TRACE] default - [authController] :: requestPasswordReset() : Start
+[2024-03-15T01:38:10.629] [TRACE] default - [mailUtil] :: sendMail(): Start
+[2024-03-15T01:38:14.325] [TRACE] default - [mailUtil] :: sendMail(): End
+[2024-03-15T01:38:14.325] [DEBUG] default - [authController] :: requestPasswordReset() : mailSent : {true }
+[2024-03-15T01:38:14.329] [TRACE] default - [authController] :: requestPasswordReset() : End
+[2024-03-15T01:38:55.059] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:38:55.124] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:39:21.457] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:39:21.517] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:39:22.821] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:39:22.882] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:39:54.115] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:39:54.179] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:40:20.029] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:40:20.446] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:40:55.605] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:40:55.671] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:41:35.001] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:41:52.946] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:41:57.195] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:43:52.778] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:43:52.849] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:44:08.858] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:44:08.919] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:44:25.073] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:44:25.144] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:45:21.336] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:45:21.403] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:46:14.747] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:46:34.167] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:46:34.229] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:46:38.957] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:46:39.023] [ERROR] default - [authController] :: resetPassword() : Invalid otp
+[2024-03-15T01:46:47.460] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-15T01:48:09.083] [TRACE] default - [authController] :: resetPassword() : Start
+[2024-03-19T22:20:41.827] [TRACE] default - userController] :: getUsers() : Start
+[2024-03-19T22:20:41.937] [TRACE] default - [userController] :: getUsers() : End
+[2024-03-19T22:33:11.821] [TRACE] default - userController] :: getUsers() : Start
+[2024-03-19T22:33:11.904] [TRACE] default - [userController] :: getUsers() : End
+[2024-03-20T11:30:48.580] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T11:32:45.414] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T11:32:45.496] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T11:33:10.629] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T11:33:11.087] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T11:35:33.078] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T11:35:33.348] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T11:35:43.212] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T11:35:43.283] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T11:36:25.843] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T11:36:26.075] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T11:36:52.283] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T11:36:52.353] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T11:37:03.868] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T11:37:04.109] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T12:04:30.657] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:04:30.899] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T12:08:38.006] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:08:38.259] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T12:09:53.696] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:09:53.879] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T12:11:04.184] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:11:04.693] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T12:17:15.107] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:17:15.424] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T12:17:38.590] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:17:38.666] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:18:57.285] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:18:57.390] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:19:35.466] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:19:35.544] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:20:03.478] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:20:03.552] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:20:10.871] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:20:10.941] [ERROR] default - [userController] :: createUser() : Invalid email format
+[2024-03-20T12:24:24.015] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:24:24.016] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T12:26:38.237] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:26:38.237] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T12:26:44.364] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:26:44.365] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T12:33:42.102] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:33:42.347] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T12:34:11.437] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:34:11.509] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T12:43:59.420] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:43:59.498] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T12:44:22.992] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:44:23.066] [ERROR] default - [userController] :: createUser() : Invalid email format
+[2024-03-20T12:44:35.243] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T12:44:35.529] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T12:46:11.111] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:46:11.360] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T12:46:22.135] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:46:22.204] [ERROR] default - [authController] :: authenticate() : Unauthorized user
+[2024-03-20T12:48:43.376] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T12:48:43.635] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-20T20:17:43.455] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T20:17:43.456] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-20T20:18:09.410] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T20:18:09.552] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T20:19:08.361] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T20:19:08.740] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T21:40:45.422] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T21:40:45.562] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T21:41:07.677] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T21:41:08.034] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T21:41:27.149] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T21:41:27.275] [ERROR] default - [userController] :: createUser() : Username already exists
+[2024-03-20T21:41:56.566] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-20T21:41:56.924] [TRACE] default - [userController] :: createUser() : End
+[2024-03-20T21:42:14.520] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-20T21:42:14.875] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-22T18:57:11.307] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-22T18:57:11.702] [TRACE] default - [userController] :: createUser() : End
+[2024-03-22T18:57:26.603] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-22T18:57:26.925] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-22T19:07:23.326] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-22T19:07:23.331] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-22T21:22:57.315] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-22T21:22:57.317] [ERROR] default - [userController] :: createUser() : Missing required field

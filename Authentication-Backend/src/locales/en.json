@@ -1,0 +1,8 @@
+{
+	"ERROR_USER_ALREADY_EXISTS": "User Already Exists: This email address is already registered. Please try logging in or use a different email to create a new account.",
+	"ERROR_INVALID_EMAIL_FORMAT": "Invalid Email Format: The email address provided is not in a valid format. Please ensure it follows the standard email address format (e.g., example@example.com).",
+	"UNAUTHORIZED": "Unauthorized: Access to the requested resource is unauthorized. Please ensure you are logged in with appropriate permissions to access this feature.",
+	"SUCCESS": "Success: Operation Successful",
+	"USER_NOT_FOUND": "User Not Found: The requested user was not found. Please ensure you entered the correct information or register for a new account if you haven't already.",
+	"ERROR_MISSING_REQUIRED_FIELDS": "ERROR_MISSING_REQUIRED_FIELDS"
+}
