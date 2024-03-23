@@ -183,24 +183,36 @@ const UserProfile = () => {
 
   };
   return (
-    <div className=" py-10 px-10 justify-center">
+    <div className="bg-gradient-to-t from-purple-200 to-purple-400 px-10 justify-center">
       {showAppointmentsPopup && <AppointmentsPopup onClose={togglePopup} />}
 
-      <div className=" w-full ">
+      <div className=" w-full">
         <div className="flex-none p-4 ">
+
           <div className="relative">
-            <img
-              className="w-44 h-44 rounded-full object-cover ml-14 mb-6 shadow-xl border-2 border-gray-400"
-              src={userData.image || User_Image}
-              alt="user-avatar"
-            />
+            <div className='flex justify-end mr-2 '>
+                <button 
+                    className="bg-black text-white font-bold transform transition duration-500 hover:scale-105 py-2 px-3 rounded shadow-xl"
+                >
+                    Sign out
+                </button>
+            </div>
 
             <div className=" text-center mb-5">
               <h1 className="text-5xl font-bold">User Profile</h1>
             </div>
 
+            <div className="flex justify-center">
+              <img
+                className=" w-44 h-44 rounded-full object-cover mb-10 shadow-xl border-2 border-gray-400"
+                src={userData.image || User_Image}
+                alt="user-avatar"
+              />
+            </div>
+            
+
             {editMode && (
-              <div>
+              <div className="flex justify-center">
                 <input
                   type="file"
                   accept="image/*"
@@ -209,9 +221,9 @@ const UserProfile = () => {
                   onChange={handleImageChange}
                 />
 
-                <label htmlFor="image-upload" className="cursor-pointer">
+                <label htmlFor="image-upload" className="cursor-pointer ">
                   <button
-                    className="bg-blue-500 hover:bg-blue-700 transform transition duration-500 hover:scale-105 text-white font-bold py-2 px-4 rounded mr-2"
+                    className=" bg-blue-500 hover:bg-blue-700 transform transition duration-500 hover:scale-105 text-white font-bold py-2 px-4 rounded mr-2"
                     onClick={() =>
                       document.getElementById("image-upload").click()
                     }
@@ -247,7 +259,7 @@ const UserProfile = () => {
         </div>
 
         <div className=" p-5 font-calibri ">
-          <div className=" border-4 border-gray-600 rounded-xl shadow-2xl p-10 bg-gray-500 bg-opacity-70">
+          <div className=" border-4 border-gray-500 rounded-xl shadow-2xl p-10 bg-purple-400">
             <div className="mb-6 flex justify-between mt-6">
               <div className="ml-10 w-1/3">
                 <label className="text-3xl font-bold">User Name: </label>
@@ -360,7 +372,7 @@ const UserProfile = () => {
               </div>
             </div>
 
-            <hr className="border" />
+            <hr className="border border-black" />
 
             <div className="mt-5 mb-10 flex justify-between">
               <div className="ml-10 w-1/3 mr-4">
@@ -414,7 +426,7 @@ const UserProfile = () => {
               </div>
             </div>
 
-            <hr className="border" />
+            <hr className="border border-black" />
 
             <div className="mt-5 mb-10 flex justify-between">
               <div className="ml-10 w-1/3 mr-4">
