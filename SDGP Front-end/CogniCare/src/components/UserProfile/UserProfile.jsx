@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import User_Image from "../../assets/images/UserProfileimages/User_Image.jpg";
 import axios from "axios";
-import AppointmentsPopup from "./AppointmentsPopup.jsx";
+import AppointmentsPopup from "./AppoinmentsPopup.jsx";
 
 const UserProfile = () => {
   const [editMode, setEditMode] = useState(false);
