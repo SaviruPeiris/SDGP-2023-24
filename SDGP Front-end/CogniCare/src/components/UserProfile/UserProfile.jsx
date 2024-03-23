@@ -3,7 +3,6 @@ import User_Image from "../../assets/images/UserProfileimages/User_Image.jpg";
 import axios from "axios";
 import AppointmentsPopup from "./AppoinmentsPopup.jsx";
 
-
 const UserProfile = () => {
   const [editMode, setEditMode] = useState(false);
   const userId=localStorage.getItem("userId")
