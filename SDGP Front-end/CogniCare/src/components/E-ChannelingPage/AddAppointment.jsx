@@ -1,33 +1,52 @@
 import { BiCalendarPlus } from "react-icons/bi"
 import { useState } from "react"
-export function AddAppointment({onSendAppointmentInfo, lastId}){
+import axios from "axios";
+export function AddAppointment({psychologist, lastId}){
   const clearData={
     ownerName:'',
-    docName:'',
+    petName:'',
     aptNotes:'',
     aptDate: '',
     aptTime: ''
   }
-  
-  async function onFormPublish(){
-    const appointmentInfo={
-      id: lastId+1,
-      docName: formData.docName,
-      ownerName: formData.ownerName,
-      aptNotes: formData.aptNotes,
-      aptDate: formData.aptDate+' '+formData.aptTime
-    }
-    onSendAppointmentInfo(appointmentInfo)
-    setFormData(clearData);
-    setToggleForm(false);
-  }
 
+  async function onFormPublish() {
+    try {
+      const userId=localStorage.getItem("userId")
+
+      const appointmentInfo = {
+        userId: userId,
+        doctor: psychologist.name, // Assuming you have the doctor info
+        petName: formData.petName,
+        ownerName: formData.ownerName,
+        aptNotes: formData.aptNotes,
+        aptDate: formData.aptDate + ' ' + formData.aptTime
+      };
+
+      // Make a POST request to the backend API
+      const response = await axios.post('http://localhost:3000/api/v1/appointments', appointmentInfo, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      // Handle successful response
+      console.log('Appointment created successfully:', response.data);
+
+      // Clear the form data and close the form
+      setFormData(clearData);
+      setToggleForm(false);
+    } catch (error) {
+      // Handle error
+      console.error('Error creating appointment:', error);
+    }
+  }
   const [toggleForm, setToggleForm] = useState(false);
   const [formData,setFormData]=useState(clearData)
 
   return (
     <div>
-      <button onClick={()=>setToggleForm(!toggleForm)} className="bg-pink-700 text-white px-2 py-3 w-xs text-left rounded-t-md">
+      <button onClick={()=>setToggleForm(!toggleForm)} className="bg-purple-400 text-white px-2 py-3 w-xs text-left rounded-t-md">
         <div> Book Now</div>
       </button>
       {toggleForm && (
@@ -45,7 +64,7 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
               {toggleForm && <div className="border-r-2 border-b-2 border-l-2 border-light-blue-500 rounded-b-md pl-4 pr-4 pb-4">
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="ownerName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Name
+              Owner Name
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <input type="text" name="ownerName" id="ownerName"
@@ -55,19 +74,19 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
           </div>
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
-            <label htmlFor="docName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Doc Name
+            <label htmlFor="petName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+              Pet Name
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
-              <input type="text" name="docName" id="docName"
-                onChange={(e)=>{setFormData({...formData,docName: e.target.value})}}
+              <input type="text" name="petName" id="petName"
+                onChange={(e)=>{setFormData({...formData,petName: e.target.value})}}
                 className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md" />
             </div>
           </div>
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="aptDate" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Appointment Date
+              Apt Date
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <input type="date" name="aptDate" id="aptDate"
@@ -78,7 +97,7 @@ export function AddAppointment({onSendAppointmentInfo, lastId}){
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="aptTime" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-            Appointment Time
+              Apt Time
             </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <input type="time" name="aptTime" id="aptTime"

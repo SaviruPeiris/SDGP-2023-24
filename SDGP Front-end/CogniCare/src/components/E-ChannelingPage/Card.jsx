@@ -3,7 +3,7 @@ import AddAppointment from './AddAppointment'; // Import the AddAppointment comp
 
 const Card = ({ psychologist, onBookClick, onSendAppointmentInfo, lastId }) => {
   const [showAppointmentPopup, setShowAppointmentPopup] = useState(false);
-
+console.log(psychologist)
   const handleBookClick = () => {
     setShowAppointmentPopup(true);
     onBookClick(psychologist); // Pass psychologist data to the parent component
@@ -52,7 +52,7 @@ const Card = ({ psychologist, onBookClick, onSendAppointmentInfo, lastId }) => {
  
         {/* Render the appointment popup based on the state */}
       {(
-        <AddAppointment onSendAppointmentInfo={onSendAppointmentInfo} lastId={lastId} />
+        <AddAppointment psychologist={psychologist} lastId={lastId} />
       )}
       
       </button>

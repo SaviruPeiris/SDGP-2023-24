@@ -6,7 +6,6 @@ import NavBarTest from "../../components/NavBar/NavBarTest";
 
 import IntroSection from "../../components/E-ChannelingPage/IntroSection";
 import SearchBar from "../../components/E-ChannelingPage/SearchBar";
-import Blogs from "../../components/E-ChannelingPage/Blogs";
 import Footer from "../../components/Footer";
 
 const EChannelingPage = () => {
@@ -15,7 +14,6 @@ const EChannelingPage = () => {
       <NavBarTest></NavBarTest>
       <IntroSection></IntroSection>
       <SearchBar></SearchBar>
-      {/* <Blogs></Blogs> */}
       <Footer></Footer>
     </>
   );
