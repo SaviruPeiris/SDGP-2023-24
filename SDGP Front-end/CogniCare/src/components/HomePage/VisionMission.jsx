@@ -21,14 +21,14 @@ const VisionMission = () => {
     >
       <div className="left-half text-justify border shadow bg-body rounded px-5 py-4">
         <h2 className="text-3xl xl:text-4xl	text-violet-800">Our Vision</h2>
-        <p className="xl:text-2xl text-lg">
+        <p className="xl:text-2xl text-lg" data-testid="vision-content">
           Empowering those affected by dementia with understanding, support, and
           hope through an enriching online platform.
         </p>
       </div>
       <div className="right-half text-justify border shadow bg-body rounded px-5 py-4">
         <h2 className="text-3xl xl:text-4xl	text-violet-800">Our Mission</h2>
-        <p className="xl:text-2xl text-lg">
+        <p className="xl:text-2xl text-lg" data-testid="mission-content">
           To empower individuals living with dementia and their caregivers
           through comprehensive resources and support, fostering dignity and
           independence.

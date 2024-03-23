@@ -33,13 +33,17 @@ const MemoryGameCard = () => {
         <h3 className="mb-4 xl:text-3xl text-3xl">
           Test your short-term memory
         </h3>
-        <p className="xl:text-lg text-lg">
+        <p className="xl:text-lg text-lg" data-testid="memorygame-content">
           Our website features a simple memory game designed to challenge and
           entertain users. Players match pairs of hidden cards to test their
           memory and concentration skills. It's a great way to have fun while
           exercising the mind.
         </p>
-        <Link to="/memorygame" className="btn btn-primary">
+        <Link
+          to="/memorygame"
+          className="btn btn-primary"
+          data-testid="go-to-memorygame-btn"
+        >
           Try it
         </Link>
       </div>
