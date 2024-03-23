@@ -1,6 +1,6 @@
 
 // import React from "react";
-import GOOGLE_ICON from "../../assets/images/Loginpage/google.svg";
+
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import axios from 'axios';
 
@@ -157,6 +157,8 @@ const[errors,setError]=useState({})
                 Register
               </button>
             </Link>
+            
+
           </div>
 
           <div className="w-full flex items-center justify-center relative py-2">

@@ -1,14 +1,14 @@
 
 import pic3 from "../images/blogs/dementia_3.webp";
-import pic4 from "../images/blogs/dementia4.jpeg";
-import pic6 from"../images/blogs/Causes-of-dementia.png";
-import pic7 from"../images/blogs/cuases2.jpeg";
+
+import pic6 from"../images/blogs/Causes-of-dementia.jpg";
+import pic7 from"../images/blogs/cuases2.jpg";
 import pic8 from"../images/blogs/sings.png";
 import pic9 from"../images/blogs/symtoms.jpeg";
 import pic10 from"../images/blogs/dementia1_31.jpeg";
 import pic11 from "../images/blogs/stats.png";
 
-import pic13 from  "../images/blogs/Healthy2.jpeg";
+import pic13 from  "../images/blogs/Healthy2.jpg";
 import pic14 from "../images/blogs/safesteps.jpeg";
 import pic15 from "../images/blogs/planing for future 2.webp";
 import pic16 from "../images/blogs/financial.jpeg";
@@ -81,27 +81,27 @@ export const awareness = [
     image3: pic10,
     image33: pic11,
     detail3:
-     "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
-    detail33:"sdfsdf",
-    pointC2:
-      "Currently more than 55 million people have dementia worldwide, over 60% of whom live in low-and middle-income countries. Every year, there are nearly 10 million new cases.",
+     "Dementia affects people of all ages, but it's mostly seen in older adults. Alzheimer's disease is the most common type of dementia, making up a large number of cases. Dementia brings a heavy burden, not just for those diagnosed but also for their families, caregivers, and healthcare systems. Knowing the facts and figures about dementia, like how common it is, what might cause it, and how it affects people, is important. This knowledge helps raise awareness, push for better help and resources, and drive research to prevent and treat dementia.",
+
+
     pointC1:
-      "While Alzheimer's disease is the most common form of dementia, there are also other common types such as vascular dementia, Lewy body dementia and Frontotemporal dementia.",
+      "1. While Alzheimer's disease is the most common form of dementia, there are also other common types such as vascular dementia, Lewy body dementia and Frontotemporal dementia.",
+    pointC2:
+      "2. Currently more than 55 million people have dementia worldwide, over 60% of whom live in low-and middle-income countries. Every year, there are nearly 10 million new cases.",
     pointC3:
-      "Dementia is currently the seventh leading cause of death and one of the major causes of disability and dependency among older people globally.",
+      "3. Dementia is currently the seventh leading cause of death and one of the major causes of disability and dependency among older people globally.",
     pointC4:
-      "1 in 3 seniors dies with Alzheimer's or another dementia. It kills more than breast cancer and prostate cancer combined.",
+      "4. 1 in 3 seniors dies with Alzheimer's or another dementia. It kills more than breast cancer and prostate cancer combined.",
     pointC5:
-      "In 2023, Alzheimer’s and other dementias will cost the nation $345 billion. By 2050, these costs could rise to nearly $1 trillion.",
+      "5. In 2023, Alzheimer’s and other dementias will cost the nation $345 billion. By 2050, these costs could rise to nearly $1 trillion.",
   },
 
   {
     id: 2,
     cover: coverpic2,
-    title: "Resources for patientce",
+    title: "Resources for patients",
+    desc:"For individuals with dementia, maintaining a healthy and active lifestyle is vital for their well-being. Activities promoting physical, mental, and emotional health can slow down symptoms and enhance cognitive function. This includes regular exercise, a nutritious diet, social interaction, cognitive stimulation, and sufficient rest. Adapting activities to their abilities boosts their sense of purpose and independence. Engaging in stimulating activities like puzzles and games preserves memory and cognition. Social connections with loved ones and support groups alleviate isolation. By integrating these practices into daily life, individuals with dementia can lead fulfilling lives with dignity and autonomy. ",
     subheading1: "Tips for an Healthy and Active lifestyle.",
-    //add content
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     image1: pic3,//PIC SHLD BE SMALLER
 
     image11: pic13,
@@ -119,11 +119,11 @@ export const awareness = [
       "5. Engage in  mental activties such as brain games, memory tasks and puzzles ",
 
    
-    subheading2: "What should be done when diagnoised ",
+    subheading2: "Life After Diagnosis. ",
     image22: pic14,
-    //add content 
+
     detail2:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+      " Receiving a diagnosis of dementia is tough for both the person diagnosed and their loved ones. It's important to get help from healthcare providers who specialize in dementia care. Having a strong support network of family, friends, and caregivers is crucial for emotional support and practical help. Learning about dementia, its symptoms, and available resources is key to managing the condition well. Although a dementia diagnosis brings uncertainty and challenges, getting help early, receiving proper care, and having ongoing support can greatly improve the person's quality of life and help them stay independent and dignified for as long as possible.",
     pointB1:
       "1.  Educate Yourself : Learn as much as you can about dementia, including its symptoms, progression, and available treatments. Understanding the condition can help to  cope better and make informed decisions.",
     pointB2:
@@ -136,14 +136,10 @@ export const awareness = [
       "5. Maintain social relationships : Stay connected with your family and friends, join for support groups and communtites ",
 
     subheading3: "Planing for future.",
-    //add content
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
     image3: pic15,
-    //add content
-    detail33:"giuhiuhiu",
-   
-    detail3:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+    detail3:"Upon receiving a diagnosis of dementia, individuals and their families are confronted with the daunting task of planning for the future, both legally and financially. As dementia , affects the persons memory, and decision-making, it highlights  the importance of proactive planning to ensure that the individual's wishes are respected and their affairs are managed effectively. Legal and financial planning involves various crucial aspects, including drafting advance directives, establishing power of attorney for healthcare and finances, creating wills or trusts, and addressing long-term care arrangements. This process requires careful consideration, consultation with legal and financial professionals, and open communication among family members to navigate the complexities of dementia and make informed decisions. ",
+     //add content
+    
     pointC1: "1. Health Care Planing",
     pointC2:
       "Discuss your preferences for future care with your loved ones and healthcare providers. Consider the type of care you would like to receive as the disease progresses, including preferences for living arrangements, medical treatments, and end-of-life care.",
@@ -157,10 +153,10 @@ export const awareness = [
 
   {
     id: 3,
-    title: "Resources for caregivers and families ",
+    title: "Resources for caregivers and families",
     cover: coverpic3,
     subheading1: "Providing everyday care.",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page wha m",
+    desc: "Caring for someone with dementia can be tough but  there are resources to help. Support groups let caregivers connect with others in similar situations and share advice. Educational programs offer useful information on managing dementia and coping strategies. Professional caregiver services give caregivers a break and help with daily tasks. Online resources and helplines provide accessible support and guidance, no matter where you are. These resources help caregivers and families provide the best care for their loved ones with dementia while also taking care of themselves.",
     image1: pic17,//pic shld be smaller..
     image11: pic18,
 
@@ -215,15 +211,15 @@ export const awareness = [
 
   {
     id: 4,
-    title: "How to prevent dementia.",
+    title: "How to prevent dementia",
     cover: coverpic4,
 
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
-    subheading1: "What are the risk factors",
+    desc: "Preventing dementia is a growing concern as the global population ages. There is currently no definitive cure for dementia, but several steps can be taken for  individuals to reduce their risk of developing the condition. This involves maintaining a healthy lifestyle that includes regular physical exercise, a balanced diet , staying mentally active through activities like puzzles, reading, and learning new skills, managing cardiovascular risk factors such as hypertension, diabetes, and obesity, maintaining social connections. By prioritizing these lifestyle factors, individuals can potentially reduce their risk of developing dementia and promote overall brain health and well-being.",
+    subheading1: "Risk factors",
     image1: pic32, //image shld be smaller
     image11: pic22,
-    detail1: //add more content
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+    detail1: "Dementia is influenced by various risk factors that increase the chance of developing the condition. While age is the most significant risk factor, genetics, lifestyle, and health conditions also play important roles.. Understanding these factors is crucial for taking preventive measures and making lifestyle changes to reduce the risk of dementia. By addressing modifiable risk factors and promoting brain-healthy habits, individuals can potentially lower their risk and support overall brain health as they age.",
+
     pointA1:
       " 1. Age : Age is a significant risk factor for Alzheimer's and other dementias, but it is not a normal part of aging or a direct cause for dementia. Most individuals with the disease are 65 and older, with the risk increasing every five years.",
     pointA2:
@@ -242,8 +238,8 @@ export const awareness = [
     detail2:
       "Although there is no effective treatment or proven prevention for Alzheimer’s and related dementias, in general, leading a healthy lifestyle may help address risk factors that have been associated with these diseases.  The following are some measures can be taken to mitigate  risk.",
     image22: pic25,
-    //add content
-    detail22:"jhgjhgjg",
+    
+    detail22:"The following image depicts lifestyle habits that individuals should adapt to and maintain throughout different stages of life to reduce the risk of developing dementia and enhance overall mental performance and well-being.",
     pointB2:
       "1. Control high blood pressure : Having high blood pressure is bad for the heart, blood vessels, and brain, and it makes the chances of having a stroke or dementia higher. Taking medicine for high blood pressure and doing healthy things like exercising and stopping smoking can lower the risk of dementia.",
     pointB3:
@@ -257,11 +253,10 @@ export const awareness = [
 
     subheading3: "Why early diagnosing is important?",
 
-    image3: pic3,//add image
-    detail3: "jhgdjkshk",//add content 
+    image3: pic3,//image shld be smaller 
+    detail3: "Dementia is a chronic condition characterized by a slow and progressive nature, and has no permanent cure. Hence, early detection is crucial for implementing effective treatments to minimize its impact. Without early intervention, patients are likely to endure the condition throughout their lifetime, facing significant challenges and limitations in managing its symptoms.",
 
-   //add content 
-    detail33:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a m",
+    detail33:"Early diagnosis , empowers hope for advancements in dementia management.Here are some major  benefits it offers to patients families ,Caregivers and as well as  the healthcare experts.",
     pointC1: "1. Give Access to Support Services:-  Those with early diagnosis have an easier time accessing resources, information, and support services to help them understand and manage their disease.",
     pointC2: "2. Assistance with Treatment Planning:-  Understanding the kind and stage of dementia enables medical professionals to design an effective care strategy. Although there isn't a cure, there are therapies that can lessen symptoms and enhance life", 
     pointC3: "3. Permit Medication:-  Drugs that control symptoms and halt the advancement of some dementias, such as Alzheimer's disease, can be helpful. These are best initiated early on.",
@@ -271,10 +266,10 @@ export const awareness = [
 
   {
     id: 5,
-    title: "Treatments and Diagnosis.",
+    title: "Treatments and Diagnosis",
     cover: coverpic5,
 //add content 
-    desc: "It is a long established fact that a reader will be distracted by the reaLorem Ipsum is that it has a m",
+    desc: " Dementia, a complex neurological condition, poses significant challenges for both patients and healthcare professionals. While there is currently no cure for dementia, timely diagnosis and appropriate treatment strategies can help manage symptoms and improve quality of life for affected individuals. However it is important to state that treatments have very minimum chances of  reverse the progression of dementia depending of the situation , they  just aim to optimize functioning and enhance well-being for individuals living with the condition.",
     subheading1: "How dementia is being diaognised",
     image1: pic26,//image small
     image11: pic27,

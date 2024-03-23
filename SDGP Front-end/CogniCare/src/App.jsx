@@ -32,7 +32,7 @@ function App() {
     //   <LeftContent></LeftContent>
     //   <CardContainer></CardContainer>
     // </>
-
+    
     <BrowserRouter>
       <ScrollToTopOnPageChange />
       <Routes>

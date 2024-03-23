@@ -1,3 +1,5 @@
+
+
 .descriptionPage {
   padding: 50px 0;
   background: #fff;
@@ -44,20 +46,12 @@ color: #666;
 margin-bottom: 20px;
 }
 
-/* Add any other styles as needed */
-
-/* .descriptionPage .buttons {
-  display: flex;
-  justify-content: flex-end;
+.section1{
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-.descriptionPage .button {
-  margin-left: 20px;
-  border: none;
+.points{
+  margin-top: 20px;
+  
 }
-.descriptionPage .button:nth-child(1) {
-  background: #10ac84;
-}
-.descriptionPage .button:nth-child(2) {
-  background: #ee5253;
-}
- */
+ 

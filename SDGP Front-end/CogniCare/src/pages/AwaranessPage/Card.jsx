@@ -6,18 +6,17 @@ import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAl
 import { Link } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
 import NavBarTest from "../../components/NavBar/NavBarTest"
-
+import Footer from "../../components/Footer";
 export const Card = () => {
   return (
 
-   
     
  <>
  <NavBarTest></NavBarTest>
   <section className='awareness'>
-   <div className='container grid3 '>
+   <div className=' container grid3 '>
      {awareness.map((item) => (
-       <div className=' box cardItems' key={item.id}>
+       <div className=' box cardItems awarenessCard' key={item.id}>
          <div className='img'>
            <img src={item.cover} alt='' />
          </div>
@@ -26,18 +25,18 @@ export const Card = () => {
            <p>{item.desc.slice(0, 180)}...</p>
         
            <></>
-
-
-
              <Link to={`/details/${item.id}`} className='link'>
              <Button variant="ViewMore">View more</Button>{''}
           
-              </Link>
+             </Link>
            </div>
+         
          </div>
+       
 
      ))}
    </div>
+   <Footer></Footer>
  </section> 
 </>
     

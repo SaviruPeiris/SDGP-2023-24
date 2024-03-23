@@ -1,5 +1,5 @@
 // import React from "react";
-import GOOGLE_ICON from "../../assets/images/Loginpage/google.svg";
+
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import React, { useState, useEffect } from "react";
 import axios from 'axios';

@@ -1,11 +1,12 @@
 /* Sidebar.css */
 .sidebar {
-    width: 200px; /* Set sidebar width */
-    height: 70%; /* Full height */
-    position: fixed; /* Fixed position */
-    top: 50px; /* Top position */
+    width: 200px; 
+    height: 70%; 
+    position:fixed;
+    top: 150px; /* Top position */
+   
     left: 0; /* Left position */
-    background-color: #71009a; /* Sidebar background color */
+    background-color: #ba55df; /* Sidebar background color */
     padding-top: 20px; /* Add some padding at the top */
   }
   
@@ -20,7 +21,7 @@
   
   .sidebar ul li a {
     margin-top: 30%;
-    display: block; /* Make anchor tags block level */
+    display: block; 
     color: black;
     text-decoration: none;
     font-weight: 800;
@@ -31,6 +32,6 @@
   }
   
   .sidebar ul li a:hover {
-    background-color: #f99cf8; /* Change background color on hover */
+    background-color: #e6a7e6; /* Change background color on hover */
   }
   
