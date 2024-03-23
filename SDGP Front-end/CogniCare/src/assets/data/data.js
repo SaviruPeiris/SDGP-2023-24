@@ -54,14 +54,18 @@ export const awareness = [
     image11: pic7,
     pointA1:
       "In most cases, the underlying causes are unknown but reserches have shown tht the following  factors  may contibute to increase the risk of developing dementia",
-    pointA2:
-      "1. Traumatic Brain Injury (TBI): Severe head injuries, such as those resulting from falls, accidents, or sports-related injuries,",
-    pointA3:
-      "2. Genetics: Certain genetic mutations and familial inheritance patterns can predispose individuals to specific types of dementia, such as early-onset Alzheimer's disease or Huntington's disease.",
-    pointA4:
-      "3. Lifestyle Factors: Unhealthy lifestyle choices, including smoking, excessive alcohol consumption, sedentary behavior, and poor diet",
-    pointA5:
-      "4. Environmental Factors: Exposure to environmental toxins, pollutants, or prolonged periods of untreated depression or anxiety may also play a role in the development of dementia.",
+    subpointA2:"1. Traumatic Brain Injury (TBI)",
+      pointA2:
+      " Severe head injuries, such as those resulting from falls, accidents, or sports-related injuries,",
+      subpointA3:"2. Genetics",
+      pointA3:
+      "Certain genetic mutations and familial inheritance patterns can predispose individuals to specific types of dementia, such as early-onset Alzheimer's disease or Huntington's disease.",
+      subpointA4:"3.Lifestyle Factors",
+      pointA4:
+      " Unhealthy lifestyle choices, including smoking, excessive alcohol consumption, sedentary behavior, and poor diet",
+      subpointA5:"4. Environmental Factors",
+      pointA5:
+      "Exposure to environmental toxins, pollutants, or prolonged periods of untreated depression or anxiety may also play a role in the development of dementia.",
 
     subheading2: "Signs and symptoms ",
     detail2:
@@ -219,17 +223,21 @@ export const awareness = [
     image1: pic32, //image shld be smaller
     image11: pic22,
     detail1: "Dementia is influenced by various risk factors that increase the chance of developing the condition. While age is the most significant risk factor, genetics, lifestyle, and health conditions also play important roles.. Understanding these factors is crucial for taking preventive measures and making lifestyle changes to reduce the risk of dementia. By addressing modifiable risk factors and promoting brain-healthy habits, individuals can potentially lower their risk and support overall brain health as they age.",
-
+    subpointA1:"1.Age",
     pointA1:
-      " 1. Age : Age is a significant risk factor for Alzheimer's and other dementias, but it is not a normal part of aging or a direct cause for dementia. Most individuals with the disease are 65 and older, with the risk increasing every five years.",
+      " Age is a significant risk factor for Alzheimer's and other dementias, but it is not a normal part of aging or a direct cause for dementia. Most individuals with the disease are 65 and older, with the risk increasing every five years.",
+    subpointA2:"2. Family history  and genetics",
     pointA2:
-      " 2. Family history  and genetics : Family history is a significant risk factor for Alzheimer's disease, with more risk if multiple family members have the disease. This risk can be influenced by genetics , environmental factors, or both.",
+      " Family history is a significant risk factor for Alzheimer's disease, with more risk if multiple family members have the disease. This risk can be influenced by genetics , environmental factors, or both.",
+    subpointA3:"3.Bad life style habbits",
     pointA3:
-      " 3  Bad life style habbits : Smoking and Alcohol Consumption, Poor Diet and physical inactivity have been linked to an increased risk of dementia..",
-    pointA4:
-      " 4. Race and gender : Race and gender are also factors that influence risk. Research shows that African Americans, American Indians, and Alaska Natives have the highest rates of dementia, and  women have a much hgher risk of developing dementia than men.",
-    pointA5:
-      " 5. Cardiovascular Risk Factors: Conditions that affect the heart and blood vessels, such as high blood pressure, high cholesterol, diabetes, and obesity, can increase the risk of dementia. ",
+      "Smoking and Alcohol Consumption, Poor Diet and physical inactivity have been linked to an increased risk of dementia.",
+      subpointA4:"4.Race and gender",
+      pointA4:
+      " Race and gender are also factors that influence risk. Research shows that African Americans, American Indians, and Alaska Natives have the highest rates of dementia, and  women have a much hgher risk of developing dementia than men.",
+      subpointA5:"5. Cardiovascular Risk Factors",
+      pointA5:
+      " Conditions that affect the heart and blood vessels, such as high blood pressure, high cholesterol, diabetes, and obesity, can increase the risk of dementia. ",
 
     subheading2: "Strategies to Safeguard Against Dementia",
     image2: pic24,
@@ -240,28 +248,39 @@ export const awareness = [
     image22: pic25,
     
     detail22:"The following image depicts lifestyle habits that individuals should adapt to and maintain throughout different stages of life to reduce the risk of developing dementia and enhance overall mental performance and well-being.",
-    pointB2:
-      "1. Control high blood pressure : Having high blood pressure is bad for the heart, blood vessels, and brain, and it makes the chances of having a stroke or dementia higher. Taking medicine for high blood pressure and doing healthy things like exercising and stopping smoking can lower the risk of dementia.",
-    pointB3:
-      "2. Manage blood sugar : Higher than normal levels of blood sugar, or glucose, can lead to diabetes and may increase the risk of heart disease, stroke, cognitive impairment, and dementia. Blood sugar can be controlled by eating a balanced diet, exercising frequently, quitting smoking, and monitoring blood sugar levels.      ",
-    pointB3:
-      "3. Prevent head injury : Take precautions to avoid falls and head injuries, such as installing fall protection in your house and donning footwear that provides complete foot support and nonskid bottoms. Think about taking part in local or online fall prevention programmes. Additionally, to help prevent concussions and other brain injuries, use helmets and seatbelts.",
-    pointB4:
-      "4 .Maintain mental health :  Manage stress through relaxation techniques such as meditation or deep breathing exercises.",
-    pointB5:
-      "5. Keep your brain and body healthy by following your doctor's recommendations and attending regular check-ups.",
+    subpointB1:"1.Control high blood pressure ",
+    pointB1:
+      " Having high blood pressure is bad for the heart, blood vessels, and brain, and it makes the chances of having a stroke or dementia higher. Taking medicine for high blood pressure and doing healthy things like exercising and stopping smoking can lower the risk of dementia.",
+      subpointB2:"2.Manage blood sugar ",
+      pointB2:
+      " Higher than normal levels of blood sugar, or glucose, can lead to diabetes and may increase the risk of heart disease, stroke, cognitive impairment, and dementia. Blood sugar can be controlled by eating a balanced diet, exercising frequently, quitting smoking, and monitoring blood sugar levels.      ",
+      subpointB3:"3.Prevent head injury  ",
+      pointB3:
+      "Take precautions to avoid falls and head injuries, such as installing fall protection in your house and donning footwear that provides complete foot support and nonskid bottoms. Think about taking part in local or online fall prevention programmes. Additionally, to help prevent concussions and other brain injuries, use helmets and seatbelts.",
+      subpointB4:"4.Maintain mental health ",
+      pointB4:
+      "Manage stress through relaxation techniques such as meditation or deep breathing exercises.",
+      subpointB5:"5.Keep your brain active",
+     
+      pointB5:
+      "Keep your brain and body healthy by following your doctor's recommendations and attending regular check-ups.",
 
     subheading3: "Why early diagnosing is important?",
 
     image3: pic3,//image shld be smaller 
     detail3: "Dementia is a chronic condition characterized by a slow and progressive nature, and has no permanent cure. Hence, early detection is crucial for implementing effective treatments to minimize its impact. Without early intervention, patients are likely to endure the condition throughout their lifetime, facing significant challenges and limitations in managing its symptoms.",
-
     detail33:"Early diagnosis , empowers hope for advancements in dementia management.Here are some major  benefits it offers to patients families ,Caregivers and as well as  the healthcare experts.",
-    pointC1: "1. Give Access to Support Services:-  Those with early diagnosis have an easier time accessing resources, information, and support services to help them understand and manage their disease.",
-    pointC2: "2. Assistance with Treatment Planning:-  Understanding the kind and stage of dementia enables medical professionals to design an effective care strategy. Although there isn't a cure, there are therapies that can lessen symptoms and enhance life", 
-    pointC3: "3. Permit Medication:-  Drugs that control symptoms and halt the advancement of some dementias, such as Alzheimer's disease, can be helpful. These are best initiated early on.",
-    pointC4: "6. Encourage Clinical Trial and Research Participation:-  Early diagnosis facilitates clinical trial and research participation, which is more beneficial when the disease is still in its early stages.",
-    pointC5: "5. Help with Legal and Financial Planning:-  Timely diagnosis allows for the creation of advance directives and power of attorney agreements, among other legal and financial arrangements, to guarantee that desires are carried out as the illness advances.",
+    
+    subpointC1:" 1.Give Access to Support Services",
+    pointC1: "Those with early diagnosis have an easier time accessing resources, information, and support services to help them understand and manage their disease.",
+    subpointC2:"2.Assistance with Treatment Planning",
+    pointC2: "Understanding the kind and stage of dementia enables medical professionals to design an effective care strategy. Although there isn't a cure, there are therapies that can lessen symptoms and enhance life", 
+    subpointC3:"3.Permit Medication",
+    pointC3: "Drugs that control symptoms and halt the advancement of some dementias, such as Alzheimer's disease, can be helpful. These are best initiated early on.",
+    subpointC2:"6.Encourage Clinical Trial and Research Participation",
+    pointC4: ":Early diagnosis facilitates clinical trial and research participation, which is more beneficial when the disease is still in its early stages.",
+    subpointC2:"5.Help with Legal and Financial Planning",
+    pointC5: ":Timely diagnosis allows for the creation of advance directives and power of attorney agreements, among other legal and financial arrangements, to guarantee that desires are carried out as the illness advances.",
   },
 
   {
@@ -276,34 +295,41 @@ export const awareness = [
     
     detail1:
       "There is no single exact test that can determine if a person is living with Alzheimer’s or another dementia. Physicians use diagnostic tools combined with medical history and other information, including neurological exams, cognitive and functional assessments, brain imaging (MRI, CT, PET) and cerebrospinal fluid or blood tests to make an accurate diagnosis. ",
-    pointA1:
-      "5. Brain Scaning : Brain imaging tests such as CT scans and MRI may also be done to predict the risk level of dementia.Researchers shows they indicate evidence of strokes from vascular dementia. Additionally  Single photon emission CT (SPECT) and PET scan can help identify several forms of dementia, including vascular dementia and frontotemporal dementia. ",
-    pointA2:
-      "1. By checking medical history : The healthcare provider reviews a person's medical history, including psychiatric and cognitive changes, and inquires about current and past medical issues, medications, and family members' medical conditions, including Alzheimer's disease or other dementias, during a medical workup.",
-    pointA3:
-      "3. Neurological exam : A neurological exam involves a physician examining a person for signs of brain disorders beyond Alzheimer's, including stroke, Parkinson's disease, brain tumors, fluid buildup, and memory impairment. Tests include reflexes, coordination, muscle tone, eye movement, speech, and sensation, and may include a brain imaging study.",
-    pointA4:
-      "2. Physical exam and diagnostic tests : This process involve reviewing diet, nutrition, alcohol use, medications , checking  blood pressure ,pulse, heart and lung monitoring, and  laboratory testing on blood or urine samples , is being done.",
-    pointA5:
-      "4. Genetic testing: Researchers have identified genes that increase the risk of developing Alzheimer's and rare deterministic genes that directly cause the disease. While genetic tests are available for some of these genes, health professionals do not currently recommend routine testing for Alzheimer's disease. Risk genes, such as APOE-e4, are used in clinical trials to identify people at higher risk, but genetic testing for APOE-e4 is controversial and should only be done after consultation with a physician or genetic counselor. Deterministic genes, such as autosomal dominant Alzheimer's disease (ADAD), account for 1% or less of all cases and are often tested to determine the disease's progression. ",
+     subpointA1:"1.Brain Scaning ",
+     pointA1:
+      "Brain imaging tests such as CT scans and MRI may also be done to predict the risk level of dementia.Researchers shows they indicate evidence of strokes from vascular dementia. Additionally  Single photon emission CT (SPECT) and PET scan can help identify several forms of dementia, including vascular dementia and frontotemporal dementia. ",
+      subpointA2:"2.By checking medical history ",
+      pointA2:
+      "The healthcare provider reviews a person's medical history, including psychiatric and cognitive changes, and inquires about current and past medical issues, medications, and family members' medical conditions, including Alzheimer's disease or other dementias, during a medical workup.",
+      subpointA3:"3.Neurological exam",
+      pointA3:
+      " A neurological exam involves a physician examining a person for signs of brain disorders beyond Alzheimer's, including stroke, Parkinson's disease, brain tumors, fluid buildup, and memory impairment. Tests include reflexes, coordination, muscle tone, eye movement, speech, and sensation, and may include a brain imaging study.",
+      subpointA4:"4.Physical exam and diagnostic tests ",
+      pointA4:
+      "This process involve reviewing diet, nutrition, alcohol use, medications , checking  blood pressure ,pulse, heart and lung monitoring, and  laboratory testing on blood or urine samples , is being done.",
+      subpointA5:"5 Genetic testing ",
+      pointA5:
+      "Researchers have identified genes that increase the risk of developing Alzheimer's and rare deterministic genes that directly cause the disease. While genetic tests are available for some of these genes, health professionals do not currently recommend routine testing for Alzheimer's disease. Risk genes, such as APOE-e4, are used in clinical trials to identify people at higher risk, but genetic testing for APOE-e4 is controversial and should only be done after consultation with a physician or genetic counselor. Deterministic genes, such as autosomal dominant Alzheimer's disease (ADAD), account for 1% or less of all cases and are often tested to determine the disease's progression. ",
 
     subheading2: "Treatments.",
-
-      
-        image2: pic33,
+    image2: pic33,
     
     detail2:
       "Eventhough  there's no cure for Alzheimer’s, there are treatments that could alter how the disease develops, along with drug and non-drug approaches to manage symptoms. Knowing about these options can assist both individuals with the condition and their caregivers in dealing with symptoms and enhancing their quality of life.",
-    pointB1:
-      "1. Cholinesterase inhibitors: Cholinesterase inhibitors  such as donepezil, rivastigmine, and galantamine, are medications used to boost memory and judgment levels. They are primarily used to treat Alzheimer's disease but can also be prescribed for other dementias like vascular, Parkinson's, and Lewy body dementia. Side effects include nausea, vomiting, diarrhea, slowed heart rate, fainting, and sleep problems.",
-    pointB2:
-      "2. Memantine.  : Memantine (Namenda) works by regulating the activity of glutamate. Glutamate is another chemical messenger involved in brain functions such as learning and memory. Memantine is sometimes prescribed with a cholinesterase inhibitor.",
-    pointB3:
-      "3. Therapies :  Occupational therapy helps the patients to cope well with  Cognitive stimulation ,Behavioral management emotinal support and ˜",
-    pointB4:
-      "4. Lifestyle modifications :  Encouraging a healthy lifestyle, including regular physical exercise, balanced nutrition, adequate sleep, and social engagement, can support overall brain health and may help slow down the progression of dementia symptoms. ",
-    pointB5:
-      "5. Clinical trials: Participation in clinical trials may offer access to experimental treatments and interventions aimed at slowing down or halting the progression of dementia. These trials are conducted to evaluate the safety and efficacy of new therapies.",
+    subpointB1:"1. Cholinesterase inhibitors:",
+      pointB1:
+      " Cholinesterase inhibitors  such as donepezil, rivastigmine, and galantamine, are medications used to boost memory and judgment levels. They are primarily used to treat Alzheimer's disease but can also be prescribed for other dementias like vascular, Parkinson's, and Lewy body dementia. Side effects include nausea, vomiting, diarrhea, slowed heart rate, fainting, and sleep problems.",
+      subpointB1:"2. Memantine",
+      pointB2:
+      " Memantine (Namenda) works by regulating the activity of glutamate. Glutamate is another chemical messenger involved in brain functions such as learning and memory. Memantine is sometimes prescribed with a cholinesterase inhibitor.",
+    subpointB1:"3. Therapie",
+      pointB3:
+      "Occupational therapy helps the patients to cope well with  Cognitive stimulation ,Behavioral management emotinal support and ˜",
+      subpointB1:"4. Lifestyle modifications",
+      pointB4:
+      "Encouraging a healthy lifestyle, including regular physical exercise, balanced nutrition, adequate sleep, and social engagement, can support overall brain health and may help slow down the progression of dementia symptoms. ",
+    subpointB1:"5. Clinical trials",
+      pointB5: " Participation in clinical trials may offer access to experimental treatments and interventions aimed at slowing down or halting the progression of dementia. These trials are conducted to evaluate the safety and efficacy of new therapies.",
 
     subheading3: "Medication process.",
 
@@ -311,16 +337,21 @@ export const awareness = [
     image33: pic29,
     detail3:
       "Before initiating treatment, it is essential to seek guidance on whether medications prescribed for other health conditions could impact dementia symptoms. Additionally, understanding how to adjust medications if they are not effectively managing symptoms is crucial.Below are the few steps need to ba taken when starting the medication process. ",
-    pointC1:
-      "1. Starting medication : Dementia patients typically start taking medication after diagnosis, with consultation with a specialist and support from a local memory service or neurology clinic. Before prescribing donepezil or other cholinesterase inhibitors, doctors check the patient's pulse and blood pressure to ensure safety. If the patient has heart problems, taking medication could increase their risk of fainting and potentially injuring themselves. This process typically occurs at a local memory service or neurology clinic.",
-    pointC2:
-      "2. Getting the right dose and form : Starting with a low dose of medication can improve side effects, so gradually increase it over time. The GP will prescribe the appropriate medication form, which can be in pill, liquid, or skin patch form.  It is crucial to ensure that the right dose is taken at the right time. Tablets are typically offered, but if swallowing is a concern, an oro-dispersible tablet or patch may be more suitable.",
-    pointC3:
-      "3. Medication for other health conditions : It's crucial to inform  about any other medications  taking for other health conditions. They might exacerbate symptoms of dementia, leading to confusion, drowsiness, or other adverse effects. These medications may include those used to treat urinary incontinence, anxiety, depression, allergies, hallucinations, Parkinson's disease symptoms, nausea, vomiting, and chronic pain. By providing a comprehensive list of medications, healthcare professionals can adjust treatment plans accordingly to minimize adverse effects and optimize the management of dementia symptoms.",
-    pointC4:
-      "4. Side effects : Dementia medications, may have side effects that can vary depending on the individual.These may include Gastrointestinal issue dizziness ,headaches, fatigue ,sleep disturbances,increased heart rate .Therefore its important t get immediate medical assistnce in such cases. ",
-    pointC5:
-      "5. Reviewing medication : If a person feels their dementia medication is no longer effective, they can discuss it with their doctor. Regularly reviewing the medication's effectiveness, including its impact on daily functioning, mental abilities, and side effects, is crucial. If the benefits aren't worth the side effects, the person may consider alternative options like switching to another medication, reducing dosage, or discontinuing the medication altogether. This may require involving a dementia specialist.",
+    subpointc1:"1. Starting medication ",
+      pointC1:
+      "Dementia patients typically start taking medication after diagnosis, with consultation with a specialist and support from a local memory service or neurology clinic. Before prescribing donepezil or other cholinesterase inhibitors, doctors check the patient's pulse and blood pressure to ensure safety. If the patient has heart problems, taking medication could increase their risk of fainting and potentially injuring themselves. This process typically occurs at a local memory service or neurology clinic.",
+      subpointc2:"2. Getting the right dose and form ",
+      pointC2:
+      " Starting with a low dose of medication can improve side effects, so gradually increase it over time. The GP will prescribe the appropriate medication form, which can be in pill, liquid, or skin patch form.  It is crucial to ensure that the right dose is taken at the right time. Tablets are typically offered, but if swallowing is a concern, an oro-dispersible tablet or patch may be more suitable.",
+      subpointc3:"3. Medication for other health conditions ",
+      pointC3:
+      "It's crucial to inform  about any other medications  taking for other health conditions. They might exacerbate symptoms of dementia, leading to confusion, drowsiness, or other adverse effects. These medications may include those used to treat urinary incontinence, anxiety, depression, allergies, hallucinations, Parkinson's disease symptoms, nausea, vomiting, and chronic pain. By providing a comprehensive list of medications, healthcare professionals can adjust treatment plans accordingly to minimize adverse effects and optimize the management of dementia symptoms.",
+      subpointc4:"4.Side effects ",
+      pointC4:
+      "Dementia medications, may have side effects that can vary depending on the individual.These may include Gastrointestinal issue dizziness ,headaches, fatigue ,sleep disturbances,increased heart rate .Therefore its important t get immediate medical assistnce in such cases. ",
+      subpointc5:"5.Reviewing medication ",
+      pointC5:
+      " If a person feels their dementia medication is no longer effective, they can discuss it with their doctor. Regularly reviewing the medication's effectiveness, including its impact on daily functioning, mental abilities, and side effects, is crucial. If the benefits aren't worth the side effects, the person may consider alternative options like switching to another medication, reducing dosage, or discontinuing the medication altogether. This may require involving a dementia specialist.",
   },
 
   {
@@ -365,14 +396,18 @@ export const awareness = [
  
     detail3:
       "When individuals with dementia commit crimes, the legal system faces significant challenges in determining their culpability and appropriate responses. Here are some key points and resources on this topic",
-    pointC1:
-      "1. Legal Responsibility: When someone with dementia commits a crime, figuring out if they're legally responsible can be tricky. The law often looks at whether they meant to do it. Dementia can mess with how well they understand things or plan, making it hard to tell if they meant to commit the crime or not.",
+    subpointC1:"1. Legal Responsibility",
+      pointC1:
 
+      " When someone with dementia commits a crime, figuring out if they're legally responsible can be tricky. The law often looks at whether they meant to do it. Dementia can mess with how well they understand things or plan, making it hard to tell if they meant to commit the crime or not.",
+      subpointC2:"2.Capacity to Stand Trial",
     pointC2:
-      "2. Capacity to Stand Trial: When someone with dementia is accused of a crime, the court checks if they're able to understand what's happening and help in their own defense. Dementia can make it tough for them to fully take part in legal matters.",
-    pointC3:
-      "3. Alternative Sentencing and Treatment: Sometimes, if someone with dementia breaks the law, the courts might look for different ways to handle it. This could mean things like getting help for their mental health instead of going to regular jail, or going to a special facility that understands their condition.",
-    pointC4:
-      "4. Impact on Victims and Families: When people with dementia commit crimes, it can really affect the victims and their families. It's important to understand how dementia played a part in the crime so that everyone affected can get the right support and help they need.",
+      "When someone with dementia is accused of a crime, the court checks if they're able to understand what's happening and help in their own defense. Dementia can make it tough for them to fully take part in legal matters.",
+      subpointC3:"3. Alternative Sentencing and Treatment",
+      pointC3:
+      "Sometimes, if someone with dementia breaks the law, the courts might look for different ways to handle it. This could mean things like getting help for their mental health instead of going to regular jail, or going to a special facility that understands their condition.",
+      subpointC4:"4.Impact on Victims and Families",
+      pointC4:
+      "When people with dementia commit crimes, it can really affect the victims and their families. It's important to understand how dementia played a part in the crime so that everyone affected can get the right support and help they need.",
   },
 ];

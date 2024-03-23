@@ -49,10 +49,15 @@ const DetailPage = () => {
             <img src={blogs.image11} alt=''></img>
            
           <div className="points">
+            <h2>{blogs.subpointA1}</h2>
             <p>{blogs.pointA1}</p>
+            <h2>{blogs.subpointA2}</h2>
             <p>{blogs.pointA2}</p>
+            <h2>{blogs.subpointA3}</h2>
             <p>{blogs.pointA3}</p>
+            <h2>{blogs.subpointA4}</h2>
             <p>{blogs.pointA4}</p>
+            <h2>{blogs.subpointA5}</h2>
             <p>{blogs.pointA5}</p>
           
             </div>
@@ -69,10 +74,15 @@ const DetailPage = () => {
             <img src={blogs.image22} alt=''></img>
 
             <div className="points">
+            <h2>{blogs.subpointB1}</h2>
             <p>{blogs.pointB1}</p>
+            <h2>{blogs.subpointB2}</h2>
             <p>{blogs.pointB2}</p>
+            <h2>{blogs.subpointB3}</h2>
             <p>{blogs.pointB3}</p>
+            <h2>{blogs.subpointB4}</h2>
             <p>{blogs.pointB4}</p>
+            <h2>{blogs.subpointB5}</h2>
             <p>{blogs.pointB5}</p>
 
             </div>
@@ -88,10 +98,15 @@ const DetailPage = () => {
 
 
             <div className="points">
+            <h2>{blogs.subpointC1}</h2>
             <p>{blogs.pointC1}</p>
+            <h2>{blogs.subpointC2}</h2>
             <p>{blogs.pointC2}</p>
+            <h2>{blogs.subpointC3}</h2>
             <p>{blogs.pointC3}</p>
+            <h2>{blogs.subpointC4}</h2>
             <p>{blogs.pointC4}</p>
+            <h2>{blogs.subpointC5}</h2>
             <p>{blogs.pointC5}</p>
  
             </div>
