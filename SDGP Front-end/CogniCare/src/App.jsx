@@ -69,6 +69,7 @@ function App() {
         />
         <Route path="/myProfilePage" element={<UserProfile></UserProfile>} />
         <Route path="/details/:id" element={<DetailPage></DetailPage>} />
+        
         {/* <Route exact path="/card" component={<Card></Card>} /> */}
       </Routes>
     </BrowserRouter>
