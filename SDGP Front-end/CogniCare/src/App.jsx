@@ -54,6 +54,7 @@ function App() {
             <Route path="/registerPage" element={<RegisterPage />} />
             <Route path="/loginPage" element={<LoginPage />} />
             <Route index element={<Home></Home>} />
+            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/memorygame" element={<MemoryGame />} />
                     <Route path="/predictionPage" element={<PredictionPage />} />
@@ -61,9 +62,11 @@ function App() {
                     <Route path="/awarenessPage" element={<AwarenessHomePage />} />
                     <Route path="/details/:id" element={<DetailPage />} />
             {/* Routes accessible only when userId is available */}
+           
+           
             {userId && (
                 <>
-                    <Route path="/home" element={<Home />} />
+                    {/* <Route path="/home" element={<Home />} /> */}
                   
                     <Route path="/imageUploadAwareness" element={<ImageUploadAwareness />} />
                     <Route path="/predictionPage" element={<PredictionPage />} />
