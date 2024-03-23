@@ -12,8 +12,7 @@ const DetailPage = () => {
   const { id } = useParams();
   const [blogs, setBlogs] = useState(null);
 
-
-  useEffect(() => {
+ useEffect(() => {
     let blog = awareness.find((blog) => blog.id === parseInt(id));
     if (blog) {
       setBlogs(blog);
@@ -119,8 +118,10 @@ const DetailPage = () => {
         )}
       </section>
       
-      <Footer></Footer>
+     
     </div>
+    
+    <Footer></Footer>
   
     </>
    

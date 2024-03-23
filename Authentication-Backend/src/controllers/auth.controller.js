@@ -56,4 +56,3 @@ const authenticate = asyncHanlder(async (req, res) => {
 module.exports = {
     authenticate,
 }
-

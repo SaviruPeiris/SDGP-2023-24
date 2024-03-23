@@ -36,7 +36,7 @@ exports.generateOrganizationImagePresignedURL = async function (imageName, expir
         await s3Client.headObject({
             Bucket: params.Bucket,
             Key: params.Key
-        }).promise(); // to determine if the key present in bucket
+        }).promise(); 
         downloadURL = s3Client.getSignedUrl('getObject', params);
     } catch (err) {
         logger.error("[s3Util] :: generateOrganizationImagePresignedURL() : " + err);

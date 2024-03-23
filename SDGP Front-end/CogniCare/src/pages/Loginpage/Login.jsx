@@ -1,9 +1,9 @@
 
 // import React from "react";
-import GOOGLE_ICON from "../../assets/images/Loginpage/google.svg";
+
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import axios from 'axios';
-
+import NavBarTest from "../../components/NavBar/NavBarTest";
 // aos
 import React, { useEffect, useState } from "react";
 // importing aos
@@ -12,6 +12,8 @@ import "aos/dist/aos.css";
 import Validation from "./Validation";
 
 import {Link, useNavigate} from "react-router-dom";
+
+
 const colors = {
   primary: "#060606",
   background: "#f5f5f5",
@@ -95,6 +97,8 @@ const[errors,setError]=useState({})
 
   
   return (
+    <>
+    <NavBarTest></NavBarTest>
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
         <div className="absolute top-[20%] left-[10%] flex flex-col"></div>
@@ -149,16 +153,7 @@ const[errors,setError]=useState({})
             {errors.password &&  <p style ={{color: "red",fontSize:"13px"}}>{errors.password} </p>}
           </div>
 
-          <div className="w-full flex items-center justify-between">
-            <div className="w-full flex items-center ">
-              <input type="checkbox" className="w-4 h-4 mr-2" />
-              <p className="text-sm">Remember me for 30 days </p>
-            </div>
-
-            <p className="text-sm font-medium whitespace-nowrap cursor-pointer underline underline-offset-2">
-              Forgot Password ?
-            </p>
-          </div>
+         
 
           <div className="w-full flex flex-col my-4">
             <button type="submit" className="w-full text-white my-2 fomt-semibold bg-[#060606] round-md p-4 text-center flex items-center justify-center cursor-pointer">
@@ -183,6 +178,7 @@ const[errors,setError]=useState({})
       </form>
       </div>
     </div>
+    </>
   );
 };
 

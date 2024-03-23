@@ -1,5 +1,5 @@
 // import React from "react";
-import GOOGLE_ICON from "../../assets/images/Loginpage/google.svg";
+import NavBarTest from "../../components/NavBar/NavBarTest";
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
@@ -91,6 +91,8 @@ async function handleSubmit(e) {
 }
 
   return (
+    <>
+    <NavBarTest></NavBarTest>
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
         <div className="absolute top-[20%] left-[10%] flex flex-col"></div>
@@ -153,16 +155,6 @@ async function handleSubmit(e) {
              {errors.password &&  <p style ={{color: "red",fontSize:"13px"}}>{errors.password} </p>}
           </div>
 
-          <div className="w-full flex items-center justify-between">
-            <div className="w-full flex items-center ">
-              <input type="checkbox" className="w-4 h-4 mr-2" />
-              <p className="text-sm">Remember me for 30 days </p>
-            </div>
-
-            <p className="text-sm font-medium whitespace-nowrap cursor-pointer underline underline-offset-2">
-              Forgot Password ?
-            </p>
-          </div>
 
           <div className="w-full flex flex-col my-4">
             <Link to="/loginPage" className="btn btn-primary">
@@ -187,6 +179,7 @@ async function handleSubmit(e) {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

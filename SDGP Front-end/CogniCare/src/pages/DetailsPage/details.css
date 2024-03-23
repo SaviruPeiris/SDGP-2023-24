@@ -65,6 +65,6 @@ margin-bottom: 20px;
  }
  .descriptionPage h1:hover,
 .points h2:hover {
-  color: #500e7f; /* Change to whatever color you want */
-  cursor: pointer; /* Optional: Change cursor to pointer */
+  color: #500e7f; 
+  cursor: pointer; 
 }
