@@ -174,23 +174,12 @@ const[errors,setError]=useState({})
 
           <div className="w-full flex items-center justify-center relative py-2">
             <div className="w-full h-[1px] bg-black/40 mt-2"></div>
-            <p className="text-lg absolute text-black/80 bg-[#f5f5f5]">or</p>
+            <p className="text-lg absolute text-black/80 bg-[#f5f5f5]"></p>
           </div>
 
-          <div className="w-full text-[#060606] my-2 font-semibold bg-white border border-black/40 rounded-md p-4 text-center flex items-center justify-center cursor-pointer">
-            <img src={GOOGLE_ICON} className="h-6 mr-2" />
-            Sign In with Google
-          </div>
         </div>
 
-        <div className="w-full flex items-center justify-center mb-20">
-          <p className="text-sm font-normal text-[#060606]">
-            Don't have a account?{" "}
-            <span className="font-semibold underline underline-offset-2 cursor-pointer">
-              Sign up for free
-            </span>
-          </p>
-        </div>
+      
       </form>
       </div>
     </div>

@@ -1,49 +1,70 @@
-.blog {
-  margin: 50px 0;
-}
-.blog .boxItems {
-  transition: 0.5s;
-}
-.blog .boxItems:hover {
-  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
-  cursor: pointer;
-  transform: translateY(-5px);
-}
-.blog img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 20px;
+
+} 
+
+.cardItems {
+  margin-top: 30px;
+  background-color: rgb(244, 231, 246);
   border-radius: 10px;
-  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%; 
+  height: 500px;
+  margin-bottom: 30px; 
+  
 }
-.blog .icon {
+
+.cardItems:hover {
+  box-shadow: 0 2px 4px rgba(244, 2, 131, 0.08);
+  cursor: pointer;
+  transform: translateY(-5px) scale(0.95); 
+}
+
+.icon {
   margin-right: 10px;
   font-size: 20px;
 }
-.blog .tag a {
-  color: blue;
-  opacity: 0.7;
-}
-.blog .tag {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-.blog h3 {
+
+.awareness h3 {
   font-weight: 500;
+  margin-bottom: 10px; 
 }
-.blog p {
-  color: #999;
+
+.awareness p {
+  color: #3d0bb3;
   font-weight: 400;
-  margin: 20px 0;
-  font-size: 17px;
-  line-height: 25px;
+  margin: 10px 0; 
+  font-size: 16px; 
+  line-height: 1.5; 
 }
-.blog .date {
-  display: flex;
-  align-items: center;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  height: max-content;
+  gap: 20px;
+
 }
-.blog .date label {
-  display: block;
-  margin-right: 20px;
+
+.awareness img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.details {
+  padding: 10px; 
+}
+
+.awarenessCard {
+  
 }

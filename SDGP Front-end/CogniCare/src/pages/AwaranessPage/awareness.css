@@ -1,29 +1,20 @@
-/* .awareness {
+.awareness {
   margin: 50px 0;
 }
- /* .awareness.cardItems {
- transition: 0.3s;
- overflow: hidden;
- box-shadow: 0px 0pt 15px 0px ;
- width: 3px;
-
- animation: ease-in;
-
-}  */
 
 
-
-/* .cardItems {
+ .cardItems {
   
   background-color: rgb(244, 231, 246);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   width: 450px;
-
+  animation: ease-in;
   margin-right: 30px;
   height: min-content;
   margin-top: 50px;
+   overflow: hidden;
   
 }
 
@@ -34,107 +25,13 @@
   transform: scale(0.9);
 }
 
-.awareness .icon {
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-.awareness h3 {
-  font-weight: 500;
-}
-
-.awareness p {
-  color: #3d0bb3;
-  font-weight: 400;
-  margin: 20px 0;
-  font-size: 17px;
-  line-height: 25px;
-}
 
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   height: max-content;
-  
-
-  
-}
-
-.awareness img {
-  width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 20px;
+ 
 }
 
 
- */
- /* .details {
-  padding: 20px;
-}  */
-
- .cardItems {
-  margin-top: 30px;
-  background-color: rgb(244, 231, 246);
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  width: 100%; 
-  height: 500px;
-  margin-bottom: 30px; 
-  
-}
-
-.cardItems:hover {
-  box-shadow: 0 2px 4px rgba(244, 2, 131, 0.08);
-  cursor: pointer;
-  transform: translateY(-5px) scale(0.95); 
-}
-
-.icon {
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-.awareness h3 {
-  font-weight: 500;
-  margin-bottom: 10px; 
-}
-
-.awareness p {
-  color: #3d0bb3;
-  font-weight: 400;
-  margin: 10px 0; 
-  font-size: 16px; 
-  line-height: 1.5; 
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  /* grid-template-columns: repeat(3, 1fr);  */
-  gap: 20px;
-
-}
-
-.awareness img {
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-  height: 250px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-
-}
-
-.details {
-  padding: 10px; /* Reduced padding for better compactness */
-}
-
-.awarenessCard {
-  
-}
