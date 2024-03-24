@@ -1,6 +1,6 @@
 import React from "react";
-import { Card } from "../../pages/AwaranessPage/Card";
-// import { Card } from "../../components/AwarenessPage/Card"
+import { Card } from "./Card";
+
 
 export const Home = () => {
   return (

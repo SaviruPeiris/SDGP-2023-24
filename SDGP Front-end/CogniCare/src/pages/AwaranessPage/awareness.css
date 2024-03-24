@@ -33,5 +33,16 @@
   height: max-content;
  
 }
+.btn-primary {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+.btn-primary:hover {
+  background-color: black; /* Change lightpurple to your desired hover color */
+}
 

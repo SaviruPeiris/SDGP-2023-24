@@ -23,7 +23,7 @@ export const Card = () => {
         
            <></>
              <Link to={`/details/${item.id}`} className='link'>
-             < Button className="btn-primary" variant="ViewMore">View more</Button>{''}
+             < Button className="btn-primary "   variant="ViewMore" style={{ backgroundColor: 'purple' }}>View more</Button>{''}
           
              </Link>
            </div>
