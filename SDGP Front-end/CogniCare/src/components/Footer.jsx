@@ -49,7 +49,26 @@ const Footer = () => {
                 className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
-                Awareness{" "}
+                Blogs{" "}
+              </Link>
+            </li>
+            
+            <li className="py-1">
+              <Link
+                to="/eChannelingPage"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
+                {" "}
+                e-Channelling{" "}
+              </Link>
+            </li>
+            <li className="py-1">
+              <Link
+                to="/contactUsPage"
+                className="transition hover:opacity-75 no-underline text-gray-300"
+              >
+                {" "}
+                FAQ{" "}
               </Link>
             </li>
             <li className="py-1">
@@ -59,15 +78,6 @@ const Footer = () => {
               >
                 {" "}
                 Contact-Us{" "}
-              </Link>
-            </li>
-            <li className="py-1">
-              <Link
-                to="/eChannelingPage"
-                className="transition hover:opacity-75 no-underline text-gray-300"
-              >
-                {" "}
-                e-Channelling{" "}
               </Link>
             </li>
           </ul>

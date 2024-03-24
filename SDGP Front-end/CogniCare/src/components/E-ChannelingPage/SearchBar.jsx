@@ -27,7 +27,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="mb-10 items-center px-5 flex flex-col gap-2 bg-gray-200 py-10">
+    <div className="mb-10 items-center px-5 flex flex-col gap-2 bg-purple-100 py-10">
        <div className="text-center border shadow bg-body rounded px-5 py-4">
         <h2 className="text-3xl xl:text-4xl	text-violet-800">Search Doctors</h2>
         <p className="xl:text-2xl text-lg">
