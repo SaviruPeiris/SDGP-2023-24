@@ -122,6 +122,7 @@ async function handleSubmit(e) {
             <p className="text-base mt-2" data-aos="fade-left">
               Please enter your Details to Register.
             </p>
+            <p>Already have an account? Click Log in </p>
           </div>
 
           <input

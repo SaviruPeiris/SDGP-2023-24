@@ -46,7 +46,7 @@ const[errors,setError]=useState({})
   
     if (Object.keys(errors).length === 0) {
       try {
-        const response = await axios.post('http://localhost:3000/api/v1/auth/', {
+        const response = await axios.post('http://localhost:3002/api/v1/auth/', {
           userName: values.name,
           password: values.password
         });
@@ -128,6 +128,7 @@ const[errors,setError]=useState({})
             <p className="text-base mt-2" data-aos="fade-left">
               Welcome Back! Please enter your Details.
             </p>
+            <p>If you do not  have an account cilick register </p>
           </div>
 
           <div className="w-full flex flex-col">

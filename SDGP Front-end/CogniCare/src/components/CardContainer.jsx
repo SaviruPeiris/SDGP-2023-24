@@ -84,7 +84,7 @@ function CardContainer() {
                 handleShow={handleShow2}
                 handleClose={handleClose2}
                 show={show2}
-                description="22222"
+                description="While there is currently no cure for dementia, there are strategies that can help reduce the risk of developing this condition or delay its onset. By adopting a healthy lifestyle and incorporating certain habits into daily routines, individuals can potentially mitigate their risk factors for dementia and promote brain health. These strategies encompass physical activity, mental stimulation, a balanced diet, social engagement, and managing cardiovascular risk factors. Through proactive measures, individuals can strive to maintain cognitive vitality and reduce the likelihood of developing dementia later in life."
               />
             </div>
             <div
@@ -99,7 +99,7 @@ function CardContainer() {
                 handleShow={handleShow3}
                 handleClose={handleClose3}
                 show={show3}
-                description="333333"
+                description=" Age is the primary risk factor for dementia, with the likelihood of developing the condition increasing significantly as individuals grow older. Additionally, genetic factors, such as certain gene mutations or family history of dementia, can play a role in predisposing individuals to the condition. Furthermore, lifestyle factors such as lack of physical activity, unhealthy diet, smoking, excessive alcohol consumption, and cardiovascular diseases can also increase the risk of developing dementia. Understanding these main causes is essential for implementing preventive measures and promoting brain health to potentially reduce the risk of dementia."
               />
             </div>
           </div>

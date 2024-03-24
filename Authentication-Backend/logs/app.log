@@ -525,3 +525,7 @@
 [2024-03-24T13:01:29.699] [TRACE] default - [userController] :: getUserById() : End
 [2024-03-24T13:01:29.700] [TRACE] default - [userController] :: getUserById() : Start
 [2024-03-24T13:01:29.800] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T18:14:03.326] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-24T18:14:04.821] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-24T19:15:33.435] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-24T19:15:33.917] [TRACE] default - [authController] :: authenticate() : End
