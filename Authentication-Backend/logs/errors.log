@@ -58,3 +58,20 @@
 [2024-03-20T21:41:27.275] [ERROR] default - [userController] :: createUser() : Username already exists
 [2024-03-22T19:07:23.331] [ERROR] default - [userController] :: createUser() : Missing required field
 [2024-03-22T21:22:57.317] [ERROR] default - [userController] :: createUser() : Missing required field
+[2024-03-24T12:08:31.123] [ERROR] default - [authController] :: authenticate() : Username does not exists
+[2024-03-24T12:23:48.684] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:24:00.156] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:24:11.881] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:24:25.225] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:24:35.935] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:24:57.352] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:25:01.893] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:25:28.441] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:26:30.222] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:27:41.655] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:27:54.638] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:28:10.791] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:28:23.216] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:29:07.791] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:30:08.225] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:33:06.320] [ERROR] default - [userController] :: uploadFile() : Error uploading files

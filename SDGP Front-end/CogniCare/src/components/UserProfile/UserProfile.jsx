@@ -183,7 +183,7 @@ const UserProfile = () => {
 
   };
   return (
-    <div className="bg-gradient-to-t from-purple-200 to-purple-400 px-10 justify-center">
+    <div className="bg-gradient-to-t from-purple-100 to-purple-200 px-10 justify-center">
       {showAppointmentsPopup && <AppointmentsPopup onClose={togglePopup} />}
 
       <div className=" w-full">

@@ -449,3 +449,107 @@
 [2024-03-24T09:09:25.425] [TRACE] default - [userController] :: getUserById() : End
 [2024-03-24T09:09:25.426] [TRACE] default - [userController] :: getUserById() : Start
 [2024-03-24T09:09:25.507] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:08:31.003] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-24T12:08:31.123] [ERROR] default - [authController] :: authenticate() : Username does not exists
+[2024-03-24T12:08:46.232] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-24T12:08:46.561] [TRACE] default - [userController] :: createUser() : End
+[2024-03-24T12:08:54.199] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-24T12:08:54.502] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-24T12:08:58.914] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:08:59.030] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:08:59.032] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:08:59.146] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:09:17.032] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:09:17.146] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:09:17.147] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:09:17.260] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:11:37.287] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:11:37.414] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:11:43.884] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:11:43.999] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:11:45.674] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:11:45.788] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:14:09.199] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:14:09.328] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:14:09.329] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:14:09.445] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:21:40.011] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:21:41.022] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:21:41.023] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:21:41.133] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:22:17.889] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:22:17.999] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:22:18.001] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:22:18.110] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:22:42.191] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : Start
+[2024-03-24T12:22:42.305] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : Start
+[2024-03-24T12:23:48.684] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:23:48.686] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:23:49.478] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:24:00.152] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:24:00.156] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:24:00.369] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:24:11.879] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:24:11.881] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:24:12.100] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:24:25.223] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:24:25.225] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:24:25.452] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:24:35.935] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:24:35.936] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:24:36.160] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:24:57.352] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:25:01.893] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:25:01.895] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:25:02.664] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:25:28.441] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:25:28.443] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:25:28.685] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:26:30.222] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:26:30.223] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:26:30.450] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:27:41.655] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:27:41.656] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:27:41.882] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:27:46.002] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:27:46.121] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:27:46.122] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:27:46.231] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:27:54.638] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:27:54.640] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:27:54.867] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:27:58.382] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:27:58.495] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:27:58.496] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:27:58.606] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:28:10.791] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:28:10.792] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:28:11.016] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:28:16.916] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:28:17.025] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:28:17.026] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:28:17.136] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:28:23.216] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:28:23.217] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:28:23.443] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:28:55.091] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:28:55.201] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:28:56.231] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:28:56.346] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:28:59.361] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:28:59.471] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:28:59.472] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:28:59.588] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:29:07.791] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-24T12:29:07.792] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:29:08.036] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:29:14.948] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:29:15.061] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:30:08.224] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:30:08.225] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:30:08.448] [TRACE] default - [userController] :: editUser() : End
+[2024-03-24T12:30:58.398] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : Start
+[2024-03-24T12:30:58.511] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : Start
+[2024-03-24T12:33:06.318] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-24T12:33:06.320] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:33:06.541] [TRACE] default - [userController] :: editUser() : End
