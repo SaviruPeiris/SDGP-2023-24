@@ -191,8 +191,13 @@ const UserProfile = () => {
 
           <div className="relative">
             <div className='flex justify-end mr-2 '>
-                <button 
+            <button 
                     className="bg-black text-white font-bold transform transition duration-500 hover:scale-105 py-2 px-3 rounded shadow-xl"
+                    onClick={()=>{
+                      localStorage.removeItem('userId')
+                      localStorage.clear()
+                      window.location.href = "/home";
+                    }}
                 >
                     Sign out
                 </button>
