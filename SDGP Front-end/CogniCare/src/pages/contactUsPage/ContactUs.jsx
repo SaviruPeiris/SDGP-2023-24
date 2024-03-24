@@ -1,10 +1,8 @@
 // Import emailjs library
 import emailjs from "@emailjs/browser";
 // import React from "react";
-import NavBarTest from "../../components/NavBar/NavBarTest";
 import ContactUsImg from "../../assets/images/ContactUs.jpg";
 import "./ContactUs.css";
-import Footer from "../../components/Footer";
 import { FaStar } from "react-icons/fa";
 import { useRef } from "react";
 
@@ -100,7 +98,6 @@ const ContactUs = () => {
 
   return (
     <div>
-      <NavBarTest></NavBarTest>
       <div className="container-fluid g-0">
         <div className="row g-0 contactUsImageContainer">
           {/* Image Column */}
@@ -249,7 +246,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };

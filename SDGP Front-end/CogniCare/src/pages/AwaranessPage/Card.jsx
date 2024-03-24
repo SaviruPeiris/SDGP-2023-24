@@ -5,14 +5,11 @@ import { awareness } from "../../assets/data/data"
 import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
 import { Link } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
-import NavBarTest from "../../components/NavBar/NavBarTest"
-import Footer from "../../components/Footer";
 export const Card = () => {
   return (
 
     
  <>
- <NavBarTest></NavBarTest>
   <section className='awareness'>
    <div className=' container grid3 '>
      {awareness.map((item) => (
@@ -36,7 +33,6 @@ export const Card = () => {
 
      ))}
    </div>
-   <Footer></Footer>
  </section> 
 </>
     

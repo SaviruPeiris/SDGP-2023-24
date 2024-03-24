@@ -6,8 +6,6 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import { useSpring, animated } from 'react-spring';
 
 import "./details.css";
-import NavBarTest from "../../components/NavBar/NavBarTest";
-import Footer from "../../components/Footer";
 const DetailPage = () => { 
   const { id } = useParams();
   const [blogs, setBlogs] = useState(null);
@@ -21,7 +19,6 @@ const DetailPage = () => {
 
   return (
     <>
-    <NavBarTest></NavBarTest>
    
     <div className="detail-page-container">
    
@@ -121,7 +118,6 @@ const DetailPage = () => {
      
     </div>
     
-    <Footer></Footer>
   
     </>
    

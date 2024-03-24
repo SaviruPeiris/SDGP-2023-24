@@ -1,5 +1,4 @@
 // import React from "react";
-import NavBarTest from "../../components/NavBar/NavBarTest";
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
@@ -92,7 +91,6 @@ async function handleSubmit(e) {
 
   return (
     <>
-    <NavBarTest></NavBarTest>
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
         <div className="absolute top-[20%] left-[10%] flex flex-col"></div>

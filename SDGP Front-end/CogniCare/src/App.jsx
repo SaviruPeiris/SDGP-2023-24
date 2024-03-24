@@ -1,8 +1,5 @@
 import {useEffect, useState} from "react";
 //import viteLogo from "/vite.svg";
-import Navbar from "./components/NavBar";
-import LeftContent from "./components/LeftContent";
-import CardContainer from "./components/CardContainer";
 // import Card from "./components/Card";
 import NavBarTest from "./components/NavBar/NavBarTest";
 
@@ -22,6 +19,7 @@ import LoginPage from "./pages/Loginpage/Login";
 import UserProfile from "./pages/UserProfile/UserProfile"
 import DetailPage from "./pages/DetailsPage/DetailPage";
 import EChannelingPage from "./pages/E-ChannelingPage/EChannelingPage";
+import Footer from "./components/Footer";
 // import Card from "./pages/AwaranessPage/Card";
 
 function App() {
@@ -47,8 +45,8 @@ function App() {
     //   <LeftContent></LeftContent>
     //   <CardContainer></CardContainer>
     // </>
-
     <BrowserRouter >
+    <NavBarTest></NavBarTest>
         <Routes>
             {/* Routes accessible regardless of authentication */}
             <Route path="/registerPage" element={<RegisterPage />} />
@@ -81,7 +79,7 @@ function App() {
            
             
         </Routes>
-
+            <Footer></Footer>
     </BrowserRouter>
   );
 }

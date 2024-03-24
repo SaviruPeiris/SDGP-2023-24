@@ -8,8 +8,6 @@ import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
-import NavBarTest from "../../components/NavBar/NavBarTest";
-import Footer from "../../components/Footer";
 
 const ImageUploadAwareness = () => {
   useEffect(() => {
@@ -18,7 +16,6 @@ const ImageUploadAwareness = () => {
   }, []);
   return (
     <>
-      <NavBarTest></NavBarTest>
       <div
         className="font-serif  "
         style={{ paddingRight: "40px", paddingLeft: "40px" }}
@@ -137,7 +134,6 @@ const ImageUploadAwareness = () => {
           </Link>
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 };
