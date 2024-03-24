@@ -37,7 +37,7 @@ module.exports = getAppointmentsByUserId;
 // @access  Public
 const createAppointment = asyncHanlder(async (req, res) => {
     logger.trace("[appointmentController] :: createAppointment() : Start");
-    const { userId, doctor, petName, ownerName, aptNotes, aptDate } = req.body;
+    const { userId, doctor, ownerName, aptNotes, aptDate } = req.body;
 
     if (!userId) {
         logger.error("[appointmentController] :: createAppointment() : User ID is required");
@@ -56,7 +56,6 @@ const createAppointment = asyncHanlder(async (req, res) => {
 
         userId,
         doctor,
-        // petName,
         ownerName,
         aptNotes,
         aptDate

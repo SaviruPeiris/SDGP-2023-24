@@ -4,7 +4,6 @@ import axios from "axios";
 export function AddAppointment({psychologist, lastId}){
   const clearData={
     ownerName:'',
-    // petName:'',
     aptNotes:'',
     aptDate: '',
     aptTime: ''
@@ -17,7 +16,6 @@ export function AddAppointment({psychologist, lastId}){
       const appointmentInfo = {
         userId: userId,
         doctor: psychologist.name, // Assuming you have the doctor info
-        // petName: formData.petName,
         ownerName: formData.ownerName,
         aptNotes: formData.aptNotes,
         aptDate: formData.aptDate + ' ' + formData.aptTime
@@ -72,17 +70,6 @@ export function AddAppointment({psychologist, lastId}){
                 className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md" />
             </div>
           </div>
-  
-          {/* <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
-            <label htmlFor="petName" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-              Pet Name
-            </label>
-            <div className="mt-1 sm:mt-0 sm:col-span-2">
-              <input type="text" name="petName" id="petName"
-                onChange={(e)=>{setFormData({...formData,petName: e.target.value})}}
-                className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md" />
-            </div>
-          </div> */}
   
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
             <label htmlFor="aptDate" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
