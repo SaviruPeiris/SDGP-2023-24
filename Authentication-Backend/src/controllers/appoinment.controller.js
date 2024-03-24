@@ -56,7 +56,7 @@ const createAppointment = asyncHanlder(async (req, res) => {
 
         userId,
         doctor,
-        petName,
+        // petName,
         ownerName,
         aptNotes,
         aptDate

@@ -11,10 +11,10 @@ const appointmentSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    petName: {
-        type: String,
-        required: true
-    },
+    // petName: {
+    //     type: String,
+    //     required: true
+    // },
     ownerName: {
         type: String,
         required: true

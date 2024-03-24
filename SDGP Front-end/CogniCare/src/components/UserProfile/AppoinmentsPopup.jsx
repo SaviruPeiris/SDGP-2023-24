@@ -50,8 +50,8 @@ const AppointmentsPopup = ({ onClose }) => {
               <div className="flex flex-col mb-4 bg-white rounded-lg p-2 shadow-md">
 
                 <div className="text-lg font-semibold mb-2">Doctor Name: {appointmentData.doctor}</div>
-                <div className="text-lg font-semibold mb-2">Pet Name: {appointmentData.petName}</div>
-                <div className="text-lg font-semibold mb-2">Owner Name: {appointmentData.ownerName}</div>
+                {/* <div className="text-lg font-semibold mb-2">Pet Name: {appointmentData.petName}</div> */}
+                <div className="text-lg font-semibold mb-2">Patient Name: {appointmentData.ownerName}</div>
                 <div className="flex mb-1">
                   <span className="font-semibold mr-1">Appointment Date:</span>
                   <span>{new Date(appointmentData.aptDate).toLocaleString()}</span>

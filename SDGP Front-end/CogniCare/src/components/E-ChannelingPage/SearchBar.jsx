@@ -35,13 +35,6 @@ const SearchBar = () => {
         </p>
       </div>
 
-      {/* <h2 className="font-bold text-4xl tracking-wide mt-12">
-        Search Doctors
-      </h2>
-      <h2 className="text-gray-500 text-xl">
-        Search Your Doctor and Book Your Appointment in one click
-      </h2> */}
-
       <div className="container-e-channel mx-auto p-5">
         {/* searchBar */}
         <div className="flex items-center pb-4">
