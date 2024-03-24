@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Popup from "../popup/PoupuWindow";
 import { FaPlus } from "react-icons/fa";
 import { TbMessageChatbot } from "react-icons/tb";
+import UserProfile from "../../assets/images/UserProfileimages/User_Image.jpg";
 
 // import Logo from "../../assets/images/CogniCareLogo.png";
 
@@ -55,8 +56,8 @@ const NavBarTest = () => {
           </li>
           <li>
             {/* <a href="#">Contact</a> */}
-            <Link to="/myProfilePage" className="">
-              My Profile
+            <Link to="/myProfilePage" className="flex">
+              <img className="w-8 mr-3 rounded-full" src={UserProfile} alt="" />
             </Link>
           </li>
         </ul>
