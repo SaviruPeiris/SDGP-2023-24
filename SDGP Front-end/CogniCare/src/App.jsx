@@ -57,7 +57,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/memorygame" element={<MemoryGame />} />
-                    <Route path="/predictionPage" element={<PredictionPage />} />
+                    {/* <Route path="/predictionPage" element={<PredictionPage />} /> */}
                     <Route path="/contactUsPage" element={<ContactUsPage />} />
                     <Route path="/awarenessPage" element={<AwarenessHomePage />} />
                     <Route path="/details/:id" element={<DetailPage />} />
