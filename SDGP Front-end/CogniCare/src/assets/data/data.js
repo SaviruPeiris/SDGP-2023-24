@@ -47,7 +47,7 @@ export const awareness = [
     title: "What is dementia?",
 
     desc: " A broad category of brain-related neurological disorders that deteriorate over time is referred to as dementia.It leads to a decline in cognitive abilities such as memory, reasoning, and thinking, impacting daily activities. Individuals with dementia may experience difficulties in managing emotions and behaviors, often undergoing personality changes.Historically, dementia was referred to as senility and mistakenly considered a typical aspect of aging, likely due to its higher prevalence among older adults. However, dementia is not an inherent part of aging, and not everyone experiences it as they grow older. While around one-third of individuals aged 85 or above may have some form of dementia, it can also manifest in midlife in rare cases.",
-    subheading1: "What cuases dementia ",
+    subheading1: "What causes dementia ",
     detail1:
       "Dementia is caused by a variety of diseases that cause damage to certain brain regions that cause neurons (nerve cells). This damage interferes with the ability of brain cells to communicate with each other. When brain cells cannot communicate normally, thinking, behavior and feelings can be affected. There are several unique areas in the brain, and each one is in charge of carrying out a certain function (such as memory, judgment, and movement). Damage to a region's cells prevents that area from performing its activities correctly.",
     image1: pic6,
