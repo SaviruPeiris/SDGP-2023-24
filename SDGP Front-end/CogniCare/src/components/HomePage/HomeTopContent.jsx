@@ -35,6 +35,7 @@ const HomeTopContent = () => {
           className="xl:text-7xl lg:text-6xl sm:text-7xl text-4xl"
           style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
           data-aos-duration="700"
+          data-testid="welcome-message"
         >
           Welcome to{" "}
           <span className="text-violet-800 CogniCare">CogniCare+</span>

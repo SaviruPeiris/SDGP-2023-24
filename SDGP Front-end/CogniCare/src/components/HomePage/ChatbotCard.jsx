@@ -30,7 +30,10 @@ const ChatbotCard = () => {
         <h3 className="mb-4 xl:text-3xl text-3xl">
           Meet ZAP: Your Personalized Dementia Support Companion
         </h3>
-        <p className="xl:text-lg text-lg text-left">
+        <p
+          className="xl:text-lg text-lg text-left"
+          data-testid="chatbotCard-content"
+        >
           Our interactive chatbot provides personalized support and information
           for individuals and caregivers dealing with dementia. Whether you have
           questions about symptoms, caregiving tips, or need emotional support,

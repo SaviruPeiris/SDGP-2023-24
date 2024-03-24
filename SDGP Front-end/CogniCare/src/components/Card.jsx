@@ -21,20 +21,6 @@ const Card = (props) => {
             <h4 className="card-title">{props.title}</h4>
             <p className="card-text detailCardBody">{props.text}</p>
 
-            {/* <a href="#" className="btn btn-primary">
-              See More..
-            </a> */}
-
-            {/* testing the popup */}
-            {/* <button
-              type="button"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop"
-            >
-              See more
-            </button> */}
-
             <Button variant="primary" onClick={props.handleShow}>
               See More
             </Button>

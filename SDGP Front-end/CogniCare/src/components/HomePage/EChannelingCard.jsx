@@ -30,7 +30,10 @@ const EChannelingCard = () => {
       </div>
       <div className="chatbotCard-right-half mt-0" data-aos="zoom-in">
         <h3 className="mb-4 xl:text-3xl text-3xl">Channel a doctor</h3>
-        <p className="text-lg text-left xl:text-lg text-lg">
+        <p
+          className="text-lg text-left xl:text-lg text-lg"
+          data-testid="eChannelingCard-content"
+        >
           E-Channelling presents a modern solution to healthcare accessibility
           and convenience. Patients can easily schedule appointments online,
           eliminating geographical barriers and reducing waiting times. With
@@ -38,10 +41,10 @@ const EChannelingCard = () => {
           their care journey. Additionally, e-channelling streamlines
           administrative processes, allowing healthcare providers to focus more
           on patient care. Overall, e-channelling empowers patients, enhances
-          efficiency, and improves the healthcare experience for
-          all stakeholders.
+          efficiency, and improves the healthcare experience for all
+          stakeholders.
         </p>
-        <Link to="/eChannelingPage">
+        <Link to="/eChannelingPage" data-testid="go-to-eChannelingPage-btn">
           <div className="btn btn-primary">Channel</div>
         </Link>
       </div>
