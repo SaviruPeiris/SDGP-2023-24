@@ -66,10 +66,10 @@ function App() {
         <Route path="/memorygame" element={<MemoryGame />} />
         <Route path="/FAQ-Page" element={<FAQ />} />
 
-        {/* <Route path="/predictionPage" element={<PredictionPage />} /> */}
         <Route path="/contactUsPage" element={<ContactUsPage />} />
         <Route path="/awarenessPage" element={<AwarenessHomePage />} />
         <Route path="/details/:id" element={<DetailPage />} />
+
         {/* Routes accessible only when userId is available */}
 
         {userId && (
@@ -87,7 +87,7 @@ function App() {
           </>
         )}
         {/* Redirect to login page if userId is not available */}
-        {!userId && <Route path="*" element={<Navigate to="/loginPage" />} />}
+        {!userId && <Route path="*" element={<Navigate to="/registerpage" />} />}
       </Routes>
       <Footer></Footer>
     </BrowserRouter>

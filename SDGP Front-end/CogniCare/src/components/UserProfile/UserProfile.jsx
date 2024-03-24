@@ -6,7 +6,7 @@ import AppointmentsPopup from "./AppoinmentsPopup.jsx";
 const UserProfile = () => {
   const [editMode, setEditMode] = useState(false);
   const userId=localStorage.getItem("userId")
-  const apiUrl = 'http://localhost:3002/api/v1/users/'+userId;
+  const apiUrl = 'http://localhost:3000/api/v1/users/'+userId;
   function getFileName(path) {
     // Split the path by "/"
     const parts = path.split('/');

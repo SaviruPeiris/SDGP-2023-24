@@ -529,3 +529,39 @@
 [2024-03-24T18:14:04.821] [TRACE] default - [authController] :: authenticate() : End
 [2024-03-24T19:15:33.435] [TRACE] default - [authController] :: authenticate() : Start
 [2024-03-24T19:15:33.917] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-25T03:42:48.098] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:42:48.226] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:42:48.228] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:42:48.334] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:43:02.139] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-25T03:43:02.157] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-25T03:43:02.354] [TRACE] default - [userController] :: editUser() : End
+[2024-03-25T03:44:21.566] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
+[2024-03-25T03:44:21.570] [TRACE] default - [projectController] :: editUser() : Start
+[2024-03-25T03:44:21.798] [TRACE] default - [userController] :: editUser() : End
+[2024-03-25T03:44:36.025] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:44:36.129] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:44:36.131] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:44:36.231] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:44:37.217] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : Start
+[2024-03-25T03:44:37.322] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : End
+[2024-03-25T03:44:37.323] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : Start
+[2024-03-25T03:44:37.455] [TRACE] default - [appointmentController] :: getAppointmentsByUserId() : End
+[2024-03-25T03:44:39.400] [TRACE] default - [appointmentController] :: deleteAppointmentById() : Start
+[2024-03-25T03:44:39.653] [TRACE] default - [appointmentController] :: deleteAppointmentById() : End
+[2024-03-25T03:44:39.873] [TRACE] default - [appointmentController] :: deleteAppointmentById() : Start
+[2024-03-25T03:44:40.081] [TRACE] default - [appointmentController] :: deleteAppointmentById() : End
+[2024-03-25T03:46:15.158] [TRACE] default - [userController] :: createUser() : Start
+[2024-03-25T03:46:15.511] [TRACE] default - [userController] :: createUser() : End
+[2024-03-25T03:46:26.295] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-25T03:46:26.614] [TRACE] default - [authController] :: authenticate() : End
+[2024-03-25T03:46:29.193] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:46:29.282] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:46:29.283] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:46:29.394] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:50:32.145] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:50:32.266] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:50:32.267] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-25T03:50:32.357] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-25T03:50:47.940] [TRACE] default - [authController] :: authenticate() : Start
+[2024-03-25T03:50:48.053] [ERROR] default - [authController] :: authenticate() : Username does not exists

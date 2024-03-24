@@ -11,7 +11,7 @@ const path = require('path');
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
        
-        const uploadPath = path.resolve(__dirname, './../../../Cognicarefrontend/public');
+        const uploadPath = path.resolve(__dirname, './../../../SDGP Front-end/CogniCare/public');
         cb(null, uploadPath);
     },
     filename: function (req, file, cb) {
