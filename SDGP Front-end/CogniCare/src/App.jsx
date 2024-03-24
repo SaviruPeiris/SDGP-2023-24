@@ -27,6 +27,8 @@ import DetailPage from "./pages/DetailsPage/DetailPage";
 import EChannelingPage from "./pages/E-ChannelingPage/EChannelingPage";
 import Footer from "./components/Footer";
 import ScrollToTopOnPageChange from "./components/ScrollToTopOnPageChange";
+import FAQ from "./components/FAQpage/FAQ";
+
 // import Card from "./pages/AwaranessPage/Card";
 
 function App() {
@@ -62,6 +64,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/memorygame" element={<MemoryGame />} />
+        <Route path="/FAQ-Page" element={<FAQ />} />
 
         {/* <Route path="/predictionPage" element={<PredictionPage />} /> */}
         <Route path="/contactUsPage" element={<ContactUsPage />} />

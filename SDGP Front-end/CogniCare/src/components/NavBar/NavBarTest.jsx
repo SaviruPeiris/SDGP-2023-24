@@ -45,7 +45,7 @@ const NavBarTest = () => {
           <li>
             {/* <a href="#">Awareness Page</a> */}
             <Link to="/awarenessPage" className="">
-              Awareness Page
+              Blogs
             </Link>
           </li>
           <li>

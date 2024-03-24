@@ -52,7 +52,7 @@ const Footer = () => {
                 Blogs{" "}
               </Link>
             </li>
-            
+
             <li className="py-1">
               <Link
                 to="/eChannelingPage"
@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
             <li className="py-1">
               <Link
-                to="/contactUsPage"
+                to="/FAQ-Page"
                 className="transition hover:opacity-75 no-underline text-gray-300"
               >
                 {" "}
@@ -174,7 +174,9 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-span-2 pt-8 md:pt-2">
-          <p className="font-bold uppercase text-white">Subscribe to our newsletter</p>
+          <p className="font-bold uppercase text-white">
+            Subscribe to our newsletter
+          </p>
           <p className="py-4 text-white">
             Sign up to receive updates and resources delivered to your inbox.
           </p>
@@ -190,7 +192,9 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-300">
-        <p className="py-4 text-white">&copy; 2024 CogniCare+. All Rights Reserved.</p>
+        <p className="py-4 text-white">
+          &copy; 2024 CogniCare+. All Rights Reserved.
+        </p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
           <a
             href="https://web.facebook.com/profile.php?id=61557183195099"
