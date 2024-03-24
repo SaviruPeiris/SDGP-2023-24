@@ -75,3 +75,4 @@
 [2024-03-24T12:29:07.791] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
 [2024-03-24T12:30:08.225] [ERROR] default - [userController] :: uploadFile() : Error uploading files
 [2024-03-24T12:33:06.320] [ERROR] default - [userController] :: uploadFile() : Error uploading files
+[2024-03-24T12:50:38.093] [ERROR] default - [userController] :: uploadFile() : Prescription photo file not uploaded
