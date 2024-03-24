@@ -51,7 +51,11 @@ const PredictionCard = () => {
         data-aos-offset="400"
         data-aos-duration="1000"
       >
-        <img className="predictionImage" src={predictionImage} />
+        <img
+          className="predictionImage"
+          src={predictionImage}
+          alt="predictionImage"
+        />
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ const EChannelingCard = () => {
         data-aos-duration="1000"
         // data-aos-offset="200"
       >
-        <img className="chatbotImage" src={predictionImage} />
+        <img className="chatbotImage" src={predictionImage} alt="cChannelingImage"/>
       </div>
       <div className="chatbotCard-right-half mt-0" data-aos="zoom-in">
         <h3 className="mb-4 xl:text-3xl text-3xl">Channel a doctor</h3>

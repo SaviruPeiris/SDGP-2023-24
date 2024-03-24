@@ -170,7 +170,7 @@ const Footer = () => {
           </p>
           <form className="flex flex-col sm:flex-row">
             <input
-              className="w-full p-2 mr-4 rounded-md mb-4"
+              className="w-full p-2 mr-4 rounded-md mb-4 text-black"
               type="email"
               placeholder="Enter your email"
             />
@@ -187,6 +187,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300"
+            aria-label="Facebook"
           >
             <FaFacebook />
           </a>
@@ -195,6 +196,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300"
+            aria-label="Instagram"
           >
             <FaInstagram />
           </a>
@@ -203,6 +205,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300"
+            aria-label="Twitter"
           >
             <FaTwitter />
           </a>

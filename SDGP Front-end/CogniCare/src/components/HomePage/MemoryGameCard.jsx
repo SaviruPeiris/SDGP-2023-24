@@ -53,7 +53,7 @@ const MemoryGameCard = () => {
         data-aos-offset="400"
         data-aos-duration="1000"
       >
-        <img className="predictionImage" src={MemoryGameImage} />
+        <img className="predictionImage" src={MemoryGameImage} alt="memoryGameImage" />
       </div>
     </div>
   );

@@ -149,6 +149,7 @@ const ContactUs = () => {
                     placeholder="Enter you name here"
                     // value={formData.name}
                     onChange={handleChange}
+                    tabIndex={"1"}
                   />
                   {errors.name && (
                     <span className="text-danger">{errors.name}</span>
@@ -171,6 +172,7 @@ const ContactUs = () => {
                     placeholder="Enter you email here"
                     // value={formData.email}
                     onChange={handleChange}
+                    tabIndex={"2"}
                   />
                   {errors.email && (
                     <span className="text-danger">{errors.email}</span>
@@ -193,6 +195,7 @@ const ContactUs = () => {
                     placeholder="Enter you message here"
                     // value={formData.message}
                     onChange={handleChange}
+                    tabIndex={"3"}
                   ></textarea>
                   {errors.message && (
                     <span className="text-danger">{errors.message}</span>
@@ -235,9 +238,10 @@ const ContactUs = () => {
                   className="btn btn-primary mb-10"
                   data-aos="fade-right"
                   data-aos-delay="400"
-                  // data-aos-offset="400"
+                  data-aos-offset="-10"
                   data-aos-once="true"
                   // onClick={testFunction}
+                  tabIndex={"4"}
                 >
                   Submit
                 </button>

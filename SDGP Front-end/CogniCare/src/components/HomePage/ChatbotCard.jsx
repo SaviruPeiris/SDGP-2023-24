@@ -24,7 +24,7 @@ const ChatbotCard = () => {
         data-aos-duration="1000"
         // data-aos-offset="200"
       >
-        <img className="chatbotImage" src={chatbotImage} />
+        <img className="chatbotImage" src={chatbotImage} alt="chatbotImage" />
       </div>
       <div className="chatbotCard-right-half mt-0" data-aos="zoom-in">
         <h3 className="mb-4 xl:text-3xl text-3xl">
