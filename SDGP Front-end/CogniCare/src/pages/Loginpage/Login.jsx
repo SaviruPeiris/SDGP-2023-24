@@ -3,7 +3,6 @@
 
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import axios from 'axios';
-import NavBarTest from "../../components/NavBar/NavBarTest";
 // aos
 import React, { useEffect, useState } from "react";
 // importing aos
@@ -98,7 +97,6 @@ const[errors,setError]=useState({})
   
   return (
     <>
-    <NavBarTest></NavBarTest>
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
         <div className="absolute top-[20%] left-[10%] flex flex-col"></div>
