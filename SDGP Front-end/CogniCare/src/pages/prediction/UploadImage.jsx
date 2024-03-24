@@ -123,7 +123,25 @@ function ImageUpload() {
                     <span className="sr-only">Loading...</span>
                   </div>
                 )}
-                {result && <strong>{result}</strong>}
+                {/* {result && <strong>{result}</strong>} */}
+
+                {result && (
+                  <center>
+                  <div className="card bg-primary">
+                    <div className="card-body text-white">
+                      <strong>{result}</strong>
+                    </div>
+                  </div>
+
+                  <div className='m-2'>
+                    {result == 'VeryMildDementia' && (
+                          <a href="http://localhost:5173/loginPageE-Channeling" target="new" type="button" className="btn btn-danger mr-2">E-Channeling</a>
+                    )}
+                    <a href="https://www.cognicareplus.online/awarenessPage" target="new" type="button" className="btn btn-warning">Awareness</a>
+                  </div>
+
+                </center>
+                )}
                 <br />
                 <button
                   onClick={handleImageUpload}
