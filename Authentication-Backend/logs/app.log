@@ -449,3 +449,11 @@
 [2024-03-24T09:09:25.425] [TRACE] default - [userController] :: getUserById() : End
 [2024-03-24T09:09:25.426] [TRACE] default - [userController] :: getUserById() : Start
 [2024-03-24T09:09:25.507] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T11:41:56.360] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T11:41:56.546] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T11:41:56.548] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T11:41:56.670] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:26:17.791] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:26:19.937] [TRACE] default - [userController] :: getUserById() : End
+[2024-03-24T12:26:19.939] [TRACE] default - [userController] :: getUserById() : Start
+[2024-03-24T12:26:20.050] [TRACE] default - [userController] :: getUserById() : End
