@@ -13,40 +13,46 @@ const constants = require("./../utils/constants");
 // @route   POST /api/v1/auth
 // @access  Public
 
+//for handling asynchronous errors
 const authenticate = asyncHanlder(async (req, res) => {
-    logger.trace("[authController] :: authenticate() : Start");  
+  logger.trace("[authController] :: authenticate() : Start");
 
-    const {userName, password} = req.body
-    let user = await User.findOne({ userName })
+  //getting username and password from request body
+  const { userName, password } = req.body;
 
+  //finding the particular user
+  let user = await User.findOne({ userName });
 
-    if (!user) {
-        logger.error("[authController] :: authenticate() : Username does not exists");
-        throw new AppError(501, i18n.__("ERROR_USER_DOES_NOT_EXISTS"))
+  //if the user dosent exsit
+  if (!user) {
+    logger.error(
+      "[authController] :: authenticate() : Username does not exists"
+    );
+    throw new AppError(501, i18n.__("ERROR_USER_DOES_NOT_EXISTS"));
+  }
+
+  if (await bcrypt.compare(password, user.password)) {
+    if (user.profileImage) {
+      try {
+        user.profileImage = await s3Util.generateProfileImagePresignedURL(
+          user.profileImage
+        );
+      } catch (err) {}
     }
 
-      
-    if (await bcrypt.compare(password, user.password)) {
-            if (user.profileImage) {
-                try {
-                    user.profileImage = await s3Util.generateProfileImagePresignedURL(user.profileImage);
-                }
-                catch (err) {
-                }
-            }
+    //sending user details
+    const authresponse = await User.findById(user._id).select("-password");
+    res.status(200).json({
+      user: authresponse,
+      status: constants.USER_STATUS.ACTIVE,
+    });
+  } else {
+    //if the password dosent match
+    logger.error("[authController] :: authenticate() : Unauthorized user");
+    throw new AppError(401, i18n.__("UNAUTHORIZED"));
+  }
 
-            const authresponse = await User.findById(user._id).select('-password');
-            res.status(200).json({
-                user: authresponse,
-                status: constants.USER_STATUS.ACTIVE
-            })
-        
-    } else {
-        logger.error("[authController] :: authenticate() : Unauthorized user");
-        throw new AppError(401, i18n.__("UNAUTHORIZED"));
-    }
-
-    logger.trace("[authController] :: authenticate() : End");
+  logger.trace("[authController] :: authenticate() : End");
 })
 
 
