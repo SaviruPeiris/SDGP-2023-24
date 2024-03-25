@@ -1,10 +1,7 @@
 .awareness {
   margin: 50px 0;
 }
-
-
- .cardItems {
-  
+.cardItems { 
   background-color: rgb(244, 231, 246);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,14 +21,11 @@
   transform: translateY(-5px);
   transform: scale(0.9);
 }
-
-
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   height: max-content;
- 
 }
 .btn-primary {
   background-color: purple;
@@ -43,6 +37,6 @@
 }
 
 .btn-primary:hover {
-  background-color: black; /* Change lightpurple to your desired hover color */
+  background-color: black; 
 }
 

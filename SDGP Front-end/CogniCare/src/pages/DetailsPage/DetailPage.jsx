@@ -3,14 +3,17 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { awareness } from "../../assets/data/data";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import { useSpring, animated } from 'react-spring';
+
 
 import "./details.css";
 const DetailPage = () => { 
+    // Get the id parameter from the UR
   const { id } = useParams();
+  // State to hold the awareness item data
   const [blogs, setBlogs] = useState(null);
 
  useEffect(() => {
+  // Fetch the awareness item data based on the id
     let blog = awareness.find((blog) => blog.id === parseInt(id));
     if (blog) {
       setBlogs(blog);
@@ -28,13 +31,10 @@ const DetailPage = () => {
   Subheading3={blogs && blogs.subheading3}
 />
 
-      <section className="descriptionPage">
-
-        
+      <section className="descriptionPage">  
+      {/* Check if the data is available before rendering */} 
         {blogs ? (
           <div className="section">
-
-
             <h1>{blogs.title}</h1>
             <p>{blogs.desc}</p>
             <img src={blogs.image1} alt=''></img>
@@ -57,13 +57,11 @@ const DetailPage = () => {
             <p>{blogs.pointA5}</p>
           
             </div>
-          
-            </div>
+           </div>
 
             <div id="section2" className="section2">
          
             <h1>{blogs.subheading2}</h1>
-           
             <p>{blogs.detail2}</p>
             <img src={blogs.image2} alt=''></img> 
             <p>{blogs.detail22}</p>
@@ -80,18 +78,15 @@ const DetailPage = () => {
             <p>{blogs.pointB4}</p>
             <h2>{blogs.subpointB5}</h2>
             <p>{blogs.pointB5}</p>
-
-            </div>
+             </div>
             </div>
 
             <div id="section3" className="section3">
-           
             <h1>{blogs.subheading3}</h1>
             <p>{blogs.detail3}</p>
             <img src={blogs.image3} alt=''></img>
             <p>{blogs.detail33}</p>
             <img src={blogs.image33} alt=''></img>
-
 
             <div className="points">
             <h2>{blogs.subpointC1}</h2>
@@ -108,20 +103,12 @@ const DetailPage = () => {
             </div>
             </div>
           </div>
-              
-
         ) : (
           <p>Loading...</p>
         )}
       </section>
-      
-     
-    </div>
-    
-  
+    </div> 
     </>
-   
-    
   );
 
 };

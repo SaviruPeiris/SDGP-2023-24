@@ -41,15 +41,16 @@ function handleChange(e){
 async function handleSubmit(e) {
   e.preventDefault();
   setError(Validation(values));
-
+// If there are no validation errors, proceed with registration
   if (Object.keys(errors).length === 0) {
     try {
+      // Send a POST request to the server to register the user
       const response = await axios.post('http://localhost:3000/api/v1/users/', {
         userName: values.name,
         email: values.email,
         password: values.password
       });
-
+ // Check the status code of the response
       if (response.status === 200 || response.status === 201) {
         console.log('Registration successful:', response.data);
         navigate("/home")

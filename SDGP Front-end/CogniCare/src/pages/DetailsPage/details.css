@@ -8,24 +8,18 @@
   margin-top: 30px;
 }
 
-/* .descriptionPage img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-} */
 .descriptionPage h1 {
   font-size: 30px;
   font-weight: 500;
 }
 
 .descriptionPage p {
-  /* margin: 20px 0; */
+  
   font-size: 18px;
   line-height: 2;
   text-transform: capitalize;
  
 }
-
 .section {
 max-width: 800px; 
 margin: 0 auto; 
@@ -59,8 +53,6 @@ margin-bottom: 20px;
  .points h2{
   font-weight:20px;
   font-size:20px;
-  
-
   
  }
  .descriptionPage h1:hover,

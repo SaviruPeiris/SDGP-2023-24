@@ -1,6 +1,5 @@
 
-// import React from "react";
-
+// import React from "react"
 import LOGIN_IMAGE from "../../assets/images/Loginpage/dementia5.jpeg"
 import axios from 'axios';
 // aos
@@ -9,7 +8,6 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Validation from "./Validation";
-
 import {Link, useNavigate} from "react-router-dom";
 
 
@@ -18,7 +16,7 @@ const colors = {
   background: "#f5f5f5",
   disbaled: "D9D9D9",
 };
-
+// Component for the login page
 const Login = () => {
   useEffect(() => {
     AOS.init();
@@ -34,11 +32,11 @@ const Login = () => {
 
   const navigate=useNavigate()
 const[errors,setError]=useState({})
-
+  // Function to handle form input changes
   function handleChange(e){
     setValues({...values,[e.target.name]: e.target.value})
   }
-
+ // Function to handle form submission
   async function handleSubmit(e) {
     e.preventDefault();
     setError(Validation(values));

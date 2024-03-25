@@ -2,16 +2,17 @@ import React from "react"
 import "./awareness.css"
 import "../../components/AwarenessPage/blog.css"
 import { awareness } from "../../assets/data/data"
-import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
 import { Link } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
 export const Card = () => {
   return (
-
     
  <>
+  {/* Mapping through the awareness data to display each item */}
+
   <section className='awareness'>
    <div className=' container grid3 '>
+     {/* Mapping through the awareness data to display each item */}
      {awareness.map((item) => (
        <div className=' box cardItems awarenessCard' key={item.id}>
          <div className='img'>
@@ -29,8 +30,6 @@ export const Card = () => {
            </div>
          
          </div>
-       
-
      ))}
    </div>
  </section> 
