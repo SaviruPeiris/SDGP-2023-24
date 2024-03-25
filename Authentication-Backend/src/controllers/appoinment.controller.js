@@ -13,6 +13,7 @@ const getAppointmentsByUserId = async (req, res) => {
 
     const userId = req.params.id;
 
+// fetches appointments based on the user's ID
     try {
         const appointments = await Appointment.find({ userId: userId });
 
@@ -38,7 +39,7 @@ module.exports = getAppointmentsByUserId;
 const createAppointment = asyncHanlder(async (req, res) => {
     logger.trace("[appointmentController] :: createAppointment() : Start");
     const { userId, doctor, ownerName, aptNotes, aptDate } = req.body;
-
+    // Validation is performed to ensure that the userId exists and that the user is authenticated
     if (!userId) {
         logger.error("[appointmentController] :: createAppointment() : User ID is required");
         throw new AppError(400,i18n.__("USER_ID_IS_REQUIRED"));
@@ -76,7 +77,7 @@ const deleteAppointmentById = async (req, res) => {
     logger.trace("[appointmentController] :: deleteAppointmentById() : Start");
 
     const appointmentId = req.params.id;
-
+    // deletes the appointment based on its unique ID
     try {
         const appointment = await Appointment.findById(appointmentId);
 
