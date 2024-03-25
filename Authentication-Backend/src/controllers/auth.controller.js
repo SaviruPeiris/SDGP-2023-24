@@ -14,7 +14,7 @@ const constants = require("./../utils/constants");
 // @access  Public
 
 const authenticate = asyncHanlder(async (req, res) => {
-    logger.trace("[authController] :: authenticate() : Start");
+    logger.trace("[authController] :: authenticate() : Start");  
 
     const {userName, password} = req.body
     let user = await User.findOne({ userName })

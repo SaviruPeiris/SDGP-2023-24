@@ -140,10 +140,10 @@ const editUser = asyncHandler(async (req, res) => {
     updates.existingDiseases = req.body.existingDiseases;
     updates.currentMedications = req.body.currentMedications;
 
-    const userNameRegex = /^[^\s]{4,100}$/;
+    const userNameRegex = /^[^\s]{4,100}$/;  
     if (!userNameRegex.test(updates.userName)) {
-        logger.error("[userController] :: editUser() : Invalid username format");
-        throw new AppError(400, i18n.__("ERROR_INVALID_USERNAME_FORMAT"));
+        logger.error("[userController] :: editUser() : Invalid username format");// Logging error for invalid username format
+        throw new AppError(400, i18n.__("ERROR_INVALID_USERNAME_FORMAT"));// Throwing error for invalid username format
     }
 
     if (updates.userName !== undefined) {
@@ -153,12 +153,12 @@ const editUser = asyncHandler(async (req, res) => {
         });
 
         if (userNameExists.length > 0) {
-            logger.error("[userController] :: editUser() : Username already exists");
-            throw new AppError(400, i18n.__("ERROR_USER_ALREADY_EXISTS"));
+            logger.error("[userController] :: editUser() : Username already exists"); // Logging error if username already exists
+            throw new AppError(400, i18n.__("ERROR_USER_ALREADY_EXISTS"));// Throwing error for existing username
         }
     }
 
-    const emailRegex = /^([a-zA-Z0-9_\.-]+)@([a-zA-Z0-9_\.-]+)\.([a-zA-Z]{2,6})$/;
+    const emailRegex = /^([a-zA-Z0-9_\.-]+)@([a-zA-Z0-9_\.-]+)\.([a-zA-Z]{2,6})$/;// Regular expression to validate email format
     if (!emailRegex.test(updates.email)) {
         logger.error("[userController] :: editUser() : Invalid email format");
         throw new AppError(400, i18n.__("ERROR_INVALID_EMAIL_FORMAT"));
@@ -166,14 +166,14 @@ const editUser = asyncHandler(async (req, res) => {
   
     
         
-    const updatedUser = await User.findByIdAndUpdate(userId, updates, { new: true });
+    const updatedUser = await User.findByIdAndUpdate(userId, updates, { new: true }); // Updating user details
 
     if (!updatedUser) {
         logger.error("[userController] :: editUser() : No users with the given id");
         throw new AppError(404, i18n.__("USER_NOT_FOUND"));
     }
 
-    res.status(200).json(updatedUser);
+    res.status(200).json(updatedUser); // Sending updated user data
     logger.trace("[userController] :: editUser() : End");
     
 });
@@ -181,7 +181,7 @@ const uploadFile = asyncHandler(async (req, res) => {
     const userId = req.params.id;
 
     if (!userId) {
-        logger.error("[userController] :: uploadFile() : user id is a must");
+        logger.error("[userController] :: uploadFile() : user id is a must");// Logging error if user id is missing
         throw new AppError(400, i18n.__("UNAUTHORIZED"));
     }
 
