@@ -52,7 +52,7 @@ def is_dementia_related(answer):
 
     answer_lower = answer.lower()
 
-     # Check if at least one tea-related keyword is present in the entire answer
+     # Check if at least one Demetia-related keyword is present in the entire answer
     return any(keyword in answer_lower for keyword in dementia_keywords)
 
 
