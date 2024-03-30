@@ -28,7 +28,7 @@ CogniCare+ is an innovative platform designed to provide comprehensive support a
 
 ## Demo
 
-Insert gif or link to demo
+https://youtu.be/DSgjUa80vRI
 
 
 ## Optimizations
